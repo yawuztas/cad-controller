@@ -1,0 +1,36 @@
+# Python / Virtual Environment
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.dxf_cache/
+
+# Heavy Binary CAD Data & Proprietary Client Drawings (21+ GB)
+incelenecek projeler/
+ornekprojeler/
+projelerin inceleme sonuçları/
+raporlar/
+
+# Generated Job Outputs & Delivery DWG/DXF Files
+jobs/
+ErrorReports/
+_random_metro_test2/
+_random_metro_test2.log
+acad.err
+
+# Temporary & Editor Files
+*.tmp
+*.bak
+*.log
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

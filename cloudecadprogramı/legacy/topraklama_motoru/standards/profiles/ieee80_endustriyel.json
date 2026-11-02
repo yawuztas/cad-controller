@@ -1,0 +1,29 @@
+{
+  "profile_id": "IEEE80_ENDUSTRIYEL",
+  "title": "IEEE Std 80-2013 & TS EN 50522 Endüstriyel Tesis ve OG Trafo Merkezi Şartnamesi",
+  "institution": "TEİAŞ / TEDAŞ / IEEE Power and Energy Society",
+  "standards_ref": [
+    "IEEE Std 80-2013 (Guide for Safety in AC Substation Grounding)",
+    "TS EN 50522 (1 kV'u Aşan AC Güç Tesislerinin Topraklanması)",
+    "Elektrik Tesislerinde Topraklamalar Yönetmeliği (ETTY - Madde 10 & Ek-P)",
+    "TEİAŞ Trafo Merkezleri Topraklama Teknik Şartnamesi"
+  ],
+  "typology": "INDUSTRIAL",
+  "main_ring_min_mm2": 95.0,
+  "branch_min_mm2": 50.0,
+  "tunnel_bond_min_mm2": 120.0,
+  "busbar_spec": "50x5 mm veya 40x10 mm Elektrolitik Bakır (OG/AG Topraklama Barası)",
+  "strip_spec": "70–120 mm² Örgülü Bakır veya 40x4 mm Sıcak Daldırma Galvaniz Şerit",
+  "max_resistance_ohm": 1.0,
+  "max_mesh_eye_m": 10.0,
+  "mesh_tolerance_ratio": 0.1,
+  "equipment_max_dist_m": 2.0,
+  "hatch_cover_max_dist_m": 2.5,
+  "technical_room_max_dist_m": 10.0,
+  "require_t_junction_clamp": true,
+  "t_junction_clamp_search_radius_m": 1.2,
+  "fault_clearing_time_s": 0.5,
+  "crushed_rock_rho_s_ohm_m": 2500.0,
+  "crushed_rock_thickness_hs_m": 0.15,
+  "contract_clause_summary": "Endüstriyel tesis ve OG trafo merkezlerinde eşdeğer ağ direnci Rg ≤ 1.0 Ω olmalı, ağ gözleri maks. 10x10 m olarak tasarlanmalı, oluşan göz (Em) ve adım (Es) gerilimleri IEEE Std 80 müsaade edilen dokunma (Etouch70) ve adım (Estep70) sınırlarının altında kalmalı; trafo, hücre, jeneratör, proses tankı, çelik kolon ve çevre çiti çift irtibatla topraklama ağına bağlanmalıdır."
+}
