@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# İBB RAYLI SİSTEMLER ZAYIF AKIM VE İLETİŞİM STANDARTLARI
+# Mevzuat & Standartlar: NFPA 130, EN 54, ISO/IEC 11801, EN 50121, EN 50125
+
+discipline: "ZAYIF_AKIM"
+scope: "METRO_VE_RAYLI_SISTEMLER"
+version: "2026.1"
+
+general_rules:
+  max_cat6_length_m: 90.0                     # Kabinet ile uç birim arası maks 90 metre
+  mandatory_cable_rating: "LSZH (Low Smoke Zero Halogen) ve Yangın hatlarında FE180"
+
+subsystems:
+  AX-02:
+    name: "Yangın Algılama ve İhbar Sistemi (FACP / Loop)"
+    standard: "EN 54-2, EN 54-14, NFPA 130"
+    max_loop_addresses: 128
+    cable: "JH(St)H FE180 / PH120"
+  TL-02:
+    name: "Veri İletişim, LAN & Fiber Optik Altyapı (SDH/OTN Omurga)"
+    standard: "ISO/IEC 11801, ITU-T G.652D"
+    backbone: "Tek Modlu (OS2) 48/96 Core Zırhlı Fiber Optik"
+  TL-03:
+    name: "Telefon, Acil SOS & Dahili Haberleşme Sistemi (PABX/Interkom)"
+    features: "Tünel ve peron SOS acil çağrı butonları, ray boyu telefon hatları"
+  TL-04:
+    name: "Telsiz / TETRA Haberleşme & Anten Sistemi"
+    cables: "1/2 inç ve 7/8 inç Sızdırmalı (Leaky Feeder) Koaksiyel Kablo"
+  TL-05:
+    name: "Acil Anons ve Sesli Tahliye Sistemi (PA/VA)"
+    standard: "EN 54-16, NFPA 130 (STI anlaşılabilirlik skoru >= 0.50)"
+  TL-06:
+    name: "Kapalı Devre Televizyon / CCTV Kamera Sistemi"
+    features: "Peron kenarı, yürüyen merdiven ve turnike izleme kameraları"
+  TL-07:
+    name: "Merkezi Saat Sistemi (Master Clock & Tali Saatler)"
+    synchronization: "GPS / NTP Zaman Senkronizasyonu"
+  TL-08:
+    name: "Geçiş Kontrol ve Güvenlik Sistemi (ACS)"
+    features: "Turnikeler, kilitli teknik kapılar, manyetik kilitler"
+  TL-09:
+    name: "SCADA, PLC, İstasyon Otomasyonu & Yangın Senaryosu"
+    protocol: "IEC 60870-5-104 / Modbus TCP"
+  TL-10:
+    name: "Yolcu Bilgilendirme Sistemi (PIS / Monitörler)"
+    display: "Peron ve bilet holü LED/LCD tren varış panoları"
+  TL-11:
+    name: "Sistem Odası (SER/CER) Rack Kabinet Yerleşim Planı"
+    rules: "42U 800x1000 Server Rack, sıcak/soğuk koridor düzeni, yükseltilmiş taban"

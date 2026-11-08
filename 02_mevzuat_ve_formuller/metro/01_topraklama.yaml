@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+# İBB RAYLI SİSTEMLER TOPRAKLAMA STANDARTLARI
+# Mevzuat & Standartlar: EN 50122-1:2022 (Demiryolu Sabit Tesisleri - Elektriksel Güvenlik ve Topraklama)
+#                        EN 50122-2 (DC Cer Akımı Kaçak Korozyon Koruması)
+#                        Elektrik Tesislerinde Topraklamalar Yönetmeliği
+
+discipline: "TOPRAKLAMA"
+scope: "METRO_VE_RAYLI_SISTEMLER"
+version: "2026.1"
+
+grounding_architecture:
+  traction_system: "750V DC / 1500V DC Üçüncü Ray veya Katener"
+  running_rails: "Negatif Dönüş Hattı (Topraktan yalıtılmış raylar)"
+  stray_current_mitigation:
+    en_50122_2_compliant: true
+    rail_to_earth_resistance_min_ohm_km: 0.5  # Kaçak akımları önlemek için ray-toprak arası min 0.5 Ohm.km direnç
+
+station_earthing:
+  max_ground_resistance_ohm: 1.0              # Metro istasyonlarında cer + işletme birleşik topraklama <= 1.0 Ohm
+  ring_conductor: "95 mm² Çıplak Bakır İletken veya 30x3.5 mm Paslanmaz Çelik Şerit"
+  deep_driven_rods:
+    diameter_mm: 20.0
+    length_m: 6.0                             # Şaft ve istasyon tabanında derin kazıklar (min 6m)
+  voltage_limiting_device_vld: true           # Ray ile istasyon toprağı arasında Aşırı Gerilim Sınırlayıcı (VLD-F)

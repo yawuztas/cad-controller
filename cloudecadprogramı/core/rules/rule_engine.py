@@ -40,31 +40,66 @@ class RuleEngine:
 
     @classmethod
     def load_pack(cls, pack_name_or_path: str) -> Dict[str, Any]:
-        """YAML veya JSON kural paketini yükler ve önbelleğe alır."""
+        """YAML veya JSON kural paketini yükler ve önbelleğe alır.
+        Klasör verilirse (örn: 'bina' veya 'metro') içindeki tüm alt disiplinleri
+        (topraklama, kuvvetli_akim, zayif_akim) birleşik paket olarak yükler."""
         p = Path(pack_name_or_path)
-        if not p.exists():
-            # packs klasörü içinde ara
-            cand_yaml = _RULES_DIR / f"{pack_name_or_path}.yaml"
-            cand_json = _RULES_DIR / f"{pack_name_or_path}.json"
-            if cand_yaml.exists():
-                p = cand_yaml
-            elif cand_json.exists():
-                p = cand_json
-            else:
+
+        def _merge_dir(d: Path) -> Dict[str, Any]:
+            merged: Dict[str, Any] = {}
+            for yf in sorted(d.glob("*.yaml")) + sorted(d.glob("*.yml")):
+                if yaml is not None:
+                    with open(yf, "r", encoding="utf-8") as f:
+                        part = yaml.safe_load(f) or {}
+                        merged.update(part)
+            return merged
+
+        # 1. Önce tam dosya adı kontrolü (örn: turkey_bina.yaml veya ibb_metro.yaml)
+        cand_yaml = _RULES_DIR / f"{pack_name_or_path}.yaml"
+        cand_json = _RULES_DIR / f"{pack_name_or_path}.json"
+        if cand_yaml.is_file():
+            p = cand_yaml
+        elif cand_json.is_file():
+            p = cand_json
+        elif p.is_file():
+            pass
+        else:
+            # 2. Klasör kontrolü (örn: 'bina' veya 'metro') -> altındaki yaml'ları birleştir
+            target_dir = None
+            if p.is_dir():
+                target_dir = p
+            elif (_RULES_DIR / pack_name_or_path).is_dir():
+                target_dir = _RULES_DIR / pack_name_or_path
+
+            if target_dir is not None:
+                cache_key = str(target_dir.resolve())
+                if cache_key in cls._cached_packs:
+                    return cls._cached_packs[cache_key]
+                data = _merge_dir(target_dir)
+                cls._cached_packs[cache_key] = data
+                return data
+
+            # 3. Alt klasörlerde ara (örn: bina/01_topraklama veya topraklama)
+            found = list(_RULES_DIR.rglob(f"*{pack_name_or_path}*.yaml"))
+            if found:
+                p = found[0]
+            elif (_RULES_DIR / "turkey_bina.yaml").exists():
                 p = _RULES_DIR / "turkey_bina.yaml"
+            elif (_RULES_DIR / "bina" / "02_kuvvetli_akim.yaml").exists():
+                p = _RULES_DIR / "bina" / "02_kuvvetli_akim.yaml"
 
         cache_key = str(p.resolve())
         if cache_key in cls._cached_packs:
             return cls._cached_packs[cache_key]
 
         data: Dict[str, Any] = {}
-        if p.suffix in (".yaml", ".yml"):
+        if p.is_file() and p.suffix in (".yaml", ".yml"):
             if yaml is not None:
                 with open(p, "r", encoding="utf-8") as f:
                     data = yaml.safe_load(f) or {}
             else:
                 logger.warning(f"PyYAML modülü bulunamadı, varsayılan kural değerleri kullanılıyor.")
-        elif p.suffix == ".json":
+        elif p.is_file() and p.suffix == ".json":
             with open(p, "r", encoding="utf-8") as f:
                 data = json.load(f)
 

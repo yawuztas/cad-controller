@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+# TÜRKİYE BİNA VE TESİSLERİ ZAYIF AKIM STANDARTLARI
+# Mevzuat: Binaların Yangından Korunması Hakkında Yönetmelik (BYKHY 2007/12937 - Md. 74 - 84)
+# Standartlar: TS EN 54-14:2018 (Yangın Algılama Tasarım ve Kurulum)
+#              ISO/IEC 11801, TS EN 50173-1 (Yapısal Kablolama / Data)
+#              TS EN 62676 (Video Gözetim / CCTV)
+#              TS EN 54-16 (Sesli Tahliye ve Acil Anons)
+
+discipline: "ZAYIF_AKIM"
+scope: "BİNA_İÇ_VE_DIŞ_TESİSLERİ"
+version: "2026.1"
+
+fire_alarm_system:
+  standard: "TS EN 54-14:2018 & BYKHY Bölüm 5"
+  smoke_detector:
+    max_radius_m: 7.5                         # Normal tavan yüksekliğinde (~3m) duman dedektörü koruma yarıçapı
+    max_coverage_area_m2: 80.0                # Bir duman dedektörünün azami kapsama alanı
+    wall_distance_min_m: 0.5                  # Duvar ve kirişlerden min 0.5 m uzağa konmalı
+  heat_detector:
+    max_radius_m: 5.3                         # Sıcaklık dedektörü koruma yarıçapı
+    max_coverage_area_m2: 40.0                # Bir sıcaklık dedektörünün azami kapsama alanı
+  manual_call_point_button:
+    max_walking_distance_m: 30.0              # En uzak noktadan yangın butonuna azami yürüme mesafesi 30m
+    mounting_height_m: 1.4                    # Döşemeden 1.20 - 1.40 m yükseklik
+  sounders_and_strobes:
+    min_sound_level_general_dba: 65.0         # Ortam ses seviyesinin en az 5 dBA üstü, min 65 dBA
+    min_sound_level_sleeping_dba: 75.0        # Yataklı mahallelerde (otel, yurt, konut) yatak başında min 75 dBA
+  loop_capacity:
+    max_addresses_per_loop: 128               # 1 Yangın çevrimine (loop) en fazla 128 adresli eleman
+    short_circuit_isolators: true             # Yangın döngüsünde her 32 elemanda bir kısa devre izolatörü zorunlu
+  cables:
+    mandatory_fire_resistance: true
+    cable_type: "JH(St)H ... lg FE180 / PH120 Halogen-Free Yangına Dayanıklı Kablo"
+
+structured_cabling_data_lan:
+  standards: "ISO/IEC 11801-1, TS EN 50173-1, TIA/EIA 568.2-D"
+  max_permanent_link_length_m: 90.0           # Kat panosu (Patch panel) ile priz arası en fazla 90 metre!
+  max_channel_length_m: 100.0                 # Patch kordlar dahil toplam kanal uzunluğu azami 100 metre
+  min_data_outlets_per_desk: 2                # Masa / çalışma istasyonu başına min. 2 adet RJ45 Cat6/Cat6A
+  cable_types:
+    horizontal: "Cat6 U/UTP veya Cat6A F/UTP LSZH (Halogen-Free)"
+    backbone_fiber: "OM3 / OM4 Çok Modlu veya OS2 Tek Modlu Fiber Optik"
+  separation_from_power_lines_mm:
+    without_divider: 200.0                    # Kuvvetli akım kabloları ile ayrı tavada min 200 mm açıklık
+    with_shield_divider: 50.0                 # Ekranlı sac bölmeli tavada min 50 mm açıklık
+
+cctv_surveillance:
+  standard: "TS EN 62676"
+  cable_type: "Cat6 F/UTP PoE+ LSZH (Kamera başı min 30W PoE bütçesi)"
+  camera_coverage:
+    entrance_resolution_min_ppm: 250          # Kimlik tespiti için piksel yoğunluğu (250 piksel/metre)
+    general_monitoring_ppm: 62.5              # Genel izleme (62.5 piksel/metre)
+
+emergency_announcement_sound:
+  standard: "TS EN 54-16 & TS EN 60849"
+  speaker_line_supervision: true              # 100V Hoparlör hat sonu empedans denetimi zorunlu
+  fire_resistant_wiring: true                 # Acil anons hatları min 180 dk dayanıklı (FE180) kablo olmalı
+
+intercom_and_access_control:
+  standard: "TS EN 62820 (İnterkom) & TS EN 60839 (Geçiş Kontrol)"
+  cable_type: "Cat6 Halogen-Free veya DT8 Korumalı Kablo"
+  emergency_breakglass_override: true         # Yangın anında manyetik kilitler enerjisi kesilip kapıyı serbest bırakmalı

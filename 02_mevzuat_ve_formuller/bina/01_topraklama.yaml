@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+# TÜRKİYE BİNA VE TESİSLERİ ELEKTRİK TOPRAKLAMA STANDARTLARI
+# Mevzuat: Elektrik Tesislerinde Topraklamalar Yönetmeliği (RG: 21.08.2001/24500)
+# Standart: TS HD 60364-5-54:2013 (Topraklama Düzenlemeleri ve Koruma İletkenleri)
+#           TS 622 / DIN 18014 (Temel Topraklaması)
+
+discipline: "TOPRAKLAMA"
+scope: "BİNA_İÇ_VE_DIŞ_TESİSLERİ"
+version: "2026.1"
+
+soil_and_resistance_limits:
+  max_touch_voltage_ac_v: 50.0                # AC İzin verilen en büyük temas gerilimi (Ut <= 50V)
+  max_touch_voltage_dc_v: 120.0               # DC Temas gerilimi sınırı
+  max_ground_resistance_general_ohm: 5.0      # Genel AG şebekelerinde hedef topraklama direnci (<= 5 Ohm)
+  max_ground_resistance_transformer_ohm: 2.0  # Özel trafolu binalarda işletme topraklaması (<= 2 Ohm)
+  max_ground_resistance_lightning_ohm: 10.0   # Paratoner / Yıldırımlık topraklaması (TS EN 62305, <= 10 Ohm)
+  soil_resistivity_typical_ohm_m:
+    clay_loam: 100.0                          # Killi / balçıklı toprak
+    sand_gravel: 500.0                        # Kumlu / çakıllı toprak
+    rock: 1500.0                              # Taşlık / kayalık zemin
+
+foundation_earthing:
+  standard: "DIN 18014 / TS HD 60364-5-54"
+  conductor_type: "30x3.5 mm Sıcak Daldırma Galvaniz Şerit veya 95 mm² Çıplak Bakır"
+  min_galvanization_thickness_um: 70          # Korozyon koruması için min 70 mikron galvaniz kaplama
+  max_mesh_size_m: 20.0                       # Temelde oluşturulacak gözlerin azami ebadı: 20x20 metre
+  min_concrete_cover_cm: 5.0                  # Şeridin beton içindeki gömülme derinliği min. 5 cm
+  electrode_rods:
+    diameter_mm: 20.0
+    min_length_m: 3.5                         # Her köşede min 3.5 m bakır kaplı çelik kazık
+
+protective_conductor_pe_sizing:
+  standard: "TS HD 60364-5-54:2013 Çizelge 54.2"
+  rules:
+    - condition: "S_Faz <= 16 mm²"
+      rule: "S_PE = S_Faz (Faz kesiti ile aynı kesit)"
+    - condition: "16 mm² < S_Faz <= 35 mm²"
+      rule: "S_PE = 16 mm² sabit"
+    - condition: "S_Faz > 35 mm²"
+      rule: "S_PE = S_Faz / 2 (Faz kesitinin yarısı)"
+
+equipotential_bonding:
+  main_earthing_terminal_mandatory: true      # Ana Eşpotansiyel Topraklama Barası (EBD) zorunlu
+  min_copper_conductor_mm2: 6.0               # Su, gaz, kalorifer ana boru bağlantıları için min 6 mm²
+  max_copper_conductor_mm2: 25.0              # En büyük gerekli eşpotansiyel iletkeni 25 mm²
+  supplementary_bonding_bathroom: true        # Banyolarda lokal eşpotansiyel dengeleme (TS HD 60364-7-701)
