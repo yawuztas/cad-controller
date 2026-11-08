@@ -19,7 +19,9 @@ except ImportError:
 
 logger = logging.getLogger("CloudeCAD.RuleEngine")
 
-_RULES_DIR = Path(__file__).parent / "packs"
+_MEVZUAT_DIR = Path(__file__).resolve().parents[3] / "02_mevzuat_ve_formuller"
+_PACKS_DIR = Path(__file__).parent / "packs"
+_RULES_DIR = _MEVZUAT_DIR if _MEVZUAT_DIR.exists() else _PACKS_DIR
 
 
 class RuleEngine:
