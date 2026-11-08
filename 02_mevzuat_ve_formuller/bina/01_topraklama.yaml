@@ -1,46 +1,225 @@
 # -*- coding: utf-8 -*-
-# TÜRKİYE BİNA VE TESİSLERİ ELEKTRİK TOPRAKLAMA STANDARTLARI
-# Mevzuat: Elektrik Tesislerinde Topraklamalar Yönetmeliği (RG: 21.08.2001/24500)
-# Standart: TS HD 60364-5-54:2013 (Topraklama Düzenlemeleri ve Koruma İletkenleri)
-#           TS 622 / DIN 18014 (Temel Topraklaması)
+# ==============================================================================
+# TÜRKİYE BİNA VE TESİSLERİ ELEKTRİK TOPRAKLAMA STANDARTLARI (FULL SÜRÜM)
+# ==============================================================================
+# Yasal Mevzuat:
+#   - Elektrik Tesislerinde Topraklamalar Yönetmeliği (ETTMY - RG: 21.08.2001/24500, Ek-N & Ek-P)
+#   - Elektrik İç Tesisleri Yönetmeliği (EİTY - RG: 04.11.1984/18565)
+# Ulusal / Uluslararası Standartlar:
+#   - TS HD 60364-5-54:2013 (Topraklama Düzenlemeleri ve Koruma İletkenleri)
+#   - TS HD 60364-4-41:2017 (Elektrik Çarpmasına Karşı Koruma — Dolaylı Temas)
+#   - DIN 18014:2014 / TS 622 (Temel Topraklayıcıları)
+#   - IEEE Std 80-2013 (AC Substation Grounding — Sverak & Schwarz Formülleri)
+#   - TS EN 62305-1..4 (Yıldırımdan Korunma Sistemleri — LPS Sınıf I..IV)
 
 discipline: "TOPRAKLAMA"
 scope: "BİNA_İÇ_VE_DIŞ_TESİSLERİ"
-version: "2026.1"
+version: "2026.2-FULL"
 
+# ------------------------------------------------------------------------------
+# 1. TEMAS GERİLİMİ, HEDEF DİRENÇ SINIRLARI VE ZEMİN ÖZGÜL DİRENCİ (ETTMY)
+# ------------------------------------------------------------------------------
 soil_and_resistance_limits:
-  max_touch_voltage_ac_v: 50.0                # AC İzin verilen en büyük temas gerilimi (Ut <= 50V)
-  max_touch_voltage_dc_v: 120.0               # DC Temas gerilimi sınırı
-  max_ground_resistance_general_ohm: 5.0      # Genel AG şebekelerinde hedef topraklama direnci (<= 5 Ohm)
-  max_ground_resistance_transformer_ohm: 2.0  # Özel trafolu binalarda işletme topraklaması (<= 2 Ohm)
-  max_ground_resistance_lightning_ohm: 10.0   # Paratoner / Yıldırımlık topraklaması (TS EN 62305, <= 10 Ohm)
-  soil_resistivity_typical_ohm_m:
-    clay_loam: 100.0                          # Killi / balçıklı toprak
-    sand_gravel: 500.0                        # Kumlu / çakıllı toprak
-    rock: 1500.0                              # Taşlık / kayalık zemin
+  max_touch_voltage_ac_v: 50.0                # AC izin verilen sürekli dokunma gerilimi (U_L <= 50 V)
+  max_touch_voltage_wet_ac_v: 25.0            # Islak hacim / şantiye / tarım alanlarında (U_L <= 25 V)
+  max_touch_voltage_dc_v: 120.0               # DC izin verilen sürekli dokunma gerilimi (U_L <= 120 V)
+  max_ground_resistance_tt_ohm: 5.0           # Genel TT / AG bina şebekelerinde pratik sınır (R_A <= 5.0 Ohm)
+  max_ground_resistance_tn_ohm: 2.0           # Özel trafolu / TN bina işletme ve koruma topraklaması (R_B <= 2.0 Ohm)
+  max_ground_resistance_it_telecom_ohm: 1.0   # Hassas bilgi işlem / hastane / telekom eşpotansiyel referansı (<= 1.0 Ohm)
+  max_ground_resistance_lightning_ohm: 10.0   # Yıldırımlık / Paratoner topraklaması (TS EN 62305-3 Md. 5.4, <= 10.0 Ohm)
 
+  # ETTMY Çizelge-5 / Ek-P Tipik Zemin Özgül Dirençleri (rho_E, Ohm.m)
+  soil_resistivity_table_ohm_m:
+    marsh_peat: 30.0                          # Bataklık, turba, sulu humuslu toprak (5 - 40 Ohm.m)
+    arable_clay_loam: 100.0                   # Tarım toprağı, kil, balçık, bahçe toprağı (20 - 150 Ohm.m)
+    sandy_clay: 150.0                         # Kumlu kil (50 - 300 Ohm.m)
+    moist_sand_gravel: 500.0                  # Nemli kum ve çakıl (200 - 1000 Ohm.m)
+    dry_sand_gravel: 1500.0                   # Kuru kum, çakıllı zemin (1000 - 3000 Ohm.m)
+    concrete_1_to_3: 300.0                    # Toprak içindeki nemli temel betonu (100 - 500 Ohm.m)
+    limestone_sandstone: 2000.0               # Kireçtaşı, kumtaşı, parçalı kaya
+    granite_basalt_rock: 10000.0              # Sert granit / bazalt kayalık zemin
+
+# ------------------------------------------------------------------------------
+# 2. YAYILMA DİRENCİ ANALİTİK FORMÜLLERİ (ETTMY EK-N / EK-P & IEEE STD 80)
+# ------------------------------------------------------------------------------
+earth_resistance_formulas:
+  # 2.1 Dikey Çubuk / Kazık Elektrot (Dwight Tam Bağıntısı & ETTMY Ek-P)
+  vertical_rod_dwight:
+    formula_exact: "R_c1 = (rho / (2 * pi * L)) * (ln((8 * L) / d) - 1)"
+    formula_simplified: "R_c1 = (rho / (2 * pi * L)) * ln((4 * L) / d)"
+    formula_tse622_log10: "R_c1 = (0.3672 * rho / L) * log10((400 * L) / d_cm)"
+    group_formula: "R_cn = R_c1 / (n * eta)"
+    # Paralel çubuk karşılıklı etkileşim verim katsayısı (eta - ETTMY / IEEE 80, s >= 2L aralıklı)
+    mutual_coupling_eta_table:
+      1: 1.00
+      2: 0.90
+      3: 0.85
+      4: 0.80
+      5: 0.78
+      6: 0.75
+      8: 0.72
+      10: 0.70
+      12: 0.67
+      16: 0.64
+      20: 0.60
+
+  # 2.2 Yatay Şerit / Çevre İletkeni (Dwight & ETTMY Ek-P)
+  horizontal_strip_dwight:
+    formula_depth_h: "R_serit = (rho / (2 * pi * L)) * (ln((2 * L^2) / (d * h)) - 1)"
+    formula_surface: "R_serit_yuzey = (rho / (2 * pi * L)) * ln((2 * L) / d)"
+    equivalent_diameter_strip: "d_eq = b_width / 2  (30x3.5 mm galvaniz şerit için b=0.03m -> d_eq=0.015m)"
+
+  # 2.3 Temel Topraklayıcı / Gözlü Şebeke — Laurent-Niemann (ETTMY Ek-N & EMO MİSEM)
+  foundation_mesh_laurent_niemann:
+    equivalent_circle_diameter: "D = 2 * sqrt(A / pi) = sqrt((4 * A) / pi)"
+    mesh_resistance_formula: "R_temel = (rho / (2 * D)) + (rho / L_toplam)"
+    plate_approximation_formula: "R_levha = rho / (2 * D)"
+
+  # 2.4 Uluslararası Altın Standart — IEEE Std 80-2013 Sverak Denklemi
+  foundation_mesh_ieee80_sverak:
+    total_buried_length: "L_T = L_serit + (n_cubuk * L_cubuk)"
+    sverak_formula: "R_g = rho * [ (1 / L_T) + (1 / sqrt(20 * A)) * (1 + 1 / (1 + h * sqrt(20 / A))) ]"
+
+  # 2.5 Temel Izgarası ve Kazık Grubu Karşılıklı Kuplaj Bileşkesi (Schwarz Bağıntısı)
+  combined_schwarz_coupling:
+    mutual_resistance: "R_m = 0.33 * R_temel"
+    combined_formula: "R_e = (R_temel * R_cubuk_grup - R_m^2) / (R_temel + R_cubuk_grup - 2 * R_m)"
+    parallel_unconstrained: "R_e_paralel = (R_temel * R_cubuk_grup) / (R_temel + R_cubuk_grup)"
+
+# ------------------------------------------------------------------------------
+# 3. TEMEL TOPRAKLAMASI TASARIM KURALLARI (DIN 18014 / TS HD 60364-5-54)
+# ------------------------------------------------------------------------------
 foundation_earthing:
-  standard: "DIN 18014 / TS HD 60364-5-54"
-  conductor_type: "30x3.5 mm Sıcak Daldırma Galvaniz Şerit veya 95 mm² Çıplak Bakır"
-  min_galvanization_thickness_um: 70          # Korozyon koruması için min 70 mikron galvaniz kaplama
-  max_mesh_size_m: 20.0                       # Temelde oluşturulacak gözlerin azami ebadı: 20x20 metre
-  min_concrete_cover_cm: 5.0                  # Şeridin beton içindeki gömülme derinliği min. 5 cm
+  standard: "DIN 18014:2014 / TS HD 60364-5-54 Ek-A"
+  conductor_type: "30x3.5 mm (105 mm²) Sıcak Daldırma Galvanizli Çelik Şerit veya >= 50 mm² (Ø8mm) Bakır"
+  min_steel_cross_section_mm2: 90.0           # Beton içinde min 90 mm² (standart 30x3.5 = 105 mm²)
+  min_steel_thickness_mm: 3.0                 # Beton içinde min 3 mm et kalınlığı
+  min_copper_cross_section_mm2: 50.0          # Toprak/beton içinde min 50 mm² örgülü bakır veya Ø8mm
+  min_galvanization_thickness_um: 70          # Min 70 mikron (500 g/m²) sıcak daldırma galvaniz kaplama
+  max_mesh_size_m: 20.0                       # Temelde oluşturulacak gözlerin azami ebadı: 20 x 20 m
+  max_mesh_size_lps_class_1_2_m: 10.0         # LPS Sınıf I-II binalarda temel göz ebadı: 10 x 10 m
+  min_concrete_cover_cm: 5.0                  # Şeridin temel altından min. 5 cm beton paspayı içinde olması
+  rebar_connection_interval_m: 2.0            # Temel donatı demirlerine her 2 metrede bir klemensle bağlantı
   electrode_rods:
     diameter_mm: 20.0
-    min_length_m: 3.5                         # Her köşede min 3.5 m bakır kaplı çelik kazık
+    min_length_m: 1.5                         # Standart min 1.5 m - 3.5 m bakır/galvaniz kazık
+    min_corner_rods: 4                        # Bina 4 ana köşesinde en az 1'er adet dikey elektrot
 
+# ------------------------------------------------------------------------------
+# 4. KORUMA İLETKENİ (PE) KESİT HESABI — TABLO VE ADYABATİK FORMÜL
+# ------------------------------------------------------------------------------
 protective_conductor_pe_sizing:
-  standard: "TS HD 60364-5-54:2013 Çizelge 54.2"
-  rules:
-    - condition: "S_Faz <= 16 mm²"
-      rule: "S_PE = S_Faz (Faz kesiti ile aynı kesit)"
-    - condition: "16 mm² < S_Faz <= 35 mm²"
-      rule: "S_PE = 16 mm² sabit"
-    - condition: "S_Faz > 35 mm²"
-      rule: "S_PE = S_Faz / 2 (Faz kesitinin yarısı)"
+  standard: "TS HD 60364-5-54:2013 Madde 543.1.1 (Adyabatik) ve Çizelge 54.2 (Geometrik)"
 
+  # 4.1 Yöntem 1: Çizelge 54.2 Geometrik Seçim (Faz ve PE aynı malzemeden ise)
+  geometric_table_54_2:
+    - condition: "S_Faz <= 16 mm²"
+      rule: "S_PE >= S_Faz"
+    - condition: "16 mm² < S_Faz <= 35 mm²"
+      rule: "S_PE >= 16 mm²"
+    - condition: "S_Faz > 35 mm²"
+      rule: "S_PE >= S_Faz / 2"
+
+  # 4.2 Yöntem 2: Madde 543.1.1 Tam Adyabatik Termik Dayanım Formülü (t <= 5 sn)
+  adiabatic_formula:
+    equation: "S_PE_min = sqrt(I_k^2 * t) / k = (I_k * sqrt(t)) / k"
+    variables:
+      I_k: "İhmal edilebilir empedanslı arıza için etkin hata akımı (A)"
+      t: "Koruma düzeninin açma süresi (saniye, t <= 5 s)"
+      k: "İletken malzemesi, yalıtımı ve başlangıç/son sıcaklığına bağlı katsayı (A.s^(1/2)/mm²)"
+    # TS HD 60364-5-54 Ek-A (Çizelge A.54.1 - A.54.6) k Katsayıları
+    k_material_constants:
+      copper_pvc_cable_le_300mm2: 115.0       # Kablo içinde PVC yalıtımlı bakır (70°C -> 160°C), S <= 300 mm²
+      copper_pvc_cable_gt_300mm2: 103.0       # Kablo içinde PVC yalıtımlı bakır (70°C -> 140°C), S > 300 mm²
+      copper_pvc_single_naked: 143.0          # Tek damar/ayrı PVC yalıtımlı bakır (30°C -> 160°C)
+      copper_xlpe_epr_hffr_cable: 143.0       # Kablo içinde XLPE/EPR/HFFR bakır (90°C -> 250°C)
+      copper_xlpe_single: 176.0               # Ayrı çekilen XLPE/EPR bakır (30°C -> 250°C)
+      copper_bare_visible: 159.0              # Çıplak bakır iletken (görünür alanda, 30°C -> 200°C)
+      copper_bare_fire_risk: 138.0            # Çıplak bakır (yangın tehlikeli ortam, 30°C -> 150°C)
+      aluminum_pvc_cable: 76.0                # PVC yalıtımlı alüminyum (70°C -> 160°C)
+      aluminum_xlpe_cable: 94.0               # XLPE yalıtımlı alüminyum (90°C -> 250°C)
+      steel_galvanized_strip: 52.0            # Çelik / Galvaniz şerit veya beton içi donatı (30°C -> 200°C)
+
+  # 4.3 Mekanik Koruma Durumuna Göre Asgari PE Kesiti (Madde 543.1.3)
+  min_mechanical_pe_mm2:
+    mechanically_protected_cu: 2.5            # Boru / kanal içinde mekanik korumalı bakır
+    not_mechanically_protected_cu: 4.0        # Mekanik korumasız açıktan çekilen bakır
+    buried_in_soil_insulated_cu: 25.0         # Toprağa gömülü yalıtımlı bakır topraklama iletkeni
+    buried_in_soil_bare_cu: 50.0              # Toprağa gömülü çıplak bakır topraklama iletkeni
+
+# ------------------------------------------------------------------------------
+# 5. DOLAYLI TEMASA KARŞI KORUMA & HATA ÇEVRİM EMPEDANSI (TS HD 60364-4-41)
+# ------------------------------------------------------------------------------
+fault_loop_and_disconnection:
+  standard: "TS HD 60364-4-41:2017 Madde 411.4 (TN) & Madde 411.5 (TT)"
+  nominal_phase_voltage_u0_v: 230.0
+
+  # 5.1 Maksimum Otomatik Açma Süreleri (Çizelge 41.1, U0 = 230 V AC)
+  max_disconnection_times_sec:
+    tn_final_circuits_le_63a: 0.4             # TN sistemde <= 63A priz ve <= 32A son devreler için <= 0.4 sn
+    tn_distribution_circuits: 5.0             # TN sistemde ana/tali dağıtım hatları için <= 5.0 sn
+    tt_final_circuits_le_63a: 0.2             # TT sistemde son devreler için <= 0.2 sn
+    tt_distribution_circuits: 1.0             # TT sistemde dağıtım devreleri için <= 1.0 sn
+
+  # 5.2 TN Sistemi Çevrim Empedansı Koşulu (Madde 411.4.4)
+  tn_system_condition:
+    formula: "Z_s * I_a <= U_0"
+    loop_impedance_formula: "Z_s = Z_trafo + R_1 + R_PE  (veya sqrt((R_t + R_1 + R_PE)^2 + (X_t + X_1 + X_PE)^2))"
+    instantaneous_trip_multipliers_ia:
+      MCB_Type_B: 5.0                         # B eğrili otomat: I_a = 5 * I_n (0.1 sn açma için üst sınır)
+      MCB_Type_C: 10.0                        # C eğrili otomat: I_a = 10 * I_n
+      MCB_Type_D: 20.0                        # D eğrili otomat: I_a = 20 * I_n
+
+  # 5.3 TT Sistemi Dokunma Gerilimi Koşulu (Madde 411.5.3)
+  tt_system_condition:
+    formula: "R_A * I_delta_n <= 50 V"
+    max_ra_for_30ma_rcd_ohm: 1666.0           # Teorik sınır 50 / 0.03 = 1666 Ohm (ETTMY pratik sınır <= 5 Ohm)
+    max_ra_for_300ma_rcd_ohm: 166.6           # Teorik sınır 50 / 0.30 = 166.6 Ohm (ETTMY pratik sınır <= 5 Ohm)
+
+# ------------------------------------------------------------------------------
+# 6. EŞPOTANSİYEL DENGELEME BARASI (EBD / MET — TS HD 60364-5-54 Md. 544)
+# ------------------------------------------------------------------------------
 equipotential_bonding:
-  main_earthing_terminal_mandatory: true      # Ana Eşpotansiyel Topraklama Barası (EBD) zorunlu
-  min_copper_conductor_mm2: 6.0               # Su, gaz, kalorifer ana boru bağlantıları için min 6 mm²
-  max_copper_conductor_mm2: 25.0              # En büyük gerekli eşpotansiyel iletkeni 25 mm²
-  supplementary_bonding_bathroom: true        # Banyolarda lokal eşpotansiyel dengeleme (TS HD 60364-7-701)
+  main_earthing_terminal_mandatory: true      # Ana Eşpotansiyel Topraklama Barası (AEB / MET) zorunlu
+  main_bonding_conductor_sizing:
+    formula: "S_AEB >= max(6.0, min(S_PE_ana / 2, 25.0))"
+    min_copper_mm2: 6.0                       # Su, doğalgaz, kalorifer, çelik konstrüksiyon için min 6 mm² Cu
+    max_copper_mm2: 25.0                      # Bakır için 25 mm²'yi aşması gerekmez
+    min_aluminum_mm2: 16.0
+    min_steel_mm2: 50.0
+  supplementary_bonding_bathroom:
+    standard: "TS HD 60364-7-701"
+    mandatory: true
+    min_protected_cu_mm2: 2.5                 # Mekanik korumalı ise min 2.5 mm² Cu
+    min_unprotected_cu_mm2: 4.0               # Mekanik korumasız ise min 4.0 mm² Cu
+
+# ------------------------------------------------------------------------------
+# 7. YILDIRIMDAN KORUNMA SİSTEMİ (LPS — TS EN 62305-1..4)
+# ------------------------------------------------------------------------------
+lightning_protection_lps:
+  standard: "TS EN 62305-3:2011"
+  lps_classes:
+    CLASS_I:
+      rolling_sphere_radius_m: 20.0           # Yuvarlanan küre yarıçapı r = 20 m
+      mesh_size_m: "5 x 5"                    # Yakalama ağı göz boyutu 5m x 5m
+      down_conductor_spacing_m: 10.0          # İniş iletkenleri arası mesafe 10 m
+      ki_induction_factor: 0.08
+    CLASS_II:
+      rolling_sphere_radius_m: 30.0           # Yuvarlanan küre yarıçapı r = 30 m
+      mesh_size_m: "10 x 10"                  # Yakalama ağı göz boyutu 10m x 10m
+      down_conductor_spacing_m: 10.0          # İniş iletkenleri arası mesafe 10 m
+      ki_induction_factor: 0.06
+    CLASS_III:
+      rolling_sphere_radius_m: 45.0           # Yuvarlanan küre yarıçapı r = 45 m
+      mesh_size_m: "15 x 15"                  # Yakalama ağı göz boyutu 15m x 15m
+      down_conductor_spacing_m: 15.0          # İniş iletkenleri arası mesafe 15 m
+      ki_induction_factor: 0.04
+    CLASS_IV:
+      rolling_sphere_radius_m: 60.0           # Yuvarlanan küre yarıçapı r = 60 m
+      mesh_size_m: "20 x 20"                  # Yakalama ağı göz boyutu 20m x 20m
+      down_conductor_spacing_m: 20.0          # İniş iletkenleri arası mesafe 20 m
+      ki_induction_factor: 0.04
+  separation_distance_formula:
+    equation: "s = (k_i * k_c / k_m) * l"
+    km_air: 1.0                               # Hava ortamı yalıtım katsayısı
+    km_concrete_brick: 0.5                    # Beton / tuğla ortamı yalıtım katsayısı

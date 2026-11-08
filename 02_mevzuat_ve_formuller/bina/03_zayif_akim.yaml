@@ -1,62 +1,186 @@
 # -*- coding: utf-8 -*-
-# TÜRKİYE BİNA VE TESİSLERİ ZAYIF AKIM STANDARTLARI
-# Mevzuat: Binaların Yangından Korunması Hakkında Yönetmelik (BYKHY 2007/12937 - Md. 74 - 84)
-# Standartlar: TS EN 54-14:2018 (Yangın Algılama Tasarım ve Kurulum)
-#              ISO/IEC 11801, TS EN 50173-1 (Yapısal Kablolama / Data)
-#              TS EN 62676 (Video Gözetim / CCTV)
-#              TS EN 54-16 (Sesli Tahliye ve Acil Anons)
+# ==============================================================================
+# TÜRKİYE BİNA VE TESİSLERİ ZAYIF AKIM STANDARTLARI (FULL SÜRÜM)
+# ==============================================================================
+# Yasal Mevzuat:
+#   - Binaların Yangından Korunması Hakkında Yönetmelik (BYKHY - 2007/12937, Md. 74 - 84)
+#   - BTK Bina İçi Elektronik Haberleşme Tesisatı Teknik Şartnamesi
+# Ulusal / Uluslararası Standartlar:
+#   - TS EN 54-14:2018 (Yangın Algılama ve Alarm Sistemleri — Planlama, Tasarım, Kurulum)
+#   - TS EN 54-4 (Güç Kaynağı Donanımı ve Akü Kapasite Hesabı)
+#   - TS EN 54-16 & TS EN 54-24 (Sesli Alarm Kontrol ve Acil Anons Hoparlörleri)
+#   - TS EN 54-23 (Görsel Alarm Cihazları — Flaşör VAD)
+#   - ISO/IEC 11801-1, TS EN 50173-1, TIA/EIA 568.2-D (Yapısal Kablolama & Fiber Optik)
+#   - TS EN 62676-1..4 (Video Gözetim Sistemleri — CCTV Depolama, Bant Genişliği, PPM)
+#   - TS EN 50083 / EN 60728 (Kablolu TV ve Uydu Dağıtım Sistemleri — SMATV)
 
 discipline: "ZAYIF_AKIM"
 scope: "BİNA_İÇ_VE_DIŞ_TESİSLERİ"
-version: "2026.1"
+version: "2026.2-FULL"
 
+# ------------------------------------------------------------------------------
+# 1. YANGIN ALGILAMA VE İHBAR SİSTEMİ (BYKHY MD. 74-84 & TS EN 54-14:2018)
+# ------------------------------------------------------------------------------
 fire_alarm_system:
-  standard: "TS EN 54-14:2018 & BYKHY Bölüm 5"
+  standard: "TS EN 54-14:2018 & BYKHY Bölüm 5 (Md. 74 - 83)"
+
+  # 1.1 BYKHY Ek-7 / Madde 75 Otomatik Yangın Algılama Zorunluluk Eşikleri
+  mandatory_building_thresholds:
+    residential_building_height_m: 51.50      # Konutlarda yapı yüksekliği > 51.50 m ise tüm binada zorunlu
+    general_high_rise_height_m: 21.50         # Konut dışı binalarda yapı yüksekliği > 21.50 m ise zorunlu
+    hotel_dormitory_height_m: 6.50            # Otel, yurt, pansiyon, hastanelerde > 6.50 m veya > 2 kat ise zorunlu
+    office_commercial_area_m2: 1000.0         # Büro ve ticari binalarda toplam kapalı alan > 1000 m² ise zorunlu
+    commercial_shopping_area_m2: 2000.0       # AVM ve mağazalarda > 2000 m² adresli sistem zorunlu
+
+  # 1.2 Noktasal Duman ve Sıcaklık Dedektörü Yerleşim Kuralları (TS EN 54-14 Madde A.6.2)
   smoke_detector:
-    max_radius_m: 7.5                         # Normal tavan yüksekliğinde (~3m) duman dedektörü koruma yarıçapı
-    max_coverage_area_m2: 80.0                # Bir duman dedektörünün azami kapsama alanı
-    wall_distance_min_m: 0.5                  # Duvar ve kirişlerden min 0.5 m uzağa konmalı
+    max_ceiling_height_m: 12.0                # Noktasal optik duman dedektörü azami tavan yüksekliği 12.0 m
+    max_radius_m: 7.5                         # Düz tavanda herhangi bir noktaya azami yatay uzaklık r <= 7.5 m (pratik tasarım 6.2 m)
+    max_spacing_open_area_m: 10.6             # Açık alanda iki duman dedektörü arası azami mesafe (~9.0 - 10.6 m)
+    max_spacing_corridor_m: 15.0              # Dar koridorlarda (genişlik <= 2m) dedektörler arası maks 15.0 m (duvardan 7.5m)
+    max_coverage_area_m2: 80.0                # Bir duman dedektörünün azami koruma alanı A <= 80 m² (Yüksek tavan 6-12m arası 100 m²)
+    wall_distance_min_m: 0.5                  # Duvar, bölme ve kirişlerden asgari yatay açıklık >= 0.5 m
+
   heat_detector:
-    max_radius_m: 5.3                         # Sıcaklık dedektörü koruma yarıçapı
-    max_coverage_area_m2: 40.0                # Bir sıcaklık dedektörünün azami kapsama alanı
+    max_ceiling_height_classes_m:
+      Class_A1: 7.5                           # Sınıf A1 sabit/artış hızı sıcaklık dedektörü maks tavan yüksekliği 7.5 m
+      Class_A2_B_C: 6.0                       # Sınıf A2, B, C sıcaklık dedektörü maks tavan yüksekliği 6.0 m
+    max_radius_m: 5.3                         # Düz tavanda herhangi bir noktaya azami yatay uzaklık r <= 5.3 m (pratik tasarım 4.5 m)
+    max_spacing_open_area_m: 7.5              # Açık alanda iki sıcaklık dedektörü arası azami mesafe <= 7.5 m
+    max_spacing_corridor_m: 10.0              # Dar koridorlarda (<= 2m) sıcaklık dedektörleri arası maks 10.0 m (duvardan 5.0m)
+    max_coverage_area_m2: 30.0                # Bir sıcaklık dedektörünün azami koruma alanı A <= 30 m² (TS EN 54-14)
+    wall_distance_min_m: 0.5
+
+  # Tavan eğimine (alpha) göre yarıçap artırım katsayısı (TS EN 54-14: Her 1 derece eğim için %1 artış, maks %25)
+  roof_slope_adjustment_formula: "r_egimli = r_duz * (1 + min(alpha_deg, 25) * 0.01)"
+
   manual_call_point_button:
-    max_walking_distance_m: 30.0              # En uzak noktadan yangın butonuna azami yürüme mesafesi 30m
-    mounting_height_m: 1.4                    # Döşemeden 1.20 - 1.40 m yükseklik
+    max_walking_distance_m: 30.0              # TS EN 54-14 Md. 6.5.2: Herhangi bir noktadan butona yürüme mesafesi <= 30 m (Engelli/yavaş tahliyede <= 15 m)
+    mounting_height_m: 1.4                    # Bitmiş döşemeden 1.20 m - 1.60 m (standart 1.40 m) yükseklik
+
   sounders_and_strobes:
-    min_sound_level_general_dba: 65.0         # Ortam ses seviyesinin en az 5 dBA üstü, min 65 dBA
-    min_sound_level_sleeping_dba: 75.0        # Yataklı mahallelerde (otel, yurt, konut) yatak başında min 75 dBA
-  loop_capacity:
-    max_addresses_per_loop: 128               # 1 Yangın çevrimine (loop) en fazla 128 adresli eleman
-    short_circuit_isolators: true             # Yangın döngüsünde her 32 elemanda bir kısa devre izolatörü zorunlu
+    min_sound_level_general_dba: 65.0         # TS EN 54-14 Md. 6.6.2: Ortam gürültüsünün +5 dBA üzerinde, en az 65 dBA (BYKHY Md. 81: maks 120 dBA)
+    min_sound_level_sleeping_dba: 75.0        # Yataklı mahallelerde (otel, yurt, hastane, konut) yatak başında min 75 dBA
+    door_attenuation_loss_db: 20.0            # Normal kapı ses zayıflatma kaybı ~20 dB, yangın kapısı ~30 dB
+    sound_attenuation_formula: "L_p(d) = L_p_1m - 20 * log10(d)   [d: siren mesafesi (m)]"
+
+  loop_capacity_and_voltage_drop:
+    max_addresses_per_loop: 128               # 1 çevrime (loop) en fazla 128 adresli cihaz (Tasarım hedefi <= 100 cihaz, %20 yedek)
+    max_zone_area_per_isolator_m2: 1600.0     # Bir kısa devre izolatörü arızasında en fazla 1 zon / <= 32 eleman devre dışı kalabilir
+    max_elements_between_isolators: 32
+    loop_voltage_drop_formula: "Delta_U_loop = 2 * (L_loop_m / 1000) * R_km * I_loop_alarm <= Delta_U_izin (tipik <= 6.0 V @ 24V DC)"
+    cable_resistance_jhsth_ohm_km:
+      0.8_mm_dia_0_5mm2: 36.6                 # 1x2x0.8+0.8 mm (kesit ~0.50 mm²) çevrim direnci 36.6 Ohm/km
+      1.5_mm2_siren_line: 12.1                # 2x1.5 mm² siren/besleme hattı direnci 12.1 Ohm/km
+      2.5_mm2_power_line: 7.41                # 2x2.5 mm² 24V DC harici güç besleme hattı direnci 7.41 Ohm/km
+
+  # 1.3 Yangın Santrali Akü Kapasite Hesabı (TS EN 54-4 & BYKHY Md. 82)
+  battery_standby_calculation:
+    standard: "TS EN 54-4 & TS EN 54-14 Madde 6.8"
+    formula: "C_Ah = k_yaslanma * ( (I_sukunet_A * T_bekleme_saat) + (I_alarm_A * T_alarm_saat) )"
+    aging_derating_factor_k: 1.25             # Akü yaşlanma ve derin deşarj güvenlik katsayısı (1.25)
+    standby_time_hours_monitored: 24.0        # 7/24 izlenen binalarda sükunet yedekleme süresi = 24 saat
+    standby_time_hours_unmonitored: 72.0      # İzlenmeyen binalarda sükunet yedekleme süresi = 72 saat
+    alarm_time_hours: 0.5                     # Tam alarm yükünde çalışma süresi = 0.5 saat (30 dk; sesli tahliyede 1.0 saat)
+
   cables:
     mandatory_fire_resistance: true
-    cable_type: "JH(St)H ... lg FE180 / PH120 Halogen-Free Yangına Dayanıklı Kablo"
+    loop_cable_type: "JH(St)H veya LIH(St)CH 1x2x0.8+0.8 mm HFFR (Siren/Kilit hatlarında FE180 / PH120)"
+    siren_power_cable_type: "NHXH FE180 E90 / PH120 2x1.5 mm² veya 2x2.5 mm²"
 
+# ------------------------------------------------------------------------------
+# 2. YAPISAL KABLOLAMA, DATA / LAN VE FİBER OPTİK (ISO/IEC 11801 & BTK)
+# ------------------------------------------------------------------------------
 structured_cabling_data_lan:
-  standards: "ISO/IEC 11801-1, TS EN 50173-1, TIA/EIA 568.2-D"
-  max_permanent_link_length_m: 90.0           # Kat panosu (Patch panel) ile priz arası en fazla 90 metre!
-  max_channel_length_m: 100.0                 # Patch kordlar dahil toplam kanal uzunluğu azami 100 metre
-  min_data_outlets_per_desk: 2                # Masa / çalışma istasyonu başına min. 2 adet RJ45 Cat6/Cat6A
-  cable_types:
-    horizontal: "Cat6 U/UTP veya Cat6A F/UTP LSZH (Halogen-Free)"
-    backbone_fiber: "OM3 / OM4 Çok Modlu veya OS2 Tek Modlu Fiber Optik"
+  standards: "ISO/IEC 11801-1, TS EN 50173-1, TIA/EIA 568.2-D, BTK Teknik Şartnamesi"
+  max_permanent_link_length_m: 90.0           # Kat kabini (FD Patch Panel) ile priz arası sabit hat <= 90.0 m
+  max_channel_length_m: 100.0                 # Patch kordlar (2x5m) dahil toplam kanal uzunluğu <= 100.0 m
+  min_data_outlets_per_workstation: 2         # Çalışma masası başına en az 2 adet RJ45 Cat6/Cat6A
+  min_spare_switch_ports_pct: 20.0            # Aktif switch ve patch panellerde en az %20 boş port yedeği
+
+  # Fiber Optik Zayıflama (Link Loss Budget) Hesap Formülü (ISO/IEC 11801)
+  fiber_link_loss_budget:
+    formula: "Loss_toplam_dB = (alpha_dB_km * L_km) + (N_konnektor * L_konnektor_dB) + (N_ek * L_ek_dB) + Margin_dB"
+    attenuation_alpha_db_per_km:
+      MM_OM3_OM4_850nm: 3.5                   # Çok modlu (Multimode) 850 nm maksimum zayıflama: 3.5 dB/km
+      MM_OM3_OM4_1300nm: 1.5                  # Çok modlu 1300 nm maksimum zayıflama: 1.5 dB/km
+      SM_OS2_1310nm: 0.40                     # Tek modlu (Singlemode) 1310 nm maksimum zayıflama: 0.40 dB/km
+      SM_OS2_1550nm: 0.30                     # Tek modlu 1550 nm maksimum zayıflama: 0.30 dB/km
+    connector_pair_loss_db: 0.50              # Konnektör çifti (LC/SC) başına zayıflama: 0.50 dB (TIA maks 0.75 dB)
+    fusion_splice_loss_db: 0.10               # Füzyon ek başına zayıflama: 0.10 dB (Maks 0.30 dB)
+    safety_repair_margin_db: 2.0              # Tamir ve yaşlanma güvenlik marjı: 2.0 dB
+
   separation_from_power_lines_mm:
-    without_divider: 200.0                    # Kuvvetli akım kabloları ile ayrı tavada min 200 mm açıklık
-    with_shield_divider: 50.0                 # Ekranlı sac bölmeli tavada min 50 mm açıklık
+    standard: "TS EN 50174-2"
+    without_divider: 200.0                    # Kuvvetli akım kabloları ile bölmesiz ortamda min 200 mm açıklık
+    with_metallic_divider: 50.0               # Topraklı metal sac bölmeli tavada min 50 mm açıklık
 
+# ------------------------------------------------------------------------------
+# 3. KAPALI DEVRE TELEVİZYON (CCTV) VE POE GÜÇ / DEPOLAMA HESABI (TS EN 62676)
+# ------------------------------------------------------------------------------
 cctv_surveillance:
-  standard: "TS EN 62676"
-  cable_type: "Cat6 F/UTP PoE+ LSZH (Kamera başı min 30W PoE bütçesi)"
-  camera_coverage:
-    entrance_resolution_min_ppm: 250          # Kimlik tespiti için piksel yoğunluğu (250 piksel/metre)
-    general_monitoring_ppm: 62.5              # Genel izleme (62.5 piksel/metre)
+  standard: "TS EN 62676-1..4 & IEEE 802.3af/at/bt"
+  cable_type: "Cat6 U/UTP veya F/UTP 23 AWG %100 Bakır LSZH (HFFR)"
 
+  # 3.1 TS EN 62676-4 DORI Piksel Yoğunluğu (Piksel / Metre - PPM)
+  dori_pixel_density_ppm:
+    monitoring_genel_izleme: 12.5
+    detection_tespit: 25.0
+    observation_gozlem: 62.5
+    recognition_tanima: 125.0
+    identification_kimlik_tespiti: 250.0      # Bina giriş-çıkış ve veznelerde zorunlu: >= 250 PPM
+    license_plate_anpr: 150.0
+
+  # 3.2 NVR Disk Depolama Kapasitesi ve Bant Genişliği Formülü
+  storage_and_bandwidth_formulas:
+    total_bandwidth_mbps: "BW_toplam_Mbps = N_kamera * Bitrate_kamera_Mbps * k_ek_yuk(1.20)"
+    storage_tb_formula: "Disk_TB = (Bitrate_Mbps * 86400 * Gun_Sayisi * N_kamera * (Aktif_Saat / 24)) / (8 * 10^6)"
+    typical_h265_bitrate_mbps:
+      "2MP_1080p_25fps_H265": 2.5
+      "4MP_1440p_25fps_H265": 4.0
+      "8MP_4K_25fps_H265": 8.0
+    min_retention_days_general: 15            # Genel binalarda min 15-30 gün kayıt saklama
+    min_retention_days_critical_public: 30    # Kamu, metro, hastane, AVM'lerde min 30 gün
+
+  # 3.3 PoE (Power over Ethernet) Güç Bütçesi (IEEE 802.3)
+  poe_power_budget:
+    standards_watts:
+      IEEE_802_3af_PoE:  {pse_port_max_w: 15.4, pd_device_assured_w: 12.95}
+      IEEE_802_3at_PoE_Plus: {pse_port_max_w: 30.0, pd_device_assured_w: 25.50}
+      IEEE_802_3bt_Type3: {pse_port_max_w: 60.0, pd_device_assured_w: 51.00}
+      IEEE_802_3bt_Type4: {pse_port_max_w: 90.0, pd_device_assured_w: 71.30}
+    switch_poe_budget_formula: "P_switch_PoE >= 1.25 * sum(P_kamera_W)"
+
+# ------------------------------------------------------------------------------
+# 4. ACİL ANONS VE SESLİ TAHLİYE SİSTEMİ (PA/VA — TS EN 54-16 & TS EN 54-24)
+# ------------------------------------------------------------------------------
 emergency_announcement_sound:
-  standard: "TS EN 54-16 & TS EN 60849"
-  speaker_line_supervision: true              # 100V Hoparlör hat sonu empedans denetimi zorunlu
-  fire_resistant_wiring: true                 # Acil anons hatları min 180 dk dayanıklı (FE180) kablo olmalı
+  standard: "TS EN 54-16 (Kontrol Paneli), TS EN 54-24 (Hoparlörler), TS EN 60849"
+  speaker_line_voltage_v: 100.0               # 100V sabit gerilimli hat trafolu dağıtım
+  speaker_line_supervision: true              # Hat sonu empedans / EOL modülü ile açık/kısa devre denetimi zorunlu
+  fire_resistant_wiring: true                 # Anons hatları min FE180 / PH120 yangına dayanıklı kablo olmalı
+  acoustic_and_amplifier_formulas:
+    amplifier_power_w: "P_amfi_W >= 1.25 * sum(P_hoparlor_W)   [%25 headroom güvenlik payı]"
+    line_impedance_ohm: "Z_hat_Ohm = U_hat^2 / P_toplam_W = 10000 / P_toplam_W"
+    spl_at_distance_dba: "SPL(r) = SPL_1W_1m + 10 * log10(P_hoparlor_W) - 20 * log10(r_m)"
+    min_speech_intelligibility_sti: 0.50      # Konuşma anlaşılabilirlik indeksi STI >= 0.50
+
+# ------------------------------------------------------------------------------
+# 5. TV / UYDU DAĞITIM (SMATV — TS EN 50083 / EN 60728) VE İNTERKOM
+# ------------------------------------------------------------------------------
+smatv_tv_distribution:
+  standard: "TS EN 60728-1 (eski TS EN 50083)"
+  socket_signal_level_limits_dbuv:
+    dvbs_satellite_min_dbuv: 47.0             # Priz ucunda DVB-S/S2 uydu sinyali min 47 dBµV (ideal 55-70 dBµV)
+    dvbs_satellite_max_dbuv: 77.0             # Priz ucunda DVB-S/S2 uydu sinyali maks 77 dBµV
+    dvbt_terrestrial_min_dbuv: 45.0           # Priz ucunda karasal dijital yayın min 45 dBµV
+    dvbt_terrestrial_max_dbuv: 74.0
+  link_loss_formula: "S_priz_dBuV = S_multiswitch_cikis_dBuV - (alpha_kablo_dB_m * L_m) - L_tap_dB - L_priz_dB"
+  coax_attenuation_2150mhz_db_per_100m:
+    RG6_U4_Cu: 28.0                           # RG6/U4 bakır koaksiyel kablo 2150 MHz kaybı ~28 dB/100m
+    RG11_Cu: 18.0                             # RG11 ana kolon koaksiyel kablo 2150 MHz kaybı ~18 dB/100m
 
 intercom_and_access_control:
-  standard: "TS EN 62820 (İnterkom) & TS EN 60839 (Geçiş Kontrol)"
-  cable_type: "Cat6 Halogen-Free veya DT8 Korumalı Kablo"
-  emergency_breakglass_override: true         # Yangın anında manyetik kilitler enerjisi kesilip kapıyı serbest bırakmalı
+  standard: "TS EN 62820 (İnterkom) & TS EN 60839-11 (Kartlı Geçiş Kontrol)"
+  cable_type: "Cat6 U/UTP HFFR veya DT-8 (8x0.8 mm) Halojensiz Kablo"
+  emergency_breakglass_override: true         # Yangın ihbar santralinden gelen kuru kontakla tüm kaçış kapıları serbest kalmalı (Fail-Safe)

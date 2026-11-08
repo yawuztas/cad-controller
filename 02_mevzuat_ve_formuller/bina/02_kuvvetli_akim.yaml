@@ -1,38 +1,144 @@
 # -*- coding: utf-8 -*-
-# TÜRKİYE BİNA VE TESİSLERİ KUVVETLİ AKIM STANDARTLARI
-# Mevzuat: Elektrik İç Tesisleri Yönetmeliği (RG: 18565)
-#          Binaların Yangından Korunması Hakkında Yönetmelik (BYKHY 2007/12937)
-# Standart: TS HD 60364-4-43:2012, TS HD 60364-5-52:2014
+# ==============================================================================
+# TÜRKİYE BİNA VE TESİSLERİ KUVVETLİ AKIM STANDARTLARI (FULL SÜRÜM)
+# ==============================================================================
+# Yasal Mevzuat:
+#   - Elektrik İç Tesisleri Yönetmeliği (EİTY - RG: 04.11.1984/18565, Md. 57, Md. 62)
+#   - Binaların Yangından Korunması Hakkında Yönetmelik (BYKHY - 2007/12937, Md. 67-84)
+#   - EPDK Reaktif Güç Kontrol Yönetmeliği / Elektrik Piyasası Bağlantı Yönetmeliği
+#   - TEDAŞ / BEDAŞ Bina Bağlantı ve Eşzamanlılık Esasları
+# Ulusal / Uluslararası Standartlar:
+#   - TS HD 60364-5-52:2014 (Kablo Seçimi, Akım Taşıma Kapasitesi ve Gerilim Düşümü)
+#   - TS HD 60364-4-43:2012 (Aşırı Akıma ve Kısa Devreye Karşı Koruma)
+#   - TS EN 60909-0 (Üç Fazlı AC Sistemlerde Kısa Devre Akımlarının Hesaplanması)
+#   - TS EN 12464-1:2021 (Kapalı Çalışma Alanları Aydınlatma Standardı)
 
 discipline: "KUVVETLI_AKIM"
 scope: "BİNA_İÇ_VE_DIŞ_TESİSLERİ"
-version: "2026.1"
+version: "2026.2-FULL"
 
+# ------------------------------------------------------------------------------
+# 1. GERİLİM DÜŞÜMÜ SINIRLARI VE ANALİTİK FORMÜLLERİ (EİTY MD. 57 & TS HD 60364-5-52)
+# ------------------------------------------------------------------------------
 voltage_drop_limits:
-  lighting_max_pct: 1.5                       # EİTY Md. 57: İç aydınlatma linyesi en fazla %1.5
-  socket_power_max_pct: 3.0                   # EİTY Md. 57: Priz ve kuvvet linyesi en fazla %3.0
-  main_column_max_pct: 1.5                    # Ana kolon / dağıtım hattı en fazla %1.5
-  total_allowed_pct: 3.0                      # Yapı bağlantı kutusundan en uzak tüketiciye toplam maks %3.0 (Özel trafoda %5.0)
+  lighting_max_pct: 1.5                       # EİTY Md. 57: Yapı bağlantı kutusu -> son aydınlatma armatürü maks %1.5
+  socket_power_max_pct: 3.0                   # EİTY Md. 57: Yapı bağlantı kutusu -> son priz / motor maks %3.0
+  main_column_max_pct: 1.5                    # Kofre / Trafo -> Ana Pano (kolon hattı) tavsiye edilen maks %1.5 (EİTY üst sınır %3.5)
+  ups_sensitive_max_pct: 2.0                  # UPS ve hassas elektronik besleme hatları maks %2.0
+  total_allowed_public_grid_pct: 3.0          # Alçak gerilim şebekesinden beslenen binalarda toplam maks %3.0
+  total_allowed_private_trafo_pct: 5.0        # Özel trafolu binalarda aydınlatma %6.5 / kuvvet %8.0 (IEC 60364 Ek G: %5.0/%8.0)
+  motor_starting_max_pct: 15.0                # Motor kalkış (demeraj) anında izin verilen maks gerilim düşümü %15.0
 
+voltage_drop_formulas:
+  # 1.1 Yöntem A: Klasik Omik Gerilim Düşümü Formülü (EİTY Md. 57 — S <= 16 mm² için yeterli)
+  ohmic_eity_formula:
+    single_phase_230v: "%e = (200 * L * P) / (kappa * S * U_n^2)   [P: Watt, U_n: 230 V, L: metre, S: mm²]"
+    three_phase_400v:  "%e = (100 * L * P) / (kappa * S * U_n^2)   [P: Watt, U_n: 400 V, L: metre, S: mm²]"
+    current_based_1ph: "%e = (200 * L * I_b * cos_phi) / (kappa * S * U_n)"
+    current_based_3ph: "%e = (100 * sqrt(3) * L * I_b * cos_phi) / (kappa * S * U_n)"
+
+  # 1.2 Yöntem B: Tam Empedanslı (Reaktans Dahil) Gerilim Düşümü Formülü (TS HD 60364-5-52 Ek-G)
+  exact_impedance_iec_formula:
+    voltage_drop_volts: "Delta_U = b * I_b * (L / 1000) * (R_km * cos_phi + X_km * sin_phi) / n_paralel"
+    voltage_drop_pct: "%e = (Delta_U / U_n) * 100"
+    b_circuit_factor:
+      single_phase_230v: 2.0                  # 1 Faz (Faz + Nötr gidiş-dönüş): b = 2
+      three_phase_400v: 1.7320508             # 3 Faz dengeli sistem: b = sqrt(3)
+
+# ------------------------------------------------------------------------------
+# 2. LİNYE, SORTİ VE FAZ DENGESİ KURALLARI (EİTY MD. 57 - 63)
+# ------------------------------------------------------------------------------
 circuit_limits:
-  max_lighting_points: 9                      # 1 Aydınlatma linyesine en fazla 9 armatür
-  max_socket_points_1ph: 7                    # 1 Fazlı priz linyesine en fazla 7 priz
-  default_socket_power_w: 250.0               # Priz sortisi hesap gücü min 250-300W
-  default_luminaire_power_w: 36.0             # Tipik aydınlatma sorti gücü 36W
-  min_lighting_wire_mm2: 1.5                  # Aydınlatma linye min bakır iletken kesiti
-  min_socket_wire_mm2: 2.5                    # Priz linye min bakır iletken kesiti
+  max_lighting_points: 9                      # EİTY: 1 aydınlatma linyesine en fazla 9 sorti bağlanabilir
+  max_socket_points_1ph: 7                    # EİTY: 1 fazlı priz linyesine en fazla 7 priz sortisi bağlanabilir
+  default_socket_power_w: 300.0               # EİTY konut/ofis priz sortisi hesap gücü min 250-300 W (Uygulamada 300W)
+  heavy_appliance_socket_power_w: 2500.0      # Çamaşır, bulaşık, fırın, ütü, klima müstakil priz linyesi (min 2000-2500W)
+  default_luminaire_power_w: 36.0             # Tipik aydınlatma sorti gücü
+  min_lighting_wire_mm2: 1.5                  # Aydınlatma linyesi en küçük bakır kesiti 1.5 mm²
+  min_socket_wire_mm2: 2.5                    # Priz linyesi en küçük bakır kesiti 2.5 mm²
+  max_lighting_mcb_a: 10.0                    # 1.5 mm² aydınlatma linyesi koruma sigortası 10A (veya max 16A)
+  max_socket_mcb_a: 16.0                      # 2.5 mm² priz linyesi koruma sigortası 16A
 
 phase_imbalance_limits:
-  warning_pct: 15.0                           # Faz dengesizliği uyarı eşiği (%15)
-  critical_pct: 25.0                          # Faz dengesizliği kritik hata eşiği (%25)
-  target_after_optimization_pct: 5.0          # LPT optimizasyonu sonrası hedeflenen denge (< %5)
+  warning_pct: 15.0                           # Fazlar arası yük dengesizliği uyarı eşiği (%15)
+  critical_pct: 25.0                          # Fazlar arası yük dengesizliği kritik hata eşiği (%25)
+  target_after_optimization_pct: 5.0          # LPT optimizasyonu sonrası hedeflenen faz dengesi (< %5)
+  neutral_current_formula: "I_N = sqrt(I_R^2 + I_S^2 + I_T^2 - (I_R*I_S + I_S*I_T + I_T*I_R))"
 
+# ------------------------------------------------------------------------------
+# 3. TALEP GÜCÜ VE EŞZAMANLILIK (DİVERSİTE) KATSAYILARI (EİTY MD. 57 & TEDAŞ)
+# ------------------------------------------------------------------------------
+demand_and_diversity_rules:
+  # 3.1 Tekil Konut / Daire Talep Gücü Kuralı (EİTY Md. 57 / BEDAŞ)
+  dwelling_8kw_rule:
+    description: "Daire kurulu gücünün ilk 8.000 W'lık kısmının %60'ı, 8.000 W'ı aşan kısmının %40'ı alınır."
+    formula_le_8kw: "P_talep = P_kurulu * 0.60"
+    formula_gt_8kw: "P_talep = (8000 * 0.60) + ((P_kurulu - 8000) * 0.40) = 4800 + 0.40 * (P_kurulu - 8000)"
+    first_tier_limit_w: 8000.0
+    first_tier_factor: 0.60
+    second_tier_factor: 0.40
+
+  # 3.2 Bina Geneli Çoklu Daire Eşzamanlılık Katsayısı (TEDAŞ / EMO Çizelgesi)
+  building_apartment_coincidence_table:
+    1: 1.00
+    2: 0.90
+    3: 0.80
+    4: 0.70
+    5: 0.60
+    6: 0.55
+    7: 0.50
+    8: 0.48
+    10: 0.45
+    12: 0.42
+    15: 0.40
+    20: 0.37
+    25: 0.35
+    30: 0.33
+    40: 0.30
+    50: 0.27
+    100: 0.25
+
+  # 3.3 Ortak Alan ve Mekanik Yük Eşzamanlılık Katsayıları
+  common_loads_diversity:
+    elevators_1_or_2: 1.00
+    elevators_3_or_more: 0.80
+    hydrophore_booster_pump: 1.00
+    common_stair_lighting: 0.60
+    hvac_chillers_boilers: 0.85
+    ev_charging_stations_unmanaged: 1.00
+    ev_charging_stations_dlm_managed: 0.50
+
+# ------------------------------------------------------------------------------
+# 4. KABLO FİZİĞİ, EMPEDANS (R, X) VE AKIM TAŞIMA TABLOLARI (TS HD 60364-5-52)
+# ------------------------------------------------------------------------------
 cable_physics:
-  copper_conductivity: 56.0                   # Bakır iletkenlik katsayısı (m / Ohm.mm2)
-  aluminum_conductivity: 35.0                 # Alüminyum iletkenlik katsayısı
-  default_ambient_temp_c: 30                  # Standart hesap ortam sıcaklığı (30 °C)
-  default_installation_method: "C"            # Bina standardı Yöntem C: Sıva altı / kanal / duvar yüzeyi
-  derating_factor: 0.85                       # Genel yan yana devre gruplama katsayısı
+  copper_conductivity: 56.0                   # Bakır iletkenlik katsayısı 20°C'de (m / Ohm.mm²)
+  copper_conductivity_70c: 46.8               # Bakır iletkenlik katsayısı 70°C PVC işletmede
+  copper_conductivity_90c: 44.0               # Bakır iletkenlik katsayısı 90°C XLPE işletmede
+  aluminum_conductivity: 35.0                 # Alüminyum iletkenlik katsayısı 20°C'de
+  default_ambient_temp_c: 30                  # Havada standart referans ortam sıcaklığı (30 °C)
+  default_ground_temp_c: 20                   # Toprakta standart referans sıcaklık (20 °C)
+  default_installation_method: "C"            # Bina standardı Yöntem C (Sıva altı / duvar yüzeyi)
+  derating_factor: 0.85                       # Varsayılan gruplama katsayısı
+
+# Kesit bazında AC Direnç (R, Ohm/km) ve Endüktif Reaktans (X, Ohm/km) — TS HD 60364-5-52
+cable_impedance_r_x_ohm_per_km:
+  1.5:  {r_20c: 12.10, r_70c: 14.48, r_90c: 15.43, x_ohm_km: 0.100}
+  2.5:  {r_20c: 7.41,  r_70c: 8.87,  r_90c: 9.45,  x_ohm_km: 0.090}
+  4.0:  {r_20c: 4.61,  r_70c: 5.52,  r_90c: 5.88,  x_ohm_km: 0.085}
+  6.0:  {r_20c: 3.08,  r_70c: 3.69,  r_90c: 3.93,  x_ohm_km: 0.082}
+  10.0: {r_20c: 1.83,  r_70c: 2.19,  r_90c: 2.33,  x_ohm_km: 0.082}
+  16.0: {r_20c: 1.15,  r_70c: 1.38,  r_90c: 1.47,  x_ohm_km: 0.082}
+  25.0: {r_20c: 0.727, r_70c: 0.870, r_90c: 0.927, x_ohm_km: 0.080}
+  35.0: {r_20c: 0.524, r_70c: 0.627, r_90c: 0.668, x_ohm_km: 0.079}
+  50.0: {r_20c: 0.387, r_70c: 0.463, r_90c: 0.494, x_ohm_km: 0.078}
+  70.0: {r_20c: 0.268, r_70c: 0.321, r_90c: 0.342, x_ohm_km: 0.075}
+  95.0: {r_20c: 0.193, r_70c: 0.231, r_90c: 0.246, x_ohm_km: 0.075}
+  120.0: {r_20c: 0.153, r_70c: 0.183, r_90c: 0.195, x_ohm_km: 0.073}
+  150.0: {r_20c: 0.124, r_70c: 0.148, r_90c: 0.158, x_ohm_km: 0.073}
+  185.0: {r_20c: 0.099, r_70c: 0.118, r_90c: 0.126, x_ohm_km: 0.072}
+  240.0: {r_20c: 0.075, r_70c: 0.090, r_90c: 0.096, x_ohm_km: 0.072}
+  300.0: {r_20c: 0.060, r_70c: 0.072, r_90c: 0.077, x_ohm_km: 0.071}
 
 ampacity_tables_tshd60364:
   PVC_70C:
@@ -42,13 +148,33 @@ ampacity_tables_tshd60364:
     C_2_LOADED:  {1.5: 19.5, 2.5: 27.0, 4.0: 36.0, 6.0: 46.0, 10.0: 63.0, 16.0: 85.0, 25.0: 112.0, 35.0: 138.0, 50.0: 168.0, 70.0: 213.0, 95.0: 258.0, 120.0: 299.0, 150.0: 344.0, 185.0: 392.0, 240.0: 461.0, 300.0: 530.0}
     C_3_LOADED:  {1.5: 17.5, 2.5: 24.0, 4.0: 32.0, 6.0: 41.0, 10.0: 57.0, 16.0: 76.0, 25.0: 96.0, 35.0: 119.0, 50.0: 144.0, 70.0: 184.0, 95.0: 223.0, 120.0: 259.0, 150.0: 299.0, 185.0: 341.0, 240.0: 403.0, 300.0: 464.0}
   XLPE_90C:
-    clause: "TS HD 60364-5-52:2014 Çizelge B.52.3 / B.52.5 (XLPE/EPR 90°C Bakır)"
+    clause: "TS HD 60364-5-52:2014 Çizelge B.52.3 / B.52.5 (XLPE/EPR/HFFR 90°C Bakır - N2XH / YXV)"
     B1_2_LOADED: {1.5: 23.0, 2.5: 31.0, 4.0: 42.0, 6.0: 54.0, 10.0: 75.0, 16.0: 100.0, 25.0: 133.0, 35.0: 164.0, 50.0: 198.0, 70.0: 253.0, 95.0: 306.0, 120.0: 354.0}
     B1_3_LOADED: {1.5: 20.0, 2.5: 28.0, 4.0: 37.0, 6.0: 48.0, 10.0: 66.0, 16.0: 88.0, 25.0: 117.0, 35.0: 144.0, 50.0: 175.0, 70.0: 222.0, 95.0: 269.0, 120.0: 312.0}
     C_2_LOADED:  {1.5: 24.0, 2.5: 33.0, 4.0: 45.0, 6.0: 58.0, 10.0: 80.0, 16.0: 107.0, 25.0: 138.0, 35.0: 171.0, 50.0: 209.0, 70.0: 269.0, 95.0: 328.0, 120.0: 382.0, 150.0: 441.0, 185.0: 506.0, 240.0: 599.0, 300.0: 693.0}
     C_3_LOADED:  {1.5: 22.0, 2.5: 30.0, 4.0: 40.0, 6.0: 52.0, 10.0: 71.0, 16.0: 96.0, 25.0: 119.0, 35.0: 147.0, 50.0: 179.0, 70.0: 229.0, 95.0: 278.0, 120.0: 322.0, 150.0: 371.0, 185.0: 424.0, 240.0: 500.0, 300.0: 576.0}
     E_2_LOADED:  {1.5: 26.0, 2.5: 36.0, 4.0: 49.0, 6.0: 63.0, 10.0: 86.0, 16.0: 115.0, 25.0: 149.0, 35.0: 185.0, 50.0: 225.0, 70.0: 289.0, 95.0: 352.0, 120.0: 410.0, 150.0: 473.0, 185.0: 542.0, 240.0: 641.0, 300.0: 741.0}
     E_3_LOADED:  {1.5: 23.0, 2.5: 32.0, 4.0: 42.0, 6.0: 54.0, 10.0: 75.0, 16.0: 100.0, 25.0: 127.0, 35.0: 158.0, 50.0: 192.0, 70.0: 246.0, 95.0: 298.0, 120.0: 346.0, 150.0: 399.0, 185.0: 456.0, 240.0: 538.0, 300.0: 621.0}
+
+  # Çizelge B.52.14 Ortam Sıcaklığı Düzeltme Katsayısı (k_1)
+  ambient_temp_derating_k1:
+    PVC_70C:  {10: 1.22, 15: 1.17, 20: 1.12, 25: 1.06, 30: 1.00, 35: 0.94, 40: 0.87, 45: 0.79, 50: 0.71, 55: 0.61, 60: 0.50}
+    XLPE_90C: {10: 1.15, 15: 1.12, 20: 1.08, 25: 1.04, 30: 1.00, 35: 0.96, 40: 0.91, 45: 0.87, 50: 0.82, 55: 0.76, 60: 0.71}
+
+  # Çizelge B.52.17 Yan Yana Gruplama / Demetleme Katsayısı (k_2)
+  grouping_derating_k2:
+    1: 1.00
+    2: 0.80
+    3: 0.70
+    4: 0.65
+    5: 0.60
+    6: 0.57
+    7: 0.54
+    8: 0.52
+    9: 0.50
+    12: 0.45
+    16: 0.41
+    20: 0.38
 
 ampacity_base_a:
   1.5: 18.0
@@ -68,11 +194,59 @@ ampacity_base_a:
   240.0: 453.0
   300.0: 523.0
 
+# ------------------------------------------------------------------------------
+# 5. AŞIRI AKIM VE KISA DEVRE KORUMA KOORDİNASYONU (TS HD 60364-4-43 & EN 60909)
+# ------------------------------------------------------------------------------
 protection_coordination:
-  check_ib_in_iz: true                        # Ib <= In <= Iz koordinasyon kontrolü zorunlu
-  check_rcd_mcb_capacity: true                # KAK anma akımı ana sigortadan küçük olamaz
+  check_ib_in_iz: true                        # Madde 433.1 Kural 1: I_b <= I_n <= I_z
+  check_i2_145_iz: true                       # Madde 433.1 Kural 2: I_2 <= 1.45 * I_z (MCB'lerde I_2 = 1.45*I_n olduğu için Kural 1 sağlar)
+  check_rcd_mcb_capacity: true                # KAKR anma akımı önündeki ana sigortadan küçük olamaz (I_n_RCD >= I_n_MCB)
+  short_circuit_calculations:
+    standard: "TS EN 60909-0 & TS HD 60364-4-43 Madde 434"
+    three_phase_ik3_max: "I_k3 = (c_max * U_n) / (sqrt(3) * sqrt(R_top^2 + X_top^2))   [c_max = 1.05]"
+    single_phase_ik1_min: "I_k1 = (c_min * U_0) / sqrt((2 * R_top)^2 + (2 * X_top)^2)   [c_min = 0.95]"
+    breaking_capacity_rule: "I_cn >= I_k3_max   (Konut min 6 kA, Ticari/Ana Pano min 10-25 kA, Trafo çıkışı 36-50 kA)"
+    thermal_withstand_rule: "I_k^2 * t <= k^2 * S^2   -->   S_min = (I_k * sqrt(t)) / k"
 
+# ------------------------------------------------------------------------------
+# 6. REAKTİF GÜÇ KOMPANZASYON HESABI (EPDK REAKTİF GÜÇ KONTROL MEVZUATI)
+# ------------------------------------------------------------------------------
+reactive_power_compensation:
+  standard: "EPDK Elektrik Piyasası Bağlantı ve Sistem Kullanım Yönetmeliği"
+  mandatory_installed_power_threshold_kva: 50.0 # Bağlantı gücü >= 50 kVA (veya >= 9 kW ticari) tesislerde zorunlu
+  limits_below_50kva:
+    max_inductive_ratio_pct: 33.0             # 9 kW - 50 kVA arası endüktif reaktif sınır <= %33 (cos_phi >= 0.95)
+    max_capacitive_ratio_pct: 20.0            # Kapasitif reaktif sınır <= %20
+  limits_50kva_and_above:
+    max_inductive_ratio_pct: 20.0             # >= 50 kVA tesislerde endüktif sınır <= %20 (cos_phi >= 0.98)
+    max_capacitive_ratio_pct: 15.0            # >= 50 kVA tesislerde kapasitif sınır <= %15 (cos_phi >= 0.99)
+  capacitor_bank_formula:
+    equation: "Q_c = P_aktif * (tan(arccos(cos_phi_1)) - tan(arccos(cos_phi_2)))"
+    target_cos_phi_2: 0.98                    # Hedef güç katsayısı cos_phi_2 = 0.98 (tan_phi_2 = 0.203)
+
+# ------------------------------------------------------------------------------
+# 7. İÇ AYDINLATMA (LÜMEN YÖNTEMİ) HESABI (TS EN 12464-1:2021)
+# ------------------------------------------------------------------------------
+illumination_lumen_method:
+  standard: "TS EN 12464-1:2021"
+  formulas:
+    room_index_k: "K = (a * b) / (h_m * (a + b))   [a: en, b: boy, h_m: armatür-çalışma düzlemi yüksekliği]"
+    total_luminous_flux_lm: "Phi_toplam = (E_ort * A) / (eta_u * MF)"
+    required_luminaire_count: "N = ceil(Phi_toplam / Phi_armatur)"
+  typical_lux_levels:
+    corridor_stairs_circulation: 100          # Koridor, merdiven ve sirkülasyon alanları: 100 lx
+    wc_bathroom_changing_room: 200            # Banyo, WC, soyunma odaları: 200 lx
+    storage_technical_room: 200               # Teknik odalar, kazan dairesi, pano odası: 200 lx
+    classroom_meeting_room: 300               # Derslik, toplantı odası: 300 lx
+    general_office_cad_workstation: 500       # Ofis, çalışma masası, laboratuvar: 500 lx
+    technical_drawing_precision_work: 750     # Hassas montaj ve teknik resim masası: 750 lx
+
+# ------------------------------------------------------------------------------
+# 8. YANGIN GÜVENLİĞİ VE ACİL DURUM BESLEMESİ (BYKHY MD. 67 - 84)
+# ------------------------------------------------------------------------------
 fire_pump_safety:
-  fe180_required: true                        # BYKHY Md. 84: Yangın pompası min FE180 kablo ile beslenir
-  prohibit_30ma_rcd: true                     # BYKHY Md. 84: Yangın pompasına 30mA KAK rölesi konulamaz!
-  independent_feeder: true                    # Ana panodan bağımsız direkt besleme zorunlu
+  fe180_required: true                        # BYKHY Md. 84: Yangın pompası ve duman tahliye fanları min FE180/PH120 kablo ile beslenir
+  prohibit_30ma_rcd: true                     # BYKHY Md. 84: Yangın pompası ve acil fanlara 30mA/300mA açtırıcı KAKR konulamaz!
+  magnetic_only_protection: true              # Yangın pompası şalteri termik korumasız (yalnız kısa devre/manyetik korumalı) olmalıdır
+  independent_feeder: true                    # Ana şalterin girişinden (köprü önünden) bağımsız besleme zorunlu
+  emergency_lighting_duration_min: 60         # BYKHY Md. 70: Acil aydınlatma min 60 dk (yüksek binalarda/hastanelerde 120 dk)
