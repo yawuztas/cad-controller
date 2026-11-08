@@ -1,21 +1,21 @@
-from cloudecadprogramı.core.healer.layer_doctor import (
+from .layer_doctor import (
     AppliedChangeRecord,
     DoctorChangePlan,
     LayerAndBlockDoctor,
     LayerChangeProposal,
     SkippedEntityRecord,
 )
-from cloudecadprogramı.core.healer.wire_healer import (
+from .wire_healer import (
     TopologicalWireHealer,
     WireHealPlan,
     WireHealProposal,
 )
-from cloudecadprogramı.core.healer.electrical_optimizer import (
+from .electrical_optimizer import (
     ElectricalAutoOptimizer,
     ElectricalOptimizationPlan,
     ElectricalOptimizationProposal,
 )
-from cloudecadprogramı.core.healer.table_generator import (
+from .table_generator import (
     CADTableGenerator,
     GeneratedTableReport,
     ScheduleRowInput,

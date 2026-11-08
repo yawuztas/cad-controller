@@ -20,25 +20,25 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 MOTOR_DIR = Path(__file__).resolve().parent
 
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 if str(MOTOR_DIR) not in sys.path:
     sys.path.insert(0, str(MOTOR_DIR))
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 import ezdxf
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from cloudecadprogramı.common.dxf_converter import ensure_dxf
-from cloudecadprogramı.core.cad.reader import UniversalCADReader
-from cloudecadprogramı.core.cad.triage import SymbolTriage
-from cloudecadprogramı.core.healer.layer_doctor import LayerAndBlockDoctor
-from cloudecadprogramı.core.healer.wire_healer import TopologicalWireHealer
-from cloudecadprogramı.core.healer.electrical_optimizer import (
+from common.dxf_converter import ensure_dxf
+from core.cad.reader import UniversalCADReader
+from core.cad.triage import SymbolTriage
+from core.healer.layer_doctor import LayerAndBlockDoctor
+from core.healer.wire_healer import TopologicalWireHealer
+from core.healer.electrical_optimizer import (
     ElectricalAutoOptimizer, ElectricalOptimizationPlan,
 )
-from cloudecadprogramı.core.rules.rule_engine import RuleEngine
+from core.rules.rule_engine import RuleEngine
 from tools.compose_delivery import dxf_to_dwg_via_console, _dwg_via_com_fallback
 
 GIRDI_DIR = ROOT / "01_girdi"

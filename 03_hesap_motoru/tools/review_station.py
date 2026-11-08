@@ -32,20 +32,20 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, HTMLResponse
 from pydantic import BaseModel
 
-from cloudecadprogramı.core.cad.cad_safety import LayerStandardSpec
-from cloudecadprogramı.core.healer.layer_doctor import (
+from core.cad.cad_safety import LayerStandardSpec
+from core.healer.layer_doctor import (
     DoctorChangePlan,
     LayerAndBlockDoctor,
     LayerChangeProposal,
     SkippedEntityRecord,
     STANDARD_LAYER_SPECS,
 )
-from cloudecadprogramı.core.healer.wire_healer import (
+from core.healer.wire_healer import (
     TopologicalWireHealer,
     WireHealPlan,
     WireHealProposal,
 )
-from cloudecadprogramı.core.rules.rule_engine import RuleEngine
+from core.rules.rule_engine import RuleEngine
 
 # --------------------------------------------------------------------------
 # Plan Depoları ve Sınıflandırma

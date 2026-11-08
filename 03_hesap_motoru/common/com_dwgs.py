@@ -64,7 +64,7 @@ class ComDwgApplier:
     def apply_plan_json(self, doc, change_plan_path: Path, wire_plan_path: Path,
                         approve_layer: set, approve_wire: set) -> dict:
         """Kayıtlı plan JSON'larındaki ONAYLI işlemleri COM ile uygular."""
-        from cloudecadprogramı.core.healer.layer_doctor import STANDARD_LAYER_SPECS
+        from core.healer.layer_doctor import STANDARD_LAYER_SPECS
 
         report = {"layer_applied": 0, "wire_applied": 0, "skipped": 0}
         handle = lambda h: doc.HandleToObject(h)
@@ -140,7 +140,7 @@ class ComDwgApplier:
         return report
 
     def ensure_layers(self, doc, layer_names: list, unlock_for_edit: bool = False):
-        from cloudecadprogramı.core.healer.layer_doctor import STANDARD_LAYER_SPECS
+        from core.healer.layer_doctor import STANDARD_LAYER_SPECS
         for name in layer_names:
             try:
                 if not self._layer_exists(doc, name):

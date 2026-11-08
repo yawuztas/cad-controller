@@ -16,10 +16,10 @@ import ezdxf
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
-sys.path.insert(0, str(ROOT_DIR / "cloudecadprogramı"))
+sys.path.insert(0, str(ROOT_DIR / "03_hesap_motoru"))
 
-from cloudecadprogramı.core.engine import UnifiedAuditEngine
-from cloudecadprogramı.core.rules.rule_engine import RuleEngine
+from core.engine import UnifiedAuditEngine
+from core.rules.rule_engine import RuleEngine
 
 
 def _add_symbol_block(doc: ezdxf.document.Drawing, name: str) -> None:
@@ -366,7 +366,7 @@ def test_ref05_station_code_priority_and_markdown_reporter(tmp_path: Path):
     - Zayıf akım paftası olduğu için asla 'YUKLEME-CETVELI-EKSIK' uyarısı üretilmemeli.
     - Markdown raporu hatasız üretilmeli ve kural izlenebilirlik alanlarını içermeli.
     """
-    from cloudecadprogramı.core.reporters.markdown_reporter import generate_markdown_report
+    from core.reporters.markdown_reporter import generate_markdown_report
 
     dxf_file = tmp_path / "AG-USK-M09-S24-000-99-TL-02-A-T-2I-001.dxf"
     doc = ezdxf.new("R2010")
@@ -398,8 +398,8 @@ def test_ref05_station_code_priority_and_markdown_reporter(tmp_path: Path):
 # ==============================================================================
 def test_ref06_symbol_triage_evidence_based():
     from shapely.geometry import box
-    from cloudecadprogramı.core.cad.triage import SymbolTriage
-    from cloudecadprogramı.core.model.entities import PlacedSymbol, TextToken
+    from core.cad.triage import SymbolTriage
+    from core.model.entities import PlacedSymbol, TextToken
 
     def mk(name, layer, x, y, parent="", cls="EQUIPMENT"):
         return PlacedSymbol(
@@ -428,13 +428,13 @@ def test_ref06_symbol_triage_evidence_based():
 
 def test_ref07_metro_sheet_codes_and_station_grounding_are_dynamic():
     from shapely.geometry import box
-    from cloudecadprogramı.core.engine import (
+    from core.engine import (
         UnifiedAuditEngine,
         is_grounding_sheet_filename,
         is_power_sheet_filename,
     )
-    from cloudecadprogramı.core.model.audit import StationAuditReport
-    from cloudecadprogramı.core.model.entities import DrawingSceneGraph, TextToken
+    from core.model.audit import StationAuditReport
+    from core.model.entities import DrawingSceneGraph, TextToken
 
     assert is_power_sheet_filename("AG-PRT-M09-S19-BT0-00-PS-08-A-T-2I-001-A.dwg")
     assert is_grounding_sheet_filename("AG-PRT-M09-S19-BT0-00-GN-14-A-T-2I-001-A.dwg")
@@ -503,9 +503,9 @@ def test_ref08_graduated_grounding_reconciliation():
     3. Kat topraklama paftası mevcut olup bulunamayan pano -> Asla CRITICAL değil, WARNING (REC-GRND-MISSING).
     """
     from shapely.geometry import box
-    from cloudecadprogramı.core.model.entities import DrawingSceneGraph, TextToken, LogicalCircuit
-    from cloudecadprogramı.core.model.audit import StationAuditReport
-    from cloudecadprogramı.core.reconciliation.cross_sheet_engine import CrossSheetReconciliationEngine
+    from core.model.entities import DrawingSceneGraph, TextToken, LogicalCircuit
+    from core.model.audit import StationAuditReport
+    from core.reconciliation.cross_sheet_engine import CrossSheetReconciliationEngine
 
     # BT0 Katı Kuvvetli Akım Paftası (PS-16): S19LVS401, S19MCC301 ve topraklamasız S19PANEL_X
     scene_ka_bt0 = DrawingSceneGraph(
@@ -644,10 +644,10 @@ def test_ref09_layer_doctor_and_cad_safety(tmp_path: Path):
     """
     import json
     from shapely.geometry import box
-    from cloudecadprogramı.core.cad.cad_safety import CADSafetyGuard, UnitScaleResolver
-    from cloudecadprogramı.core.cad.triage import SymbolTriage
-    from cloudecadprogramı.core.healer.layer_doctor import LayerAndBlockDoctor
-    from cloudecadprogramı.core.model.entities import PlacedSymbol
+    from core.cad.cad_safety import CADSafetyGuard, UnitScaleResolver
+    from core.cad.triage import SymbolTriage
+    from core.healer.layer_doctor import LayerAndBlockDoctor
+    from core.model.entities import PlacedSymbol
 
     doc = ezdxf.new("R2018")
     doc.header["$INSUNITS"] = 6  # 6 = Metre birimli pafta!
@@ -839,8 +839,8 @@ def test_ref10_topological_wire_healer_4_conditions(tmp_path: Path):
        Metre birimli ($INSUNITS=6) çizimde 12 cm (0.12 m) açık kalmış kablo ucu armatüre mıknatıslanır.
     """
     from shapely.geometry import box
-    from cloudecadprogramı.core.healer.wire_healer import TopologicalWireHealer
-    from cloudecadprogramı.core.model.entities import PlacedSymbol, TextToken
+    from core.healer.wire_healer import TopologicalWireHealer
+    from core.model.entities import PlacedSymbol, TextToken
 
     doc = ezdxf.new("R2018")
     doc.header["$INSUNITS"] = 6  # 6 = Metre birimli çizim (20 cm = 0.20 birim!)
@@ -945,11 +945,11 @@ def test_ref11_electrical_optimizer_asbuilt_vs_design_and_reverify(tmp_path: Pat
        bozmadan DWG'ye işlenir.
     """
     from datetime import datetime, timezone
-    from cloudecadprogramı.core.healer.electrical_optimizer import (
+    from core.healer.electrical_optimizer import (
         ElectricalAutoOptimizer,
         ElectricalOptimizationPlan,
     )
-    from cloudecadprogramı.core.rules.rule_engine import RuleEngine
+    from core.rules.rule_engine import RuleEngine
 
     doc = ezdxf.new("R2018")
     msp = doc.modelspace()
@@ -1062,7 +1062,7 @@ def test_ref12_cad_table_generator_dwg_and_xlsx(tmp_path: Path):
     3. openpyxl ile kurumsal .xlsx yükleme cetvelini üretir ve faz dengesizliği / talep gücü özetini yazar.
     """
     import openpyxl
-    from cloudecadprogramı.core.healer.table_generator import (
+    from core.healer.table_generator import (
         CADTableGenerator,
         ScheduleRowInput,
     )
@@ -1189,15 +1189,15 @@ def test_ref13_all_11_audit_fixes_regression():
     """
     from datetime import datetime, timezone
     from shapely.geometry import box
-    from cloudecadprogramı.core.cad.cad_safety import UnitScaleResolver
-    from cloudecadprogramı.core.healer.electrical_optimizer import (
+    from core.cad.cad_safety import UnitScaleResolver
+    from core.healer.electrical_optimizer import (
         ElectricalAutoOptimizer,
         ElectricalOptimizationPlan,
     )
-    from cloudecadprogramı.core.healer.layer_doctor import LayerAndBlockDoctor
-    from cloudecadprogramı.core.healer.wire_healer import TopologicalWireHealer
-    from cloudecadprogramı.core.model.entities import PlacedSymbol, TextToken
-    from cloudecadprogramı.core.rules.rule_engine import RuleEngine
+    from core.healer.layer_doctor import LayerAndBlockDoctor
+    from core.healer.wire_healer import TopologicalWireHealer
+    from core.model.entities import PlacedSymbol, TextToken
+    from core.rules.rule_engine import RuleEngine
 
     # --- 1) KRİTİK 1: Faz Etiketi Replace ve Değişmezlik Kalkanı (Invariance Guard) ---
     ok1, new1, reason1 = ElectricalAutoOptimizer.safe_replace_phase_token(

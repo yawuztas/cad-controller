@@ -106,6 +106,9 @@ def dxf_to_dwg_via_console(dxf_path: Path, dwg_path: Path, timeout: int = 240) -
         raise RuntimeError(f"DWG üretilemedi ({dwg_path.name}); fallback dahil başarısız.")
 
     shutil.move(str(tmp_dwg), str(dwg_path))
+    for err_p in (Path.cwd() / 'ErrorReports', Path(__file__).resolve().parents[2] / 'ErrorReports'):
+        if err_p.exists():
+            shutil.rmtree(err_p, ignore_errors=True)
     return dwg_path, info
 
 
@@ -132,7 +135,7 @@ def _dwg_via_com_fallback(job_dir: Path, sheet_stem: str, dst_dwg: Path) -> Tupl
     root = Path(__file__).resolve().parents[1]
     if str(root) not in sys.path:
         sys.path.insert(0, str(root))
-    from cloudecadprogramı.common.com_dwgs import ComDwgApplier
+    from common.com_dwgs import ComDwgApplier
 
     orig_dwg = _find_original_dwg(job_dir, sheet_stem)
     if orig_dwg is None or not orig_dwg.exists():
