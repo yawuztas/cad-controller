@@ -201,6 +201,14 @@ protection_coordination:
   check_ib_in_iz: true                        # Madde 433.1 Kural 1: I_b <= I_n <= I_z
   check_i2_145_iz: true                       # Madde 433.1 Kural 2: I_2 <= 1.45 * I_z (MCB'lerde I_2 = 1.45*I_n olduğu için Kural 1 sağlar)
   check_rcd_mcb_capacity: true                # KAKR anma akımı önündeki ana sigortadan küçük olamaz (I_n_RCD >= I_n_MCB)
+  selectivity_rules:
+    standard: "IEC 60947-2 Ek-A, TS HD 60364-5-53 Madde 536 & IEC 60898"
+    amperometric_ratio_threshold: 1.60        # Tam/kısmi aşırı yük seçiciliği için I_n,üst / I_n,alt >= 1.60
+    strict_hierarchy: true                    # I_n,üst > I_n,alt (Ters kademelendirme kesinlikle yasaktır)
+    curve_coordination: "Üst kesici açma eğrisi alt kesiciden daha hızlı olamaz (Üst B, Alt C/D hatası)"
+    rcd_selectivity:
+      current_ratio_threshold: 3.0            # I_Δn,üst >= 3 * I_Δn,alt (Örn: 300mA ana, 30mA tali)
+      upstream_s_type_mandatory: true         # Üst RCD mutlaka 'S' (Selektif / Gecikmeli, Δt >= 40ms) olmalıdır
   short_circuit_calculations:
     standard: "TS EN 60909-0 & TS HD 60364-4-43 Madde 434"
     three_phase_ik3_max: "I_k3 = (c_max * U_n) / (sqrt(3) * sqrt(R_top^2 + X_top^2))   [c_max = 1.05]"

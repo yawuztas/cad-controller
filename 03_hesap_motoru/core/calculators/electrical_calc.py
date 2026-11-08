@@ -640,6 +640,181 @@ def calc_illumination_lumen_method(
     }
 
 
+def check_breaker_selectivity(
+    upstream_rating_a: float,
+    downstream_rating_a: float,
+    upstream_curve: str = "C",
+    downstream_curve: str = "C",
+    upstream_icn_ka: Optional[float] = None,
+    downstream_icn_ka: Optional[float] = None,
+) -> Dict[str, Any]:
+    """
+    Kesiciler Arası Aşırı Akım ve Karakteristik Seçicilik (Selektivite) Kontrolü (IEC 60947-2 / TS HD 60364-5-53):
+      1. Anma Akımı Hiyerarşisi: I_n,üst > I_n,alt (Ters kademelendirme yasağı)
+      2. Amperometrik Seçicilik Oranı: I_n,üst / I_n,alt >= 1.6 (Tam/kısmi aşırı yük seçicilik eşiği)
+      3. Açma Eğrisi Koordinasyonu: Üstteki kesici alttakinden daha hızlı bir eğriye sahip olamaz
+         (Örn: Üst B, Alt C/D tipi ise alt hattaki ani demeraj üst ana kesiciyi gereksiz açtırır!)
+      4. Kesme Kapasitesi Hiyerarşisi: I_cn,üst >= I_cn,alt
+    """
+    issues: List[str] = []
+    ratio = round(upstream_rating_a / downstream_rating_a, 2) if downstream_rating_a > 0 else 0.0
+
+    # 1. Ters Kademelendirme Kontrolü
+    if downstream_rating_a >= upstream_rating_a:
+        issues.append(
+            f"KRİTİK TERS KADEMELENDİRME: Alt kademe kesici ({downstream_rating_a:.0f}A), "
+            f"üst kademe kesiciden ({upstream_rating_a:.0f}A) büyük veya eşittir! Alt hattaki yük üst şalteri açtırır."
+        )
+
+    # 2. Amperometrik Seçicilik Oranı (En az 1.6 kat kuralı)
+    elif ratio < 1.60:
+        issues.append(
+            f"SEÇİCİLİK RİSKİ: Üst/Alt kesici anma akımı oranı {ratio:.2f} < 1.60'tır. "
+            f"Aşırı yük veya orta ölçekli arızalarda üst kesici ({upstream_rating_a:.0f}A) de açarak diğer devreleri karartabilir."
+        )
+
+    # 3. Açma Eğrisi Koordinasyonu (B, C, D)
+    curve_speed = {"B": 1, "C": 2, "D": 3}
+    u_spd = curve_speed.get(upstream_curve.strip().upper(), 2)
+    d_spd = curve_speed.get(downstream_curve.strip().upper(), 2)
+    if u_spd < d_spd:
+        issues.append(
+            f"EĞRİ UYUMSUZLUĞU: Üst kesici '{upstream_curve.upper()}' eğrili (daha hızlı), "
+            f"alt kesici '{downstream_curve.upper()}' eğrili (daha yavaş)! "
+            f"Alt devredeki demeraj akımında üstteki ana kesici erken açacaktır."
+        )
+
+    # 4. Kesme Kapasitesi Hiyerarşisi
+    if upstream_icn_ka is not None and downstream_icn_ka is not None:
+        if upstream_icn_ka < downstream_icn_ka:
+            issues.append(
+                f"KESME KAPASİTESİ ÇELİŞKİSİ: Üst kesici kapasitesi ({upstream_icn_ka:.0f} kA), "
+                f"alt kesiciden ({downstream_icn_ka:.0f} kA) düşüktür."
+            )
+
+    is_compliant = len(issues) == 0
+    status = "TAM SEÇİCİ" if is_compliant else ("UYARI" if ratio >= 1.25 and downstream_rating_a < upstream_rating_a else "KORUMA SIRALAMA HATASI")
+
+    return {
+        "is_compliant": is_compliant,
+        "status": status,
+        "current_ratio": ratio,
+        "upstream_rating_a": upstream_rating_a,
+        "downstream_rating_a": downstream_rating_a,
+        "upstream_curve": upstream_curve.upper(),
+        "downstream_curve": downstream_curve.upper(),
+        "issues": issues,
+    }
+
+
+def check_rcd_selectivity(
+    upstream_ideltan_ma: float,
+    downstream_ideltan_ma: float,
+    is_upstream_selective_s_type: bool = True,
+) -> Dict[str, Any]:
+    """
+    Kaçak Akım Koruma Röleleri (KAKR / RCD) Seçicilik Kontrolü (TS HD 60364-5-53):
+      1. Akım Kademelendirmesi: I_Δn,üst >= 3 * I_Δn,alt (Örn: 300 mA ana pano, 30 mA linye/tali pano)
+      2. Zaman Kademelendirmesi: Üstteki RCD mutlaka S (Selektif / Gecikmeli) tip olmalıdır (Δt >= 40 ms).
+         Aksi halde, her iki RCD de ani açma yapar ve alt hattaki gövde kaçağında tüm bina kararır!
+    """
+    issues: List[str] = []
+
+    # Akım oranı kontrolü
+    if downstream_ideltan_ma >= upstream_ideltan_ma:
+        issues.append(
+            f"KRİTİK KAKR KADEMELENDİRME HATASI: Alt KAKR ({downstream_ideltan_ma:.0f} mA) >= "
+            f"Üst KAKR ({upstream_ideltan_ma:.0f} mA)! Alt ve üst röleler ters bağlanmış."
+        )
+    elif upstream_ideltan_ma < (3.0 * downstream_ideltan_ma):
+        issues.append(
+            f"KAKR SEÇİCİLİK RİSKİ: Üst KAKR ({upstream_ideltan_ma:.0f} mA), alt KAKR'ın ({downstream_ideltan_ma:.0f} mA) "
+            f"en az 3 katı olmalıdır (I_Δn,üst >= 3*I_Δn,alt kuralı ihlali)."
+        )
+
+    # Zaman gecikmesi (S-tipi) kontrolü
+    if not is_upstream_selective_s_type:
+        issues.append(
+            "ZAMAN SEÇİCİLİĞİ EKSİK: Üst KAKR 'S' (Selektif/Gecikmeli) tip olarak tanımlanmamış! "
+            "Ani kaçakta 30 mA röle ile birlikte 300 mA ana röle de açarak tüm binayı enerjisiz bırakır."
+        )
+
+    is_compliant = len(issues) == 0
+    return {
+        "is_compliant": is_compliant,
+        "status": "SEÇİCİ RCD KORUMASI" if is_compliant else "RCD SEÇİCİLİK HATASI",
+        "upstream_ideltan_ma": upstream_ideltan_ma,
+        "downstream_ideltan_ma": downstream_ideltan_ma,
+        "is_upstream_selective_s_type": is_upstream_selective_s_type,
+        "issues": issues,
+    }
+
+
+def check_single_line_hierarchy_chain(
+    feeders_chain: List[Dict[str, Any]],
+) -> Dict[str, Any]:
+    """
+    Tek hat şemasında kaynaktan en uç linye noktasına kadar kesicilerin baştan sona
+    doğru sıralanıp sıralanmadığını (monotonik hiyerarşi ve kademelendirme) denetler.
+
+    Girdi:
+      feeders_chain = [
+        {"name": "TRAFO/ANA ŞALTER", "rating_a": 400.0, "curve": "D", "icn_ka": 36.0, "rcd_ma": 300.0, "rcd_s": True},
+        {"name": "TD-1 TALİ DAĞITIM", "rating_a": 160.0, "curve": "C", "icn_ka": 25.0},
+        {"name": "KAT PANOSU GİRİŞ",  "rating_a": 63.0,  "curve": "C", "icn_ka": 10.0},
+        {"name": "LİNYE ÇIKIŞ (PRİZ)", "rating_a": 16.0,  "curve": "C", "icn_ka": 6.0,  "rcd_ma": 30.0,  "rcd_s": False},
+      ]
+    """
+    chain_findings: List[Dict[str, Any]] = []
+    has_critical_error = False
+
+    for i in range(len(feeders_chain) - 1):
+        parent = feeders_chain[i]
+        child = feeders_chain[i + 1]
+
+        # Aşırı akım kesici seçiciliği
+        mcb_res = check_breaker_selectivity(
+            upstream_rating_a=parent.get("rating_a", 0.0),
+            downstream_rating_a=child.get("rating_a", 0.0),
+            upstream_curve=parent.get("curve", "C"),
+            downstream_curve=child.get("curve", "C"),
+            upstream_icn_ka=parent.get("icn_ka"),
+            downstream_icn_ka=child.get("icn_ka"),
+        )
+
+        step_info: Dict[str, Any] = {
+            "step": f"{parent.get('name', 'Üst')} -> {child.get('name', 'Alt')}",
+            "mcb_selectivity": mcb_res,
+            "rcd_selectivity": None,
+        }
+
+        if not mcb_res["is_compliant"]:
+            if "KRİTİK" in " ".join(mcb_res["issues"]):
+                has_critical_error = True
+
+        # RCD seçiciliği (Her ikisinde de RCD tanımlıysa)
+        p_rcd = parent.get("rcd_ma")
+        c_rcd = child.get("rcd_ma")
+        if p_rcd is not None and c_rcd is not None:
+            rcd_res = check_rcd_selectivity(
+                upstream_ideltan_ma=p_rcd,
+                downstream_ideltan_ma=c_rcd,
+                is_upstream_selective_s_type=parent.get("rcd_s", True),
+            )
+            step_info["rcd_selectivity"] = rcd_res
+            if not rcd_res["is_compliant"]:
+                has_critical_error = True
+
+        chain_findings.append(step_info)
+
+    return {
+        "total_levels": len(feeders_chain),
+        "chain_valid": not has_critical_error,
+        "overall_status": "DOĞRU SIRALANMIŞ (HİYERARŞİK SEÇİCİLİK UYGUN)" if not has_critical_error else "KESİCİ SIRALAMASINDA HATA VAR",
+        "steps": chain_findings,
+    }
+
+
 # ==============================================================================
 # BÖLÜM 3: ZAYIF AKIM HESAPLARI
 # (BYKHY, TS EN 54-4/14/16, ISO/IEC 11801, TS EN 62676, TS EN 60728)
