@@ -8,7 +8,20 @@ version: "2026.1"
 
 general_rules:
   max_cat6_length_m: 90.0                     # Kabinet ile uç birim arası maks 90 metre
-  mandatory_cable_rating: "LSZH (Low Smoke Zero Halogen) ve Yangın hatlarında FE180"
+  mandatory_cable_rating: "LSZH (Low Smoke Zero Halogen) ve Yangın hatlarında FE180 / PH120"
+  fas_smoke_max_area_m2: 80.0                 # EN 54-14: Genel/peron optik duman max 80 m², r=7.5m
+  fas_smoke_max_radius_m: 7.5
+  fas_tech_room_max_area_m2: 30.0             # Trafo/OG odaları max 30 m², r=5.3m
+  fas_tech_room_max_radius_m: 5.3
+  fas_double_ceiling_gap_cm: 80.0             # Asma tavan boşluğu > 80cm ise çift kat detektör zorunlu
+  cctv_dori_identification_px_per_m: 250.0    # EN 62676-4 Turnike/bilet alanında tanıma >= 250 px/m
+  cctv_dori_observation_px_per_m: 125.0       # Peron/yürüyen merdiven >= 125 px/m
+  cctv_min_retention_days: 30                 # 7/24 kesintisiz en az 30 gün NVR/SAN kayıt
+  pava_min_spl_dba: 85.0
+  pava_min_sti: 0.50
+  pava_ab_interleaved_required: true          # Ardışık hoparlörler A/B farklı hatlardan beslenmeli
+  scada_dual_fiber_ring_required: true        # Çift fiber optik halka zorunlu
+  scada_io_match_required: true
 
 subsystems:
   AX-02:

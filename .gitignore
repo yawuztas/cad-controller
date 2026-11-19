@@ -14,6 +14,8 @@ htmlcov/
 .dxf_cache/
 
 # Heavy Binary CAD Data & Proprietary Client Drawings (21+ GB)
+*.dwg
+*.dxf
 _arsiv/
 incelenecek projeler/
 ornekprojeler/

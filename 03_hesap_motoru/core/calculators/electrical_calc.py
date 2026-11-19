@@ -108,6 +108,29 @@ def parse_cable_spec(cross_sec_str: str) -> CableConductorSpec:
         pe_n = float(m_plus.group(3))
         return CableConductorSpec(cores=cnt, phase_mm2=ph, neutral_mm2=pe_n, pe_mm2=pe_n, is_pe_explicit=True, is_valid=True, raw_str=raw)
 
+    # 1B. Paralel / ekranlı grup kabloları: örn. "3x(1x185/25ş mm2 XLPE)", "2x(3x95+50)"
+    m_grp = re.search(
+        r"(\d+)\s*[xX*]\s*\(\s*(\d+)\s*[xX*]\s*(\d+(?:\.\d+)?)"
+        r"(?:\s*(?:/|\+)\s*(\d+(?:\.\d+)?)[şsŞS]?)?",
+        s,
+    )
+    if m_grp:
+        n_grp = int(m_grp.group(1))
+        m_core = int(m_grp.group(2))
+        ph = float(m_grp.group(3))
+        pe_scr = float(m_grp.group(4)) if m_grp.group(4) else None
+        if n_grp >= 1 and m_core >= 1:
+            eff_ph = ph if m_core == 1 else ph * n_grp
+            return CableConductorSpec(
+                cores=n_grp * m_core + (1 if (m_core == 1 and pe_scr is not None) else 0),
+                phase_mm2=eff_ph,
+                neutral_mm2=pe_scr if m_core >= 3 else None,
+                pe_mm2=pe_scr,
+                is_pe_explicit=pe_scr is not None,
+                is_valid=True,
+                raw_str=raw,
+            )
+
     # 2. 3(1x185)+1x95 (Açık PE topraklama iletkenli paralel besleme)
     m_par = re.search(r"(\d+)\s*\(\s*1\s*[xX*]\s*(\d+(?:\.\d+)?)\s*\)\s*\+\s*1\s*[xX*]\s*(\d+(?:\.\d+)?)", s)
     if m_par:

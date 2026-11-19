@@ -14,9 +14,21 @@ voltage_drop_limits:
   total_allowed_pct: 5.0                      # Toplam izin verilen gerilim düşümü azami %5.0
 
 phase_imbalance_limits:
+  spec_strict_pct: 10.0                       # İkitelli-Ataköy / katı metro şartnamesi sınırı (%10)
   warning_pct: 15.0                           # Pano faz dengesizliği uyarı sınırı
   critical_pct: 20.0                          # Pano faz dengesizliği kritik sınırı (Metro için sıkı eşik)
   target_after_optimization_pct: 5.0          # LPT optimizasyon hedefi < %5
+
+transformer_and_ups:
+  traction_nominal_vdc: 1500.0                # EN 50163: min 1000V, nom 1500V, max cont 1800V DC
+  traction_min_vdc: 1000.0
+  traction_max_vdc: 1800.0
+  auxiliary_primary_kv: 34.5
+  auxiliary_secondary_kv: 0.4
+  n1_transformer_redundancy: true             # Tek trafo devre dışıyken (N-1) kalan trafo tüm istasyon talebini taşır
+  switchboard_form: "Form-4b"
+  ups_min_autonomy_min: 120                   # Asgari akü otonomi süresi (120 dk)
+  motor_start_max_vd_pct: 15.0                # Acil/jeneratör modunda motor demarajında max %15 gerilim düşümü
 
 circuit_limits:
   max_fixtures_per_circuit: 16                # İstasyon platformu armatür sınırı
@@ -64,7 +76,11 @@ protection_coordination:
   check_ib_in_iz: true
   check_rcd_mcb_capacity: true
 
-tray_fill_limit_pct: 40.0                     # İBB Şartnamesi: Kablo tavası doluluk oranı en fazla %40 olabilir!
+tray_fill_limit_pct: 40.0                     # İBB Şartnamesi: Kablo tavası doluluk oranı en fazla %40 (bazı hatlarda %60)
+tray_fill_max_spec_pct: 60.0                  # Bazı metro şartnamelerinde %40 rezerv şartıyla azami %60 doluluk
+tray_separation_rules_cm:
+  ag_to_weak_current_min_cm: 30.0
+  og_to_ag_min_cm: 50.0
 
 fire_and_life_safety:
   lszh_mandatory: true                        # Halogen-Free (Düşük duman sıfır halojen) tüm kablolarda zorunlu

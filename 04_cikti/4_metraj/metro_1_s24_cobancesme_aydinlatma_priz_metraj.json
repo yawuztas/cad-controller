@@ -1,0 +1,1488 @@
+{
+  "filename": "metro_1_s24_cobancesme_aydinlatma_priz.dxf",
+  "unit_name": "mm",
+  "sheet_count": 10,
+  "views": [
+    {
+      "view_id": "M_01",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Peron Altı Katı",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI",
+      "title_position": "ICINDE",
+      "arch_block_count": 45,
+      "arch_path_count": 2338,
+      "elec_symbol_count": 12,
+      "elec_wire_count": 24,
+      "elec_wire_length_m": 2.65,
+      "uncertain_block_count": 34,
+      "minx_du": 103566.85,
+      "miny_du": 12447.66,
+      "symbols": [
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI",
+          "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 8,
+          "sheet_breakdown": {
+            "M_01": 8
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412856-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI",
+          "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412856-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_01": 4
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "0",
+          "description": "Elektrik Kablo / Tesisat Hattı (0)",
+          "segment_count": 24,
+          "total_length_m": 2.65
+        }
+      ]
+    },
+    {
+      "view_id": "M_02",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Peron Altı Katı",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "OGDC 03 FFL PERON ALTI KATI _HALKALI_",
+      "title_position": "ICINDE",
+      "arch_block_count": 49,
+      "arch_path_count": 1722,
+      "elec_symbol_count": 4,
+      "elec_wire_count": 6,
+      "elec_wire_length_m": 0.62,
+      "uncertain_block_count": 12,
+      "minx_du": 18744.36,
+      "miny_du": 13689.21,
+      "symbols": [
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-OGDC 03 FFL PERON ALTI KATI _HALKALI_",
+          "description": "Blok 'D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-OGDC 03 FFL PERON ALTI KATI _HALKALI_'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC 03 FFL PERON ALTI KATI _HALKALI_",
+          "description": "Blok 'D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC 03 FFL PERON ALTI KATI _HALKALI_'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "0",
+          "description": "Elektrik Kablo / Tesisat Hattı (0)",
+          "segment_count": 6,
+          "total_length_m": 0.62
+        }
+      ]
+    },
+    {
+      "view_id": "M_03",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Elektrik Şaftı",
+      "discipline": "KARMA_ELEKTRIK",
+      "title": "OGDC ELEKTRİK ŞAFTI",
+      "title_position": "ICINDE",
+      "arch_block_count": 372,
+      "arch_path_count": 3498,
+      "elec_symbol_count": 64,
+      "elec_wire_count": 22,
+      "elec_wire_length_m": 57.14,
+      "uncertain_block_count": 1,
+      "minx_du": 184102.01,
+      "miny_du": -10113.4,
+      "symbols": [
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V50-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V50-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 6,
+          "sheet_breakdown": {
+            "M_03": 6
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3297891-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3297891-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 5,
+          "sheet_breakdown": {
+            "M_03": 5
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V51-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V51-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 5,
+          "sheet_breakdown": {
+            "M_03": 5
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V42-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V42-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_03": 3
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-4802819-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-4802819-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_MCC_By_Others Pump - 200x500x500 _GRID_-3305788-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_MCC_By_Others Pump - 200x500x500 _GRID_-3305788-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526853-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526853-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526854-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526854-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V40-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V40-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V43-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V43-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V45-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V45-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-2431126-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-2431126-OGDC OG EKİPMAN ODASI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V46-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V78-OGDC OG EKİPMAN ODASI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V80-OGDC OG EKİPMAN ODASI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC OG EKİPMAN ODASI",
+          "description": "Blok 'D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC OG EKİPMAN ODASI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-V39-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-V39-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-3832956-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard - 200x400x200 _GRID_-3832956-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 400x800x2200 _GRID_-3379632-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard - 400x800x2200 _GRID_-3379632-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3298100-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3298100-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V38-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V38-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V48-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V48-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V49-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V49-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526856-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526856-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V41-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V41-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V44-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V44-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V47-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V47-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "YANGIN ALGILAMA",
+          "block_name": "D7050_10_Fire Alarm Control Module - Alarm Control Module-3909547-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D7050_10_Fire Alarm Control Module - Alarm Control Module-3909547-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet - 16U _600x600mm_-3381175-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D6010_10_Data Cabinet - 16U _600x600mm_-3381175-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_10_Telephone Distribution Frame - Telephone Distribution Frame-3542507-OGDC ELEKTRİK ŞAFTI",
+          "description": "Blok 'D6020_10_Telephone Distribution Frame - Telephone Distribution Frame-3542507-OGDC ELEKTRİK ŞAFTI'",
+          "description_source": "BLOK_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_20_Radio Antenna - Radio Antenna-3249800-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3950675-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3951451-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3963067-OGDC ELEKTRİK ŞAFTI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V79-OGDC OG EKİPMAN ODASI",
+          "description": "Zayif Akim (0)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "0"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "BE_34_5 kV KABLO",
+          "description": "Elektrik Kablo / Tesisat Hattı (BE_34_5 kV KABLO)",
+          "segment_count": 22,
+          "total_length_m": 57.14
+        }
+      ]
+    },
+    {
+      "view_id": "M_04",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -7166.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_05",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 2,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -4366.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_06",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -6466.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_07",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 11,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -4366.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_08",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 2,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -5766.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_09",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 2,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 18106.55,
+      "miny_du": -7166.12,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "PS_01",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "Notlar/Notes",
+      "title_position": "ICINDE",
+      "arch_block_count": 11,
+      "arch_path_count": 344,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": -220.74,
+      "miny_du": 0.0,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "DIS_01",
+      "source_kind": "CERCEVESIZ_KUME",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "Çerçevesiz Alan 10",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": null,
+      "miny_du": null,
+      "symbols": [],
+      "wires_by_layer": []
+    }
+  ],
+  "architectural_summary": {
+    "mimari_blok": 477,
+    "mimari_cizgi": 7919,
+    "elektrik_sembol": 80,
+    "elektrik_hat_cizgi": 52,
+    "belirsiz_anonim_blok": 47
+  },
+  "panels": [],
+  "switchgear_bom": [],
+  "load_schedule_breakers": [],
+  "cable_bom": [
+    {
+      "spec": "3x95/16mm² XLPE",
+      "occurrences": 12,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_01": 4,
+        "M_02": 4,
+        "M_03": 4
+      },
+      "source_handles": [
+        "14F8",
+        "14FB",
+        "14FE",
+        "1501",
+        "AA6",
+        "AA9",
+        "AAC",
+        "AAF",
+        "27D3",
+        "27D6",
+        "27D9",
+        "27DC"
+      ]
+    },
+    {
+      "spec": "3x(1x185/25ş mm2 XLPE)",
+      "occurrences": 8,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_01": 4,
+        "M_03": 4
+      },
+      "source_handles": [
+        "1513",
+        "1515",
+        "1517",
+        "1519",
+        "2401",
+        "2403",
+        "2405",
+        "2407"
+      ]
+    },
+    {
+      "spec": "1x240 mm² XLPE",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_09": 1
+      },
+      "source_handles": [
+        "281A"
+      ]
+    },
+    {
+      "spec": "3x95/16 mm² XLPE",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_09": 1
+      },
+      "source_handles": [
+        "2819"
+      ]
+    }
+  ],
+  "grounding_loops": [],
+  "symbol_bom": [
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI",
+      "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 8,
+      "sheet_breakdown": {
+        "M_01": 8
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V50-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V50-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 6,
+      "sheet_breakdown": {
+        "M_03": 6
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3297891-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3297891-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 5,
+      "sheet_breakdown": {
+        "M_03": 5
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V51-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V51-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 5,
+      "sheet_breakdown": {
+        "M_03": 5
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412856-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI",
+      "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412856-OGDC 03 FFL PERON ALTI KATI _HALKALI_ DÖŞEME ALTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_01": 4
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V42-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V42-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_03": 3
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-OGDC 03 FFL PERON ALTI KATI _HALKALI_",
+      "description": "Blok 'D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-OGDC 03 FFL PERON ALTI KATI _HALKALI_'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC 03 FFL PERON ALTI KATI _HALKALI_",
+      "description": "Blok 'D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC 03 FFL PERON ALTI KATI _HALKALI_'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-4802819-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-4802819-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_MCC_By_Others Pump - 200x500x500 _GRID_-3305788-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_MCC_By_Others Pump - 200x500x500 _GRID_-3305788-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526853-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526853-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526854-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526854-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V40-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V40-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V43-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V43-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V45-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V45-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-2431126-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-2431126-OGDC OG EKİPMAN ODASI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V46-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V78-OGDC OG EKİPMAN ODASI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V80-OGDC OG EKİPMAN ODASI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC OG EKİPMAN ODASI",
+      "description": "Blok 'D5020_10_Dry Type Transformers - TRT 2400 kVA-2411280-OGDC OG EKİPMAN ODASI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_DC Switchboard Module - 1400x800x2500 _DC_-2412861-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-V39-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_MV Switchboard Module - 2308x1000x2310 _MV-03_-V39-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-3832956-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard - 200x400x200 _GRID_-3832956-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 400x800x2200 _GRID_-3379632-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard - 400x800x2200 _GRID_-3379632-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3298100-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-3298100-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V38-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V38-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V48-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V48-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V49-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x2200 _GRID_-V49-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526856-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-4526856-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V41-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V41-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V44-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V44-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V47-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V47-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "YANGIN ALGILAMA",
+      "block_name": "D7050_10_Fire Alarm Control Module - Alarm Control Module-3909547-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D7050_10_Fire Alarm Control Module - Alarm Control Module-3909547-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet - 16U _600x600mm_-3381175-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D6010_10_Data Cabinet - 16U _600x600mm_-3381175-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_10_Telephone Distribution Frame - Telephone Distribution Frame-3542507-OGDC ELEKTRİK ŞAFTI",
+      "description": "Blok 'D6020_10_Telephone Distribution Frame - Telephone Distribution Frame-3542507-OGDC ELEKTRİK ŞAFTI'",
+      "description_source": "BLOK_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_20_Radio Antenna - Radio Antenna-3249800-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3950675-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3951451-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Projector - Projector Loudspeaker-3963067-OGDC ELEKTRİK ŞAFTI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Loudspeaker Surface Mounted - Loudspeaker Surface Mounted-V79-OGDC OG EKİPMAN ODASI",
+      "description": "Zayif Akim (0)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "0"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    }
+  ],
+  "schematic_symbol_bom": [],
+  "outside_clusters": [
+    {
+      "cluster_id": "DIS_01",
+      "title": "Çerçevesiz Alan 10",
+      "source_kind": "CERCEVESIZ_KUME",
+      "title_position": "YOK",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "text_count": 34,
+      "electrical_symbol_count": 0,
+      "non_electrical_count": 0,
+      "uncertain_block_count": 0,
+      "arch_path_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "symbols": [],
+      "wires_by_layer": []
+    }
+  ],
+  "ole_decoded_tables": [],
+  "non_electrical_block_count": 477,
+  "uncertain_block_count": 47,
+  "outside_text_count": 36,
+  "outside_electrical_insert_count": 0,
+  "alerts_summary": [
+    "Pafta çerçevesi dışı (antetsiz/ölü kopya) 1 bölgede (0 başlıklı plan) 0 elektrik sembolü aktif metraj dışında ayrıca listelendi (Bölüm 4B).",
+    "4 adet çerçeveli/çerçevesiz kopya yalnızca mimari altlık (elektrik sembolü yok) olarak ayrıldı.",
+    "47 adet anonim/tanımsız blok (A$C... veya kanıtsız katman) elektrik sayımına dahil edilmedi.",
+    "1 adet çözülemeyen gömülü OLE/Görsel nesne var."
+  ]
+}

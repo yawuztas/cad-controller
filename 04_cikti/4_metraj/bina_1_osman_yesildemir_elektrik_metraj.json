@@ -1,0 +1,2037 @@
+{
+  "filename": "bina_1_osman_yesildemir_elektrik.dxf",
+  "unit_name": "cm",
+  "sheet_count": 16,
+  "views": [
+    {
+      "view_id": "M_01",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Temel / Vaziyet",
+      "discipline": "TOPRAKLAMA",
+      "title": "TOPRAKLAMA PLANI",
+      "title_position": "ICINDE",
+      "arch_block_count": 2,
+      "arch_path_count": 179,
+      "elec_symbol_count": 10,
+      "elec_wire_count": 6,
+      "elec_wire_length_m": 51.3,
+      "uncertain_block_count": 0,
+      "minx_du": 139491.23,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "TOPRAKLAMA",
+          "block_name": "1EKK",
+          "description": "Galvaniz Şerit Ek Klemensi",
+          "description_source": "LEJANT",
+          "discipline": "TOPRAKLAMA",
+          "layer_names": [
+            "00-TOPRAK"
+          ],
+          "total_count": 5,
+          "sheet_breakdown": {
+            "M_01": 5
+          }
+        },
+        {
+          "category": "TOPRAKLAMA",
+          "block_name": "1TP",
+          "description": "Ø20mm h=1,75m Cu Toprakalama Çubuğu",
+          "description_source": "LEJANT",
+          "discipline": "TOPRAKLAMA",
+          "layer_names": [
+            "00-TOPRAK"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_01": 4
+          }
+        },
+        {
+          "category": "TOPRAKLAMA",
+          "block_name": "etb",
+          "description": "Eşpotansiyel Topraklama Barası (E.T.B)",
+          "description_source": "LEJANT",
+          "discipline": "TOPRAKLAMA",
+          "layer_names": [
+            "00-TOPRAK"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-TOPRAK",
+          "description": "Topraklama İletkeni / Şeridi (00-TOPRAK)",
+          "segment_count": 6,
+          "total_length_m": 51.3
+        }
+      ]
+    },
+    {
+      "view_id": "M_02",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Zemin Kat",
+      "discipline": "ZAYIF_AKIM",
+      "title": "ZEMİN KAT ZAYIF AKIM PLANI Ö : 1/50",
+      "title_position": "ICINDE",
+      "arch_block_count": 1,
+      "arch_path_count": 175,
+      "elec_symbol_count": 6,
+      "elec_wire_count": 26,
+      "elec_wire_length_m": 14.49,
+      "uncertain_block_count": 3,
+      "minx_du": 142829.16,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "BUAT",
+          "block_name": "1B",
+          "description": "Buat",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-PRZ"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "BTK",
+          "description": "Bina Telefon Kutusu",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TEL"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "IS",
+          "description": "Duafon Merkezi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "KO",
+          "description": "K.O. Kapı Otomatiği",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "KZ",
+          "description": "İntercom Kapı Ünitesi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "TVS",
+          "description": "Televizyon Yayın Merkezi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TV"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-24V",
+          "description": "Yangın Algılama / 24V Hattı (00-24V)",
+          "segment_count": 11,
+          "total_length_m": 6.41
+        },
+        {
+          "layer": "00-INTERCOM",
+          "description": "İntercom / Duafon Hattı (00-INTERCOM)",
+          "segment_count": 6,
+          "total_length_m": 4.01
+        },
+        {
+          "layer": "00-TV",
+          "description": "TV / Uydu Anten Hattı (00-TV)",
+          "segment_count": 4,
+          "total_length_m": 1.75
+        },
+        {
+          "layer": "00-TEL",
+          "description": "Telefon / Data Hattı (00-TEL)",
+          "segment_count": 4,
+          "total_length_m": 1.32
+        },
+        {
+          "layer": "00-PRZ",
+          "description": "Priz / Kuvvet Kablo Hattı (00-PRZ)",
+          "segment_count": 1,
+          "total_length_m": 0.99
+        }
+      ]
+    },
+    {
+      "view_id": "M_03",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "1. Kat",
+      "discipline": "ZAYIF_AKIM",
+      "title": "1. KAT ZAYIF AKIM PLANI Ö : 1/50",
+      "title_position": "ICINDE",
+      "arch_block_count": 31,
+      "arch_path_count": 4210,
+      "elec_symbol_count": 9,
+      "elec_wire_count": 27,
+      "elec_wire_length_m": 21.0,
+      "uncertain_block_count": 3,
+      "minx_du": 144549.44,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "1T",
+          "description": "Telefon Prizi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TEL"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_03": 3
+          }
+        },
+        {
+          "category": "AYDINLATMA",
+          "block_name": "avize75",
+          "description": "N- Tipi Tavan Armatürü Enerji Tasarruflu",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "1TV",
+          "description": "Televizyon Prizi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TV"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "1tk",
+          "description": "Daire Telefon Kutusu",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TEL"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "1tvk",
+          "description": "Daire Tv Kutusu",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TV"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "ID",
+          "description": "İntercom Daire Ünitesi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "Z",
+          "description": "Zil Butonu",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-TEL",
+          "description": "Telefon / Data Hattı (00-TEL)",
+          "segment_count": 15,
+          "total_length_m": 11.1
+        },
+        {
+          "layer": "00-TV",
+          "description": "TV / Uydu Anten Hattı (00-TV)",
+          "segment_count": 8,
+          "total_length_m": 7.54
+        },
+        {
+          "layer": "00-INTERCOM",
+          "description": "İntercom / Duafon Hattı (00-INTERCOM)",
+          "segment_count": 4,
+          "total_length_m": 2.36
+        }
+      ]
+    },
+    {
+      "view_id": "M_04",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Zemin Kat",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "ZEMİN KAT KUVVETLİ AKIM PLANI Ö : 1/50",
+      "title_position": "ICINDE",
+      "arch_block_count": 1,
+      "arch_path_count": 175,
+      "elec_symbol_count": 2,
+      "elec_wire_count": 5,
+      "elec_wire_length_m": 6.91,
+      "uncertain_block_count": 2,
+      "minx_du": 146822.58,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "AYDINLATMA",
+          "block_name": "1bd",
+          "description": "B- Tipi Duvar Armatürü Enerji Tasarruflu",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_04": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "1T1",
+          "description": "Kuvvetli Akım Ana Tablo",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TABLO"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_04": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-06",
+          "description": "Kuvvet / Ek Tesisat ve Atlama Hattı (00-06)",
+          "segment_count": 2,
+          "total_length_m": 4.8
+        },
+        {
+          "layer": "00-AYD",
+          "description": "Aydınlatma Kablo / Sorti Hattı (00-AYD)",
+          "segment_count": 3,
+          "total_length_m": 2.11
+        }
+      ]
+    },
+    {
+      "view_id": "M_05",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "1. Kat",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "1. KAT KUVVETLİ AKIM PLANI Ö : 1/50",
+      "title_position": "ICINDE",
+      "arch_block_count": 32,
+      "arch_path_count": 4215,
+      "elec_symbol_count": 63,
+      "elec_wire_count": 132,
+      "elec_wire_length_m": 142.13,
+      "uncertain_block_count": 13,
+      "minx_du": 148542.86,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "BUAT",
+          "block_name": "1B",
+          "description": "Buat",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD",
+            "00-PRZ"
+          ],
+          "total_count": 28,
+          "sheet_breakdown": {
+            "M_05": 28
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "1P",
+          "description": "Priz",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-PRZ"
+          ],
+          "total_count": 14,
+          "sheet_breakdown": {
+            "M_05": 14
+          }
+        },
+        {
+          "category": "ANAHTAR",
+          "block_name": "1A",
+          "description": "Adi Anahtar",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 6,
+          "sheet_breakdown": {
+            "M_05": 6
+          }
+        },
+        {
+          "category": "AYDINLATMA",
+          "block_name": "1B2",
+          "description": "B- Tipi Tavan Armatürü Enerji Tasarruflu",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 6,
+          "sheet_breakdown": {
+            "M_05": 6
+          }
+        },
+        {
+          "category": "AYDINLATMA",
+          "block_name": "136",
+          "description": "P- Tipi Floresant Tavan Armatürü",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TOPRAK"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_05": 3
+          }
+        },
+        {
+          "category": "AYDINLATMA",
+          "block_name": "avize75",
+          "description": "N- Tipi Tavan Armatürü Enerji Tasarruflu",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_05": 3
+          }
+        },
+        {
+          "category": "AYDINLATMA",
+          "block_name": "1AP",
+          "description": "C- Tipi Duvar Armatürü Enerji Tasarruflu",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-AYD"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_05": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "1ITDT",
+          "description": "Kuvvetli Akım Tali Tablo",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TABLO"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_05": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-AYD",
+          "description": "Aydınlatma Kablo / Sorti Hattı (00-AYD)",
+          "segment_count": 76,
+          "total_length_m": 88.44
+        },
+        {
+          "layer": "00-PRZ",
+          "description": "Priz / Kuvvet Kablo Hattı (00-PRZ)",
+          "segment_count": 54,
+          "total_length_m": 48.75
+        },
+        {
+          "layer": "00-06",
+          "description": "Kuvvet / Ek Tesisat ve Atlama Hattı (00-06)",
+          "segment_count": 1,
+          "total_length_m": 4.12
+        },
+        {
+          "layer": "0",
+          "description": "Elektrik Kablo / Tesisat Hattı (0)",
+          "segment_count": 1,
+          "total_length_m": 0.81
+        }
+      ]
+    },
+    {
+      "view_id": "M_06",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Şema / Hesap",
+      "discipline": "SEMA_HESAP",
+      "title": "TELEFON KOLON ŞEMASI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 200,
+      "elec_symbol_count": 1,
+      "elec_wire_count": 11,
+      "elec_wire_length_m": 7.24,
+      "uncertain_block_count": 5,
+      "minx_du": 150815.58,
+      "miny_du": -33762.08,
+      "symbols": [
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "BTK",
+          "description": "Bina Telefon Kutusu",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TEL"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_06": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-TEL",
+          "description": "Telefon / Data Hattı (00-TEL)",
+          "segment_count": 11,
+          "total_length_m": 7.24
+        }
+      ]
+    },
+    {
+      "view_id": "M_07",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 155347.81,
+      "miny_du": -33762.08,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_08",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "AYDINLATMA - PRİZ NOTLAR:",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 154242.73,
+      "miny_du": -32334.26,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_09",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Şema / Hesap",
+      "discipline": "SEMA_HESAP",
+      "title": "TELEVİZYON DAĞITIM KOLON ŞEMASI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 3,
+      "elec_wire_count": 3,
+      "elec_wire_length_m": 2.13,
+      "uncertain_block_count": 1,
+      "minx_du": 151660.05,
+      "miny_du": -31733.32,
+      "symbols": [
+        {
+          "category": "BUAT",
+          "block_name": "1B",
+          "description": "Buat",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TV"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_09": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "TVS",
+          "description": "Televizyon Yayın Merkezi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-TV"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_09": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-TV",
+          "description": "TV / Uydu Anten Hattı (00-TV)",
+          "segment_count": 3,
+          "total_length_m": 2.13
+        }
+      ]
+    },
+    {
+      "view_id": "M_10",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Temel / Vaziyet",
+      "discipline": "LEJANT_DETAY",
+      "title": "ÇELİK DONATILI TEMEL TOPRAKLAMA DETAYI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 304,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 142217.81,
+      "miny_du": -31908.15,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_11",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Şema / Hesap",
+      "discipline": "SEMA_HESAP",
+      "title": "DUAFON KOLON ŞEMASI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 4,
+      "elec_wire_count": 12,
+      "elec_wire_length_m": 13.18,
+      "uncertain_block_count": 0,
+      "minx_du": 150890.52,
+      "miny_du": -32145.27,
+      "symbols": [
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "ID",
+          "description": "İntercom Daire Ünitesi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_11": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "IS",
+          "description": "Duafon Merkezi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_11": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "KO",
+          "description": "K.O. Kapı Otomatiği",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_11": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "KZ",
+          "description": "İntercom Kapı Ünitesi",
+          "description_source": "LEJANT",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "00-INTERCOM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_11": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-24V",
+          "description": "Yangın Algılama / 24V Hattı (00-24V)",
+          "segment_count": 5,
+          "total_length_m": 6.75
+        },
+        {
+          "layer": "00-INTERCOM",
+          "description": "İntercom / Duafon Hattı (00-INTERCOM)",
+          "segment_count": 7,
+          "total_length_m": 6.43
+        }
+      ]
+    },
+    {
+      "view_id": "M_12",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Şema / Hesap",
+      "discipline": "SEMA_HESAP",
+      "title": "KUVVETLİ AKIM KOLON DAĞITIM ŞEMASI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 8,
+      "elec_wire_count": 15,
+      "elec_wire_length_m": 21.37,
+      "uncertain_block_count": 0,
+      "minx_du": 152497.28,
+      "miny_du": -32349.05,
+      "symbols": [
+        {
+          "category": "ŞALT / KORUMA",
+          "block_name": "1AOS3",
+          "description": "Şalt / Koruma (00-04)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-04"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_12": 3
+          }
+        },
+        {
+          "category": "ŞALT / KORUMA",
+          "block_name": "1KAR",
+          "description": "Şalt / Koruma (00-04)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-04"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_12": 2
+          }
+        },
+        {
+          "category": "BUAT",
+          "block_name": "1B",
+          "description": "Buat",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TOPRAK"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_12": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "1ITDT",
+          "description": "Kuvvetli Akım Tali Tablo",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TABLO"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_12": 1
+          }
+        },
+        {
+          "category": "ŞALT / KORUMA",
+          "block_name": "SSSS",
+          "description": "Şalt / Koruma (00-04)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-04"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_12": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-06",
+          "description": "Kuvvet / Ek Tesisat ve Atlama Hattı (00-06)",
+          "segment_count": 12,
+          "total_length_m": 12.78
+        },
+        {
+          "layer": "00-PRZ",
+          "description": "Priz / Kuvvet Kablo Hattı (00-PRZ)",
+          "segment_count": 2,
+          "total_length_m": 7.09
+        },
+        {
+          "layer": "00-TOPRAK",
+          "description": "Topraklama İletkeni / Şeridi (00-TOPRAK)",
+          "segment_count": 1,
+          "total_length_m": 1.5
+        }
+      ]
+    },
+    {
+      "view_id": "M_13",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "TELEFON DETAYLARI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 1251,
+      "elec_symbol_count": 6,
+      "elec_wire_count": 40,
+      "elec_wire_length_m": 6.02,
+      "uncertain_block_count": 1,
+      "minx_du": 150890.56,
+      "miny_du": -33596.73,
+      "symbols": [
+        {
+          "category": "BUAT",
+          "block_name": "1B",
+          "description": "Buat",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-05"
+          ],
+          "total_count": 6,
+          "sheet_breakdown": {
+            "M_13": 6
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-06",
+          "description": "Kuvvet / Ek Tesisat ve Atlama Hattı (00-06)",
+          "segment_count": 40,
+          "total_length_m": 6.02
+        }
+      ]
+    },
+    {
+      "view_id": "M_14",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 58,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 155397.47,
+      "miny_du": -33762.08,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_15",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Şema / Hesap",
+      "discipline": "SEMA_HESAP",
+      "title": "GERİLİM DÜŞÜMÜ HESABI",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 1,
+      "elec_wire_count": 3,
+      "elec_wire_length_m": 5.44,
+      "uncertain_block_count": 0,
+      "minx_du": 152497.28,
+      "miny_du": -32921.93,
+      "symbols": [
+        {
+          "category": "PANO / TABLO",
+          "block_name": "1ITDT",
+          "description": "Kuvvetli Akım Tali Tablo",
+          "description_source": "LEJANT",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "00-TABLO"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_15": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "00-PRZ",
+          "description": "Priz / Kuvvet Kablo Hattı (00-PRZ)",
+          "segment_count": 2,
+          "total_length_m": 2.99
+        },
+        {
+          "layer": "00-06",
+          "description": "Kuvvet / Ek Tesisat ve Atlama Hattı (00-06)",
+          "segment_count": 1,
+          "total_length_m": 2.46
+        }
+      ]
+    },
+    {
+      "view_id": "M_16",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Temel / Vaziyet",
+      "discipline": "LEJANT_DETAY",
+      "title": "TOPRAKLAMA TESİSATI NOTLAR:",
+      "title_position": "ICINDE",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 141974.44,
+      "miny_du": -33744.96,
+      "symbols": [],
+      "wires_by_layer": []
+    }
+  ],
+  "architectural_summary": {
+    "mimari_blok": 67,
+    "mimari_cizgi": 10767,
+    "elektrik_sembol": 90,
+    "elektrik_hat_cizgi": 280,
+    "belirsiz_anonim_blok": 28
+  },
+  "panels": [
+    {
+      "panel_name": "AT",
+      "role": "ANA_PANO",
+      "parent_panel": "TEDAŞ",
+      "sheet_ids": [
+        "M_12"
+      ],
+      "breaker_rating": null,
+      "rcd_rating": null,
+      "feeder_cable": null,
+      "installed_power_w": 12360.0,
+      "demand_power_w": 6544.0,
+      "source_handles": [
+        "97935"
+      ]
+    },
+    {
+      "panel_name": "D-T",
+      "role": "TALI_PANO",
+      "parent_panel": "AT",
+      "sheet_ids": [
+        "M_12"
+      ],
+      "breaker_rating": null,
+      "rcd_rating": null,
+      "feeder_cable": null,
+      "installed_power_w": 12360.0,
+      "demand_power_w": 6544.0,
+      "source_handles": [
+        "97947"
+      ]
+    }
+  ],
+  "switchgear_bom": [
+    {
+      "category": "SIGORTA_SALTER",
+      "spec": "AOS (Anahtarlı Otomatik Sigorta)",
+      "count": 3,
+      "sheet_breakdown": {
+        "M_12": 3
+      },
+      "source_handles": [
+        "97951",
+        "9798F",
+        "979B8"
+      ]
+    },
+    {
+      "category": "SIGORTA_SALTER",
+      "spec": "3(20A)",
+      "count": 2,
+      "sheet_breakdown": {
+        "M_12": 2
+      },
+      "source_handles": [
+        "9798D",
+        "979B6"
+      ]
+    },
+    {
+      "category": "KAKR",
+      "spec": "4x25A 300mA KAKR",
+      "count": 1,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "97982",
+        "97984"
+      ]
+    },
+    {
+      "category": "KAKR",
+      "spec": "4x25A 30mA KAKR",
+      "count": 1,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "9794C",
+        "9794D",
+        "9794E"
+      ]
+    },
+    {
+      "category": "SAYAC",
+      "spec": "Sayaç 3x10(30A)",
+      "count": 1,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "97941"
+      ]
+    },
+    {
+      "category": "SIGORTA_SALTER",
+      "spec": "3(25A)",
+      "count": 1,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "9794F"
+      ]
+    }
+  ],
+  "load_schedule_breakers": [
+    {
+      "panel_name": "D-T",
+      "breaker_spec": "16A C AOS",
+      "cable_spec": "3x2,5NHXMH",
+      "count": 9,
+      "total_power_kw": 11.4,
+      "source_kind": "OLE2_DECODED",
+      "source_handle": "9B323"
+    },
+    {
+      "panel_name": "D-T",
+      "breaker_spec": "10A B AOS",
+      "cable_spec": "3x2,5NHXMH",
+      "count": 2,
+      "total_power_kw": 0.96,
+      "source_kind": "OLE2_DECODED",
+      "source_handle": "9B323"
+    }
+  ],
+  "cable_bom": [
+    {
+      "spec": "CAT5E",
+      "occurrences": 7,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_13": 7
+      },
+      "source_handles": [
+        "87843",
+        "8784B",
+        "87852",
+        "87859",
+        "87875",
+        "87876",
+        "87883"
+      ]
+    },
+    {
+      "spec": "CAT 5E",
+      "occurrences": 4,
+      "explicit_length_m": 40.0,
+      "sheet_breakdown": {
+        "M_13": 4
+      },
+      "source_handles": [
+        "87846",
+        "87849",
+        "87850",
+        "87856"
+      ]
+    },
+    {
+      "spec": "2x0,75NHXMH",
+      "occurrences": 2,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_02": 1,
+        "M_11": 1
+      },
+      "source_handles": [
+        "979A4",
+        "98B1F"
+      ]
+    },
+    {
+      "spec": "Cat5",
+      "occurrences": 2,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_03": 2
+      },
+      "source_handles": [
+        "98D98",
+        "98E12"
+      ]
+    },
+    {
+      "spec": "DT8 Duafon Kablosu",
+      "occurrences": 2,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_02": 1,
+        "M_11": 1
+      },
+      "source_handles": [
+        "979A6",
+        "98B24"
+      ]
+    },
+    {
+      "spec": "4x10NYY",
+      "occurrences": 1,
+      "explicit_length_m": 50.0,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "97970"
+      ]
+    },
+    {
+      "spec": "3x95+50NYY",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_04": 1
+      },
+      "source_handles": [
+        "9B521"
+      ]
+    },
+    {
+      "spec": "50 mm2 Cu",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_12": 1
+      },
+      "source_handles": [
+        "9793C"
+      ]
+    },
+    {
+      "spec": "Cat 5",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_06": 1
+      },
+      "source_handles": [
+        "9783C"
+      ]
+    },
+    {
+      "spec": "RG6/U-6",
+      "occurrences": 1,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_03": 1
+      },
+      "source_handles": [
+        "98D9A"
+      ]
+    }
+  ],
+  "grounding_loops": [
+    {
+      "loop_id": "GND_01",
+      "sheet_id": "M_01",
+      "outer_perimeter_m": 44.63,
+      "area_m2": 114.57,
+      "equivalent_diameter_m": 12.08,
+      "inner_conductors_m": 0.0,
+      "ring_plus_inner_m": 44.63,
+      "ring_conductor_spec": "30x3,5mm Galvaniz Çelik Lama",
+      "spur_count": 5,
+      "spur_total_m": 6.64,
+      "spur_conductor_spec": "50mm2 Çiplak Örgü Bakir",
+      "rod_block_count": 4,
+      "total_conductor_m": 51.27,
+      "layer_names": [
+        "00-TOPRAK"
+      ],
+      "source_handles": [
+        "98E7B",
+        "98E8C",
+        "98EA5",
+        "98EBD",
+        "98ED5",
+        "98F4F"
+      ]
+    }
+  ],
+  "symbol_bom": [
+    {
+      "category": "BUAT",
+      "block_name": "1B",
+      "description": "Buat",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD",
+        "00-PRZ"
+      ],
+      "total_count": 29,
+      "sheet_breakdown": {
+        "M_02": 1,
+        "M_05": 28
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "1P",
+      "description": "Priz",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-PRZ"
+      ],
+      "total_count": 14,
+      "sheet_breakdown": {
+        "M_05": 14
+      }
+    },
+    {
+      "category": "ANAHTAR",
+      "block_name": "1A",
+      "description": "Adi Anahtar",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD"
+      ],
+      "total_count": 6,
+      "sheet_breakdown": {
+        "M_05": 6
+      }
+    },
+    {
+      "category": "AYDINLATMA",
+      "block_name": "1B2",
+      "description": "B- Tipi Tavan Armatürü Enerji Tasarruflu",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD"
+      ],
+      "total_count": 6,
+      "sheet_breakdown": {
+        "M_05": 6
+      }
+    },
+    {
+      "category": "TOPRAKLAMA",
+      "block_name": "1EKK",
+      "description": "Galvaniz Şerit Ek Klemensi",
+      "description_source": "LEJANT",
+      "discipline": "TOPRAKLAMA",
+      "layer_names": [
+        "00-TOPRAK"
+      ],
+      "total_count": 5,
+      "sheet_breakdown": {
+        "M_01": 5
+      }
+    },
+    {
+      "category": "AYDINLATMA",
+      "block_name": "avize75",
+      "description": "N- Tipi Tavan Armatürü Enerji Tasarruflu",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_03": 1,
+        "M_05": 3
+      }
+    },
+    {
+      "category": "TOPRAKLAMA",
+      "block_name": "1TP",
+      "description": "Ø20mm h=1,75m Cu Toprakalama Çubuğu",
+      "description_source": "LEJANT",
+      "discipline": "TOPRAKLAMA",
+      "layer_names": [
+        "00-TOPRAK"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_01": 4
+      }
+    },
+    {
+      "category": "AYDINLATMA",
+      "block_name": "136",
+      "description": "P- Tipi Floresant Tavan Armatürü",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-TOPRAK"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_05": 3
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "1T",
+      "description": "Telefon Prizi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TEL"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_03": 3
+      }
+    },
+    {
+      "category": "AYDINLATMA",
+      "block_name": "1AP",
+      "description": "C- Tipi Duvar Armatürü Enerji Tasarruflu",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_05": 2
+      }
+    },
+    {
+      "category": "AYDINLATMA",
+      "block_name": "1bd",
+      "description": "B- Tipi Duvar Armatürü Enerji Tasarruflu",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-AYD"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_04": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "1ITDT",
+      "description": "Kuvvetli Akım Tali Tablo",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-TABLO"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_05": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "1T1",
+      "description": "Kuvvetli Akım Ana Tablo",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-TABLO"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_04": 1
+      }
+    },
+    {
+      "category": "TOPRAKLAMA",
+      "block_name": "etb",
+      "description": "Eşpotansiyel Topraklama Barası (E.T.B)",
+      "description_source": "LEJANT",
+      "discipline": "TOPRAKLAMA",
+      "layer_names": [
+        "00-TOPRAK"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "1TV",
+      "description": "Televizyon Prizi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TV"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "1tk",
+      "description": "Daire Telefon Kutusu",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TEL"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "1tvk",
+      "description": "Daire Tv Kutusu",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TV"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "BTK",
+      "description": "Bina Telefon Kutusu",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TEL"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "ID",
+      "description": "İntercom Daire Ünitesi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "IS",
+      "description": "Duafon Merkezi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "KO",
+      "description": "K.O. Kapı Otomatiği",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "KZ",
+      "description": "İntercom Kapı Ünitesi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "TVS",
+      "description": "Televizyon Yayın Merkezi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TV"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "Z",
+      "description": "Zil Butonu",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    }
+  ],
+  "schematic_symbol_bom": [
+    {
+      "category": "BUAT",
+      "block_name": "1B",
+      "description": "Buat",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-05",
+        "00-TOPRAK",
+        "00-TV"
+      ],
+      "total_count": 9,
+      "sheet_breakdown": {
+        "M_09": 2,
+        "M_12": 1,
+        "M_13": 6
+      }
+    },
+    {
+      "category": "ŞALT / KORUMA",
+      "block_name": "1AOS3",
+      "description": "Şalt / Koruma (00-04)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-04"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_12": 3
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "1ITDT",
+      "description": "Kuvvetli Akım Tali Tablo",
+      "description_source": "LEJANT",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-TABLO"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_12": 1,
+        "M_15": 1
+      }
+    },
+    {
+      "category": "ŞALT / KORUMA",
+      "block_name": "1KAR",
+      "description": "Şalt / Koruma (00-04)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-04"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_12": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "BTK",
+      "description": "Bina Telefon Kutusu",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TEL"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_06": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "ID",
+      "description": "İntercom Daire Ünitesi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_11": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "IS",
+      "description": "Duafon Merkezi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_11": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "KO",
+      "description": "K.O. Kapı Otomatiği",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_11": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "KZ",
+      "description": "İntercom Kapı Ünitesi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-INTERCOM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_11": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "TVS",
+      "description": "Televizyon Yayın Merkezi",
+      "description_source": "LEJANT",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "00-TV"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_09": 1
+      }
+    },
+    {
+      "category": "ŞALT / KORUMA",
+      "block_name": "SSSS",
+      "description": "Şalt / Koruma (00-04)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "00-04"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_12": 1
+      }
+    }
+  ],
+  "outside_clusters": [],
+  "ole_decoded_tables": [
+    {
+      "handle": "98FC0",
+      "sheet_id": "M_01",
+      "title": "GÖMÜLÜ İLETKEN BİNA ÖLÇÜLERİ",
+      "row_count": 40,
+      "cell_count": 173,
+      "preview_rows": [
+        [
+          "GÖMÜLÜ İLETKEN",
+          "BİNA ÖLÇÜLERİ"
+        ],
+        [
+          "L: Gömülü İletken Boyu (m)",
+          "L=",
+          "46",
+          "a: En (m)",
+          "a=",
+          "14"
+        ],
+        [
+          "q: Kesit (mm2)",
+          "q=",
+          "30",
+          "b: Boy (m)",
+          "b=",
+          "9"
+        ],
+        [
+          "d: Gömülü İletken Çapı (m)",
+          "d=",
+          "0,008",
+          "A: Alan (m2)",
+          "A=",
+          "126"
+        ],
+        [
+          "H: Gömülü İletken Derinliği (m)",
+          "H=",
+          "1"
+        ],
+        [
+          "ρ",
+          "E",
+          ": Toprak Özgül Direnci ( Ώ)",
+          "ρe=",
+          "100"
+        ]
+      ]
+    },
+    {
+      "handle": "9A2C1",
+      "sheet_id": "M_06",
+      "title": "AYDINLATMA HESABI",
+      "row_count": 21,
+      "cell_count": 90,
+      "preview_rows": [
+        [
+          "AYDINLATMA HESABI"
+        ],
+        [
+          "OTURMA",
+          "ÇOCUK",
+          "E.YATAK"
+        ],
+        [
+          "MUTFAK",
+          "SALON"
+        ],
+        [
+          "MAHAL İSMİ",
+          "ODASI",
+          "ODASI",
+          "ODASI"
+        ],
+        [
+          "Mahal eni ( a ) ( m )",
+          "4,03",
+          "4,70",
+          "4",
+          "3,3",
+          "4,06"
+        ],
+        [
+          "Mahal boyu ( b ) ( m )",
+          "3,16",
+          "5,50",
+          "4,5",
+          "3,15",
+          "4"
+        ]
+      ]
+    },
+    {
+      "handle": "9B323",
+      "sheet_id": "M_06",
+      "title": "I KUVVET Ş IK TABLO SİGORTA SORTİ ADEDİ GÜCÜ (W)",
+      "row_count": 21,
+      "cell_count": 154,
+      "preview_rows": [
+        [
+          "I",
+          "KUVVET",
+          "Ş",
+          "IK",
+          "TABLO",
+          "SİGORTA",
+          "SORTİ ADEDİ",
+          "GÜCÜ (W)"
+        ],
+        [
+          "LİNYE",
+          "KESME",
+          "R",
+          "S",
+          "T",
+          "Boru Çapı"
+        ],
+        [
+          "CİNSİ",
+          "AKIM",
+          "K.A.K.Ş.",
+          "AÇIKLAMALAR",
+          "AYD.",
+          "PRİZ",
+          "MOTOR",
+          "RST"
+        ],
+        [
+          "NO",
+          "KAP.",
+          "FAZI",
+          "FAZI",
+          "FAZI",
+          "(",
+          "",
+          ")"
+        ],
+        [
+          "ADI",
+          "GÜCÜ",
+          "T.FAKTÖRÜ",
+          "T.GÜCÜ",
+          "CİNSİ",
+          "G.SİG."
+        ],
+        [
+          "A1",
+          "AOS",
+          "10",
+          "3 kA B",
+          "9",
+          "540",
+          "540",
+          "3x2,5NHXMH"
+        ]
+      ]
+    },
+    {
+      "handle": "9B4B2",
+      "sheet_id": "M_06",
+      "title": "KOLON GERİLİM DÜŞÜMÜ ISINMA KONTROLU LİNYE GERİLİM DÜŞÜMÜ",
+      "row_count": 13,
+      "cell_count": 79,
+      "preview_rows": [
+        [
+          "KOLON GERİLİM DÜŞÜMÜ",
+          "ISINMA KONTROLU",
+          "LİNYE GERİLİM DÜŞÜMÜ"
+        ],
+        [
+          "Hesapla"
+        ],
+        [
+          "GELDİĞİ YER",
+          "AP",
+          "TABLO",
+          "D-T",
+          "LİNYE NO",
+          "P6"
+        ],
+        [
+          "TABLO ADI",
+          "D-T",
+          "KURULU GÜÇ (W)",
+          "12360",
+          "Metraj",
+          "5",
+          "1.KOL",
+          "2.KOL"
+        ],
+        [
+          "KESİT (mm",
+          "²",
+          ")",
+          "4x6",
+          "6",
+          "DİVERSİTE (",
+          "%)",
+          "8kW'a kadar 0,6 gerisi 0,4"
+        ],
+        [
+          "1"
+        ]
+      ]
+    }
+  ],
+  "non_electrical_block_count": 67,
+  "uncertain_block_count": 28,
+  "outside_text_count": 0,
+  "outside_electrical_insert_count": 0,
+  "alerts_summary": [
+    "Topraklama çubuğu uyumsuzluğu (M_01): 5 adet filiz hattı çizili, ancak planda 4 adet topraklama çubuğu tespit edildi.",
+    "Topraklama OLE vs CAD farkı (M_01): L: hesapta 46 m vs çizimde 44.63 m (filiz dahil 51.27 m); A: hesapta 126 m² vs çizimde 114.57 m².",
+    "1 adet çerçeveli/çerçevesiz kopya yalnızca mimari altlık (elektrik sembolü yok) olarak ayrıldı.",
+    "28 adet anonim/tanımsız blok (A$C... veya kanıtsız katman) elektrik sayımına dahil edilmedi."
+  ]
+}

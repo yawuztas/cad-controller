@@ -29,6 +29,7 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime, timezone
 import math
 import json
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
 
@@ -46,12 +47,15 @@ NON_WIRE_LAYER_PREFIXES: Tuple[str, ...] = (
 
 NON_WIRE_LAYER_SUBSTRINGS: Tuple[str, ...] = (
     "A-MIMARI-ALTYAPI", "E-ETIKET-TABLO", "E-LEGN", "LEJANT", "LEGEND",
-    "DUVAR", "WALL", "SIVA", "DSIVA", "DSİVA", "KAPI", "KAPİ", "DOOR",
-    "PENCERE", "WINDOW", "GLAZ", "MERDIVEN", "MERDİVEN", "STAIR",
-    "MOBILYA", "MOBİLYA", "TEFRS", "TEFRIS", "TEFRİŞ", "FURN",
-    "KOLON", "KIRIS", "KİRİŞ", "BETON", "ELEVATION", "SECT", "KESIT", "KESİT",
+    "DUVAR", "WALL", "SIVA", "DSIVA", "DSİVA", "KAPI", "KAPİ", "KAPEN", "K-P", "DOOR",
+    "PENCERE", "PENC", "WINDOW", "GLAZ", "DOG", "DOGRAMA", "DOĞRAMA",
+    "MERDIVEN", "MERDİVEN", "STAIR", "AHSAP", "AHŞAP", "GORUNUS", "GÖRÜNÜŞ",
+    "MOBILYA", "MOBİLYA", "TEFRS", "TEFRIS", "TEFRİŞ", "TEF.", "TEF ", "TF2", "FURN",
+    "KOLON", "COLUMN", "KIRIS", "KİRİŞ", "BETON", "ELEVATION", "SECT", "KESIT", "KESİT",
+    "PARSEL", "KADASTRO",
     "FLOR", "CEIL", "TAVAN", "ROOF", "CATI", "ÇATI",
-    "GRID", "AKS", "AXIS", "OLCU", "ÖLÇÜ", "DIM", "ANNO", "TEXT", "YAZI",
+    "GRID", "AKS", "AXIS", "OLCU", "ÖLÇÜ", "DIM", "ANNO", "TEXT", "YAZI", "ELKYAZ",
+    "LINYE_NO", "LİNYE_NO", "KOL_NO", "TABLO", "00-04", "00-06", "ETIKET",
     "HATCH", "TARAMA", "BORDER", "ANTET", "TITLE", "FRAME", "CERCEVE", "ÇERÇEVE",
     "VIEWPORT", "VPORT", "DEFPOINTS", "XREF", "M3-ARC", "M3-STR", "M3-MEC",
     "AFFFEQM", "PLANOTM",
@@ -59,10 +63,10 @@ NON_WIRE_LAYER_SUBSTRINGS: Tuple[str, ...] = (
 
 # Yukarıdaki mimari/genel kelimeler geçse dahi açıkça kablo/tava/elektrik hattı olan katmanları koru:
 EXPLICIT_WIRE_KEYWORDS: Tuple[str, ...] = (
-    "KABLO", "CABL", "WIRE", "LINYE", "LİNYE", "SORTI", "SORTİ",
+    "KABLO", "CABL", "WIRE", "SORTI", "SORTİ",
     "TAVA", "TRAY", "BUSBAR", "FIBER", "FİBER", "OPTIK", "OPTİK",
     "CAT6", "CCTV", "ANONS", "PAVA", "TELEFON", "DATA", "SCADA",
-    "TOPRAKLAMA", "GROUND",
+    "TOPRAKLAMA", "TOPRAK", "GROUND",
 )
 
 
@@ -70,19 +74,37 @@ def is_eligible_wire_layer(layer_name: str) -> bool:
     """
     Bir LINE katmanının kablo/tava onarımına (TopologicalWireHealer) uygun olup olmadığını denetler.
     - '0' katmanını ve açık kablo/elektrik katmanlarını kabul eder.
-    - Patlatılmış mimari ('A_*', 'A-*'), statik ('S_*'), genel çerçeve ('G-*'),
-      sabit tefriş ('F-AFFFEQM'), kesit, merdiven, kapı, yazı ve lejant katmanlarını reddeder.
+    - Patlatılmış mimari ('A_*', 'A-*', 'd u v a r', 'DOG', 'K-P'), statik ('S_*'), genel çerçeve ('G-*'),
+      sabit tefriş ('F-AFFFEQM', 'tef. 3', 'TF2'), kesit, merdiven, kapı, yazı ('00-ELKYAZ', '00-LINYE_NO'),
+      tablo ('00-TABLO') ve çentik ('00-04', '00-06') katmanlarını reddeder.
     """
     lay = (layer_name or "").strip()
     if not lay or lay == "0":
         return True
     lay_up = lay.replace("i", "İ").replace("ı", "I").upper()
+    lay_ascii = (
+        lay_up.replace("İ", "I")
+        .replace("Ğ", "G")
+        .replace("Ü", "U")
+        .replace("Ş", "S")
+        .replace("Ö", "O")
+        .replace("Ç", "C")
+    )
+    lay_collapsed = re.sub(r"(?<=\b[A-Z])\s+(?=[A-Z]\b)", "", lay_ascii)
+    lay_all = f"{lay_up} {lay_ascii} {lay_collapsed}"
 
     if lay_up in ("A-MIMARI-ALTYAPI", "E-ETIKET-TABLO", "DEFPOINTS"):
         return False
 
+    # Etiket, yazı, tablo, linye numarası veya faz çentiği katmanlarını her koşulda reddet
+    if any(
+        bad in lay_all
+        for bad in ("ELKYAZ", "YAZI", "TEXT", "TABLO", "LINYE_NO", "KOL_NO", "00-04", "00-06", "ETIKET", "CERCEVE", "FRAME")
+    ):
+        return False
+
     # Açıkça kablo / tava / zayıf akım hattı kelimesi varsa (örn. 'KABLOLAMA ANONS', 'E-CABL-TRAY') kabul et
-    if any(kw in lay_up for kw in EXPLICIT_WIRE_KEYWORDS):
+    if any(kw in lay_all for kw in EXPLICIT_WIRE_KEYWORDS):
         return True
 
     # Standart AIA / ISO disiplin önekleri (Mimari A-, Statik S-, Genel G-, Tefriş F-, Mekanik M-)
@@ -90,7 +112,7 @@ def is_eligible_wire_layer(layer_name: str) -> bool:
         return False
 
     # Mimari / Antet / Ölçü / Lejant alt dizgeleri
-    if any(sub in lay_up for sub in NON_WIRE_LAYER_SUBSTRINGS):
+    if any(sub in lay_all for sub in NON_WIRE_LAYER_SUBSTRINGS):
         return False
 
     return True

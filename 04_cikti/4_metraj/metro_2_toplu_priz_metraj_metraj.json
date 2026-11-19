@@ -1,0 +1,4090 @@
+{
+  "filename": "metro_2_toplu_priz_metraj.dxf",
+  "unit_name": "mm",
+  "sheet_count": 23,
+  "views": [
+    {
+      "view_id": "M_01",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Teknik Kat",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "PRZ 04 FFL TEKNİK KAT",
+      "title_position": "ICINDE",
+      "arch_block_count": 206,
+      "arch_path_count": 5470,
+      "elec_symbol_count": 60,
+      "elec_wire_count": 31,
+      "elec_wire_length_m": 304.08,
+      "uncertain_block_count": 0,
+      "minx_du": -42332.54,
+      "miny_du": -13517.5,
+      "symbols": [
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3419686-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 13,
+          "sheet_breakdown": {
+            "M_01": 13
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "A$C508B77C6",
+          "description": "Pri̇z (PRT-EL-PRZ_N)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "PRT-EL-PRZ_N"
+          ],
+          "total_count": 12,
+          "sheet_breakdown": {
+            "M_01": 12
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 800x510x2231 _GRID_-3686129-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 7,
+          "sheet_breakdown": {
+            "M_01": 7
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5010_20_Battery Unit1 - Battery Rack Group 1-3414013-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_01": 4
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426580-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_01": 3
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3572544-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_01": 3
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_01": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB1 - 800x510x2231 _GRID_-3686128-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_01": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB1 - 800x920x2231 _GRID_-3686131-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_01": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 800x920x2231 _GRID_-3686130-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_01": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426715-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_01": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5010_20_Battery Unit1 - Ni-Cd Battery Rack Group-3414009-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3413090-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3413098-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB1 - 600x510x2231 _UPS_-3686477-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 600x510x2231 _UPS_-3686475-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3427344-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3899290-PRZ 04 FFL TEKNİK KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 04 FFL TEKNİK KAT",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_01": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 24,
+          "total_length_m": 248.96
+        },
+        {
+          "layer": "PRT-EL-PRZ_T",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_T)",
+          "segment_count": 7,
+          "total_length_m": 55.11
+        }
+      ]
+    },
+    {
+      "view_id": "M_02",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Bilet Holü Katı",
+      "discipline": "KARMA_ELEKTRIK",
+      "title": "PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "title_position": "ICINDE",
+      "arch_block_count": 29,
+      "arch_path_count": 390,
+      "elec_symbol_count": 35,
+      "elec_wire_count": 12,
+      "elec_wire_length_m": 74.87,
+      "uncertain_block_count": 0,
+      "minx_du": -58562.09,
+      "miny_du": -40517.15,
+      "symbols": [
+        {
+          "category": "PRİZ",
+          "block_name": "A$C508B77C6",
+          "description": "Pri̇z (PRT-EL-PRZ_N)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "PRT-EL-PRZ_N"
+          ],
+          "total_count": 8,
+          "sheet_breakdown": {
+            "M_02": 8
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423384-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701954-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701966-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Announce Control Cabinet - 47U _800x800mm_-3504488-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_02": 2
+          }
+        },
+        {
+          "category": "GEÇİŞ / BİLET SİSTEMİ",
+          "block_name": "E1010_70_Fare C_ Control Cabinet - 47U _800x800mm_-3635018-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Geçi̇ş / Bi̇let Si̇stemi̇ (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "KONTROL / SİNYAL",
+          "block_name": "D6010_10_RTU Cabinet - 47U _800x800mm_-3206506-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Kontrol / Si̇nyal (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "SINYAL",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x500x500 _UPS_-3198964-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS__CDB-3400082-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423042-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701884-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701896-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3417371-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3422862-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3541490-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3541521-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3568561-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet - 47U _800x800mm_-3504502-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_10_Radio Cabinet - 47U _800x800mm_-3206499-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_10_Telephone Exchange Cabinet - 47U _800x800mm_-3173818-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6060_10_Central Clock Cabinet - 47U _800x800mm_-3504509-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D7030_10_CCTV Control Cabinet - 47U _800x800mm_-2418332-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_02": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_E",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_E)",
+          "segment_count": 7,
+          "total_length_m": 50.82
+        },
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 5,
+          "total_length_m": 24.05
+        }
+      ]
+    },
+    {
+      "view_id": "M_03",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Bilet Holü Katı",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "PRZ 03 FFL BİLET HOLÜ KATI",
+      "title_position": "ICINDE",
+      "arch_block_count": 562,
+      "arch_path_count": 15951,
+      "elec_symbol_count": 131,
+      "elec_wire_count": 79,
+      "elec_wire_length_m": 548.26,
+      "uncertain_block_count": 0,
+      "minx_du": -72041.4,
+      "miny_du": -116400.48,
+      "symbols": [
+        {
+          "category": "PRİZ",
+          "block_name": "A$C508B77C6",
+          "description": "Pri̇z (PRT-EL-PRZ_N)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "PRT-EL-PRZ_N"
+          ],
+          "total_count": 40,
+          "sheet_breakdown": {
+            "M_03": 40
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838585-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 21,
+          "sheet_breakdown": {
+            "M_03": 21
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3422492-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 5,
+          "sheet_breakdown": {
+            "M_03": 5
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3422493-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 5,
+          "sheet_breakdown": {
+            "M_03": 5
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423769-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_03": 4
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3418507-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_03": 3
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3424031-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_03": 3
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3413090-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423384-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701954-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701966-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6030_10_Announce Control Cabinet - 47U _800x800mm_-3504488-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_03": 2
+          }
+        },
+        {
+          "category": "GEÇİŞ / BİLET SİSTEMİ",
+          "block_name": "E1010_70_Fare C_ Control Cabinet - 47U _800x800mm_-3635018-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Geçi̇ş / Bi̇let Si̇stemi̇ (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "KONTROL / SİNYAL",
+          "block_name": "D6010_10_RTU Cabinet - 47U _800x800mm_-3206506-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Kontrol / Si̇nyal (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "SINYAL",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x500x500 _UPS_-3198964-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3411591-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3404722-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3413098-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS__CDB-3400082-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3816132-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3426438-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3426439-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3880120-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423042-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423771-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701168-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701202-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701269-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701294-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701884-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701896-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3902133-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-V90-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838586-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838591-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838593-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838595-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838596-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838597-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838598-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838599-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V91-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet - 47U _800x800mm_-3504502-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_10_Radio Cabinet - 47U _800x800mm_-3206499-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6020_10_Telephone Exchange Cabinet - 47U _800x800mm_-3173818-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6060_10_Central Clock Cabinet - 47U _800x800mm_-3504509-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D7030_10_CCTV Control Cabinet - 47U _800x800mm_-2418332-PRZ 03 FFL BİLET HOLÜ KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_03": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 56,
+          "total_length_m": 353.36
+        },
+        {
+          "layer": "PRT-EL-RPP",
+          "description": "Elektrik Kablo / Tesisat Hattı (PRT-EL-RPP)",
+          "segment_count": 6,
+          "total_length_m": 97.6
+        },
+        {
+          "layer": "PRT-EL-PRZ_T",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_T)",
+          "segment_count": 14,
+          "total_length_m": 55.42
+        },
+        {
+          "layer": "PRT-EL-PRZ_E",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_E)",
+          "segment_count": 3,
+          "total_length_m": 41.89
+        }
+      ]
+    },
+    {
+      "view_id": "M_04",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -97276.95,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_05",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -89086.73,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_06",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SEMA_HESAP",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 18,
+      "elec_wire_length_m": 161.04,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -86697.92,
+      "symbols": [],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 18,
+          "total_length_m": 161.04
+        }
+      ]
+    },
+    {
+      "view_id": "M_07",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -92840.58,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_08",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -88062.95,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_09",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -91134.29,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_10",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -95570.66,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_11",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -89769.25,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_12",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -92840.58,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_13",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 15,
+      "elec_wire_length_m": 168.36,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -91475.55,
+      "symbols": [],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 15,
+          "total_length_m": 168.36
+        }
+      ]
+    },
+    {
+      "view_id": "M_14",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -94546.88,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_15",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -93181.84,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_16",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -97276.95,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_17",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Genel / Diğer",
+      "discipline": "SALT_MIMARI_ALTLIK",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -95911.92,
+      "symbols": [],
+      "wires_by_layer": []
+    },
+    {
+      "view_id": "M_18",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 13,
+      "elec_wire_length_m": 123.15,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -94888.14,
+      "symbols": [],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 13,
+          "total_length_m": 123.15
+        }
+      ]
+    },
+    {
+      "view_id": "M_19",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 2,
+      "elec_wire_length_m": 18.95,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -97276.95,
+      "symbols": [],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 2,
+          "total_length_m": 18.95
+        }
+      ]
+    },
+    {
+      "view_id": "M_20",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Detay",
+      "discipline": "LEJANT_DETAY",
+      "title": "",
+      "title_position": "YOK",
+      "arch_block_count": 0,
+      "arch_path_count": 0,
+      "elec_symbol_count": 0,
+      "elec_wire_count": 5,
+      "elec_wire_length_m": 47.37,
+      "uncertain_block_count": 0,
+      "minx_du": 138572.38,
+      "miny_du": -96594.43,
+      "symbols": [],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 5,
+          "total_length_m": 47.37
+        }
+      ]
+    },
+    {
+      "view_id": "M_21",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Ara Kat",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "PRZ 02 FFL ARA KAT",
+      "title_position": "ICINDE",
+      "arch_block_count": 98,
+      "arch_path_count": 4687,
+      "elec_symbol_count": 2,
+      "elec_wire_count": 2,
+      "elec_wire_length_m": 11.39,
+      "uncertain_block_count": 2,
+      "minx_du": -64020.87,
+      "miny_du": -166660.67,
+      "symbols": [
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 02 FFL ARA KAT",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_21": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3702108-PRZ 02 FFL ARA KAT",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_21": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-RPP",
+          "description": "Elektrik Kablo / Tesisat Hattı (PRT-EL-RPP)",
+          "segment_count": 1,
+          "total_length_m": 6.68
+        },
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 1,
+          "total_length_m": 4.71
+        }
+      ]
+    },
+    {
+      "view_id": "M_22",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Peron Katı",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "PRZ 01 FFL PERON KATI",
+      "title_position": "ICINDE",
+      "arch_block_count": 225,
+      "arch_path_count": 7378,
+      "elec_symbol_count": 85,
+      "elec_wire_count": 62,
+      "elec_wire_length_m": 1028.92,
+      "uncertain_block_count": 1,
+      "minx_du": -95347.84,
+      "miny_du": -248663.73,
+      "symbols": [
+        {
+          "category": "PRİZ",
+          "block_name": "A$C508B77C6",
+          "description": "Pri̇z (PRT-EL-PRZ_N)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "PRT-EL-PRZ_N"
+          ],
+          "total_count": 27,
+          "sheet_breakdown": {
+            "M_22": 27
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3417371-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 19,
+          "sheet_breakdown": {
+            "M_22": 19
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3419109-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 7,
+          "sheet_breakdown": {
+            "M_22": 7
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-3428076-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_22": 4
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3418507-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 4,
+          "sheet_breakdown": {
+            "M_22": 4
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 3,
+          "sheet_breakdown": {
+            "M_22": 3
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_22": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404293-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_22": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404296-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_22": 2
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3418382-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_22": 2
+          }
+        },
+        {
+          "category": "ZAYIF AKIM",
+          "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 01 FFL PERON KATI",
+          "description": "Zayif Akim (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "ZAYIF_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 2,
+          "sheet_breakdown": {
+            "M_22": 2
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3400085-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404298-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3400084-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404294-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404295-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404297-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PANO / TABLO",
+          "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3404722-PRZ 01 FFL PERON KATI",
+          "description": "Pano / Tablo (E-ELEC-EQPM)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-EQPM"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426580-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3570041-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3418383-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        },
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3516428-PRZ 01 FFL PERON KATI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_22": 1
+          }
+        }
+      ],
+      "wires_by_layer": [
+        {
+          "layer": "PRT-EL-PRZ_N",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_N)",
+          "segment_count": 35,
+          "total_length_m": 502.8
+        },
+        {
+          "layer": "PRT-EL-RPP",
+          "description": "Elektrik Kablo / Tesisat Hattı (PRT-EL-RPP)",
+          "segment_count": 6,
+          "total_length_m": 190.78
+        },
+        {
+          "layer": "PRT-EL-TPP",
+          "description": "Elektrik Kablo / Tesisat Hattı (PRT-EL-TPP)",
+          "segment_count": 5,
+          "total_length_m": 186.55
+        },
+        {
+          "layer": "PRT-EL-PRZ_T",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_T)",
+          "segment_count": 14,
+          "total_length_m": 127.12
+        },
+        {
+          "layer": "PRT-EL-PRZ_E",
+          "description": "Priz / Kuvvet Kablo Hattı (PRT-EL-PRZ_E)",
+          "segment_count": 2,
+          "total_length_m": 21.67
+        }
+      ]
+    },
+    {
+      "view_id": "M_23",
+      "source_kind": "PAFTA",
+      "floor_or_scope": "Peron Altı Katı",
+      "discipline": "KUVVETLI_AKIM",
+      "title": "PRZ 00 SSL PERON ALTI",
+      "title_position": "ICINDE",
+      "arch_block_count": 159,
+      "arch_path_count": 3748,
+      "elec_symbol_count": 1,
+      "elec_wire_count": 0,
+      "elec_wire_length_m": 0.0,
+      "uncertain_block_count": 0,
+      "minx_du": -17662.91,
+      "miny_du": -310955.37,
+      "symbols": [
+        {
+          "category": "PRİZ",
+          "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3419686-PRZ 00 SSL PERON ALTI",
+          "description": "Pri̇z (E-ELEC-FIXT)",
+          "description_source": "KATMAN_ADI",
+          "discipline": "KUVVETLI_AKIM",
+          "layer_names": [
+            "E-ELEC-FIXT"
+          ],
+          "total_count": 1,
+          "sheet_breakdown": {
+            "M_23": 1
+          }
+        }
+      ],
+      "wires_by_layer": []
+    }
+  ],
+  "architectural_summary": {
+    "mimari_blok": 1279,
+    "mimari_cizgi": 37624,
+    "elektrik_sembol": 314,
+    "elektrik_hat_cizgi": 239,
+    "belirsiz_anonim_blok": 3
+  },
+  "panels": [
+    {
+      "panel_name": "-",
+      "role": "BELIRSIZ",
+      "parent_panel": null,
+      "sheet_ids": [
+        "M_01",
+        "M_02",
+        "M_03",
+        "M_21",
+        "M_22",
+        "M_23"
+      ],
+      "breaker_rating": null,
+      "rcd_rating": null,
+      "feeder_cable": null,
+      "installed_power_w": null,
+      "demand_power_w": null,
+      "source_handles": [
+        "2371",
+        "239D",
+        "23C9",
+        "23F5",
+        "2421",
+        "244D",
+        "2479",
+        "24A5",
+        "24D1",
+        "26E9",
+        "27A2",
+        "2956",
+        "2982",
+        "2FD8",
+        "3004",
+        "3030",
+        "305C",
+        "40F8",
+        "4124",
+        "4150",
+        "417C",
+        "42A8",
+        "42D4",
+        "4300",
+        "432C",
+        "4358",
+        "4384",
+        "48BA",
+        "48E6",
+        "4912",
+        "4940",
+        "10F34",
+        "10F60",
+        "10F8C",
+        "10FB8",
+        "10FE4",
+        "11010",
+        "1103C",
+        "11068",
+        "11094",
+        "110C0",
+        "110EC",
+        "11118",
+        "11144",
+        "11170",
+        "1119C",
+        "111C8",
+        "111F4",
+        "11220",
+        "1124C",
+        "11278",
+        "112A4",
+        "112D0",
+        "112FC",
+        "11328",
+        "11354",
+        "11380",
+        "113AC",
+        "113D8",
+        "11404",
+        "11430",
+        "1145C",
+        "11488",
+        "114B4",
+        "114E0",
+        "1150C",
+        "11538",
+        "11564",
+        "11590",
+        "115BC",
+        "115E8",
+        "11614",
+        "11640",
+        "1166C",
+        "11698",
+        "116C4",
+        "116F0",
+        "1171C",
+        "11748",
+        "7C79B",
+        "7C7C7",
+        "82D58",
+        "82D87",
+        "82DF7",
+        "82E26",
+        "82E65",
+        "82E91",
+        "82EBD",
+        "82EE9",
+        "82F15",
+        "82F41",
+        "82F6D",
+        "82F99",
+        "82FC5",
+        "82FF1",
+        "8301D",
+        "83049",
+        "83075",
+        "830A3",
+        "830CF",
+        "830FB",
+        "83127",
+        "83153",
+        "83185",
+        "831B1",
+        "831DD",
+        "83209",
+        "83235",
+        "83261",
+        "8328D",
+        "832B9",
+        "832E5",
+        "83311",
+        "8333D",
+        "83369",
+        "83395",
+        "833C1",
+        "833ED",
+        "83419",
+        "83445",
+        "83471",
+        "DBED4"
+      ]
+    }
+  ],
+  "switchgear_bom": [],
+  "load_schedule_breakers": [],
+  "cable_bom": [
+    {
+      "spec": "3x2,5 N2XH",
+      "occurrences": 17,
+      "explicit_length_m": 120.0,
+      "sheet_breakdown": {
+        "M_06": 5,
+        "M_13": 8,
+        "M_18": 4
+      },
+      "source_handles": [
+        "DE36C",
+        "DE36D",
+        "DE36E",
+        "DE39D",
+        "DE3A3",
+        "DE3A6",
+        "DE3A9",
+        "DE3AC",
+        "DE3B2",
+        "DE3BB",
+        "DE3BE",
+        "DE3C1",
+        "DE3C4",
+        "DE3C7",
+        "DE3CD"
+      ]
+    },
+    {
+      "spec": "4x10 N2XH",
+      "occurrences": 6,
+      "explicit_length_m": 110.0,
+      "sheet_breakdown": {
+        "M_06": 2,
+        "M_18": 2,
+        "M_20": 2
+      },
+      "source_handles": [
+        "DE36C",
+        "DE36D",
+        "DE36E",
+        "DE3DC",
+        "DE3DF",
+        "DE3E5",
+        "DE3EB"
+      ]
+    },
+    {
+      "spec": "3x4 N2XH",
+      "occurrences": 6,
+      "explicit_length_m": 100.0,
+      "sheet_breakdown": {
+        "M_06": 2,
+        "M_13": 2,
+        "M_18": 2
+      },
+      "source_handles": [
+        "DE36C",
+        "DE36D",
+        "DE36E",
+        "DE3AF",
+        "DE3B8",
+        "DE3D9",
+        "DE3E2"
+      ]
+    },
+    {
+      "spec": "5x6 N2XH",
+      "occurrences": 6,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_13": 1,
+        "M_18": 3,
+        "M_20": 2
+      },
+      "source_handles": [
+        "DE3A0",
+        "DE3D0",
+        "DE3D3",
+        "DE3D6",
+        "DE3E8",
+        "DE3EE"
+      ]
+    },
+    {
+      "spec": "3x6 N2XH",
+      "occurrences": 5,
+      "explicit_length_m": 460.0,
+      "sheet_breakdown": {
+        "M_06": 5
+      },
+      "source_handles": [
+        "DE36C",
+        "DE36D",
+        "DE36E"
+      ]
+    },
+    {
+      "spec": "3x2,5 N2XH FE180",
+      "occurrences": 5,
+      "explicit_length_m": null,
+      "sheet_breakdown": {
+        "M_13": 1,
+        "M_18": 1,
+        "M_19": 2,
+        "M_20": 1
+      },
+      "source_handles": [
+        "DE3B5",
+        "DE3CA",
+        "DE3F4",
+        "DE3F7",
+        "DE3F1"
+      ]
+    },
+    {
+      "spec": "3x6 N2XH FE180",
+      "occurrences": 1,
+      "explicit_length_m": 85.0,
+      "sheet_breakdown": {
+        "M_06": 1
+      },
+      "source_handles": [
+        "DE36C",
+        "DE36D",
+        "DE36E"
+      ]
+    }
+  ],
+  "grounding_loops": [],
+  "symbol_bom": [
+    {
+      "category": "PRİZ",
+      "block_name": "A$C508B77C6",
+      "description": "Pri̇z (PRT-EL-PRZ_N)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "PRT-EL-PRZ_N"
+      ],
+      "total_count": 87,
+      "sheet_breakdown": {
+        "M_01": 12,
+        "M_02": 8,
+        "M_03": 40,
+        "M_22": 27
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838585-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 21,
+      "sheet_breakdown": {
+        "M_03": 21
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3417371-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 19,
+      "sheet_breakdown": {
+        "M_22": 19
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3419686-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 13,
+      "sheet_breakdown": {
+        "M_01": 13
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 800x510x2231 _GRID_-3686129-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 7,
+      "sheet_breakdown": {
+        "M_01": 7
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3419109-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 7,
+      "sheet_breakdown": {
+        "M_22": 7
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3422492-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 5,
+      "sheet_breakdown": {
+        "M_03": 5
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3422493-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 5,
+      "sheet_breakdown": {
+        "M_03": 5
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5010_20_Battery Unit1 - Battery Rack Group 1-3414013-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_01": 4
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-3428076-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_22": 4
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3418507-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_22": 4
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423769-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 4,
+      "sheet_breakdown": {
+        "M_03": 4
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_22": 3
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426580-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_01": 3
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3418507-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_03": 3
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3424031-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_03": 3
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3572544-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 3,
+      "sheet_breakdown": {
+        "M_01": 3
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_22": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5010_20_Battery Unit1 - Battery Cabinet Group-3404718-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_10_Dry Type Transformers - ATR 2000 kVA-2411272-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_01": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404293-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_22": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404296-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_22": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3413090-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB1 - 800x510x2231 _GRID_-3686128-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_01": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB1 - 800x920x2231 _GRID_-3686131-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_01": 2
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 800x920x2231 _GRID_-3686130-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_01": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426715-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_01": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423384-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423384-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701954-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701954-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701966-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701966-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3418382-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_22": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 01 FFL PERON KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_22": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Announce Control Cabinet - 47U _800x800mm_-3504488-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_03": 2
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6030_10_Announce Control Cabinet - 47U _800x800mm_-3504488-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 2,
+      "sheet_breakdown": {
+        "M_02": 2
+      }
+    },
+    {
+      "category": "GEÇİŞ / BİLET SİSTEMİ",
+      "block_name": "E1010_70_Fare C_ Control Cabinet - 47U _800x800mm_-3635018-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Geçi̇ş / Bi̇let Si̇stemi̇ (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "GEÇİŞ / BİLET SİSTEMİ",
+      "block_name": "E1010_70_Fare C_ Control Cabinet - 47U _800x800mm_-3635018-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Geçi̇ş / Bi̇let Si̇stemi̇ (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "KONTROL / SİNYAL",
+      "block_name": "D6010_10_RTU Cabinet - 47U _800x800mm_-3206506-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Kontrol / Si̇nyal (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "SINYAL",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "KONTROL / SİNYAL",
+      "block_name": "D6010_10_RTU Cabinet - 47U _800x800mm_-3206506-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Kontrol / Si̇nyal (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "SINYAL",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5010_20_Battery Unit1 - Ni-Cd Battery Rack Group-3414009-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x400x200 _GRID_-491940-PRZ 02 FFL ARA KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_21": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x500x500 _UPS_-3198964-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard - 200x500x500 _UPS_-3198964-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3400085-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_ 2-3404298-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3411591-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _GRID_-3413090-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3400084-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404294-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404295-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_ 2-3404297-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3404722-PRZ 01 FFL PERON KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3404722-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3413098-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS_-3413098-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS__CDB-3400082-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard1 - 400x800x2200 _UPS__CDB-3400082-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB1 - 600x510x2231 _UPS_-3686477-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PANO / TABLO",
+      "block_name": "D5020_30_Panelboard_LVS_EDB_Secondary - 600x510x2231 _UPS_-3686475-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pano / Tablo (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3426580-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3427344-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3570041-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3816132-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Combined Socket Outlet - Combined Socket Outlet-3899290-PRZ 04 FFL TEKNİK KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3426438-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3426439-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3702108-PRZ 02 FFL ARA KAT",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_21": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Covered Socket Outlet - Covered Socket Outlet-3880120-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423042-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423042-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3423771-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701168-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701202-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701269-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701294-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701884-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701884-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701896-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3701896-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-3902133-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Socket Outlet - Multiply Socket Outlet-V90-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3417371-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3418383-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3419686-PRZ 00 SSL PERON ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_23": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3422862-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3516428-PRZ 01 FFL PERON KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_22": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3541490-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3541521-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3568561-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838586-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838591-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838593-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838595-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838596-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838597-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838598-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-3838599-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "PRİZ",
+      "block_name": "D5030_50_Waterproof Socket Outlet - Waterproof Socket Outlet-V91-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Pri̇z (E-ELEC-FIXT)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "KUVVETLI_AKIM",
+      "layer_names": [
+        "E-ELEC-FIXT"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet - 47U _800x800mm_-3504502-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet - 47U _800x800mm_-3504502-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6010_10_Data Cabinet1 - 16U _600x600mm_ 2-3524131-PRZ 04 FFL TEKNİK KAT",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_01": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_10_Radio Cabinet - 47U _800x800mm_-3206499-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_10_Radio Cabinet - 47U _800x800mm_-3206499-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_10_Telephone Exchange Cabinet - 47U _800x800mm_-3173818-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6020_10_Telephone Exchange Cabinet - 47U _800x800mm_-3173818-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6060_10_Central Clock Cabinet - 47U _800x800mm_-3504509-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D6060_10_Central Clock Cabinet - 47U _800x800mm_-3504509-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D7030_10_CCTV Control Cabinet - 47U _800x800mm_-2418332-PRZ 03 FFL BİLET HOLÜ KATI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_03": 1
+      }
+    },
+    {
+      "category": "ZAYIF AKIM",
+      "block_name": "D7030_10_CCTV Control Cabinet - 47U _800x800mm_-2418332-PRZ 03 FFL BİLET HOLÜ KATI DÖŞEME ALTI",
+      "description": "Zayif Akim (E-ELEC-EQPM)",
+      "description_source": "KATMAN_ADI",
+      "discipline": "ZAYIF_AKIM",
+      "layer_names": [
+        "E-ELEC-EQPM"
+      ],
+      "total_count": 1,
+      "sheet_breakdown": {
+        "M_02": 1
+      }
+    }
+  ],
+  "schematic_symbol_bom": [],
+  "outside_clusters": [],
+  "ole_decoded_tables": [],
+  "non_electrical_block_count": 1279,
+  "uncertain_block_count": 3,
+  "outside_text_count": 105,
+  "outside_electrical_insert_count": 0,
+  "alerts_summary": [
+    "11 adet çerçeveli/çerçevesiz kopya yalnızca mimari altlık (elektrik sembolü yok) olarak ayrıldı.",
+    "3 adet anonim/tanımsız blok (A$C... veya kanıtsız katman) elektrik sayımına dahil edilmedi."
+  ]
+}

@@ -84,15 +84,21 @@ class UnitScaleResolver:
         except Exception:
             insunits = 0
 
-        if insunits in INSUNITS_TO_MM:
+        # AutoCAD'de varsayılan şablon (acadiso.dwt) $INSUNITS=4 (mm), ezdxf şablonu ise $INSUNITS=6 (m)
+        # olarak açılır; ancak çizimler çoğunlukla fiili birim olan cm/mm ölçeğinde çizilebilir.
+        # Bu nedenle $INSUNITS in (1, 2, 5) doğrudan güvenilir; $INSUNITS in (0, 4, 6) durumunda ise
+        # çizim içindeki referans nesneler (yazı yüksekliği, kapı yayları, elektrik sembol yarıçapları)
+        # kontrol edilerek fiziksel çelişki varsa gerçek çizim birimi kalibre edilir.
+        if insunits in (1, 2, 5):
             unit_mm = INSUNITS_TO_MM[insunits]
-            unit_label = {1: "INCH", 2: "FEET", 4: "MM", 5: "CM", 6: "M"}.get(insunits, "KNOWN")
+            unit_label = {1: "INCH", 2: "FEET", 5: "CM"}.get(insunits, "KNOWN")
             return unit_mm, f"INSUNITS_{unit_label}"
 
-        # $INSUNITS == 0 (Unitless) veya tanımsız ise yazı yüksekliği medyanı VE çizim yayılımı (extents) ile çapraz doğrula
         heights: List[float] = []
         xs: List[float] = []
         ys: List[float] = []
+        door_arc_radii: List[float] = []
+        elec_circle_radii: List[float] = []
 
         if scene is not None and getattr(scene, "texts", None):
             for t in scene.texts:
@@ -116,12 +122,12 @@ class UnitScaleResolver:
             except Exception:
                 pass
 
-            if not heights or len(xs) < 2:
-                try:
-                    sampled = 0
-                    for ent in doc.modelspace():
-                        dtype = ent.dxftype()
-                        if dtype in ("TEXT", "MTEXT"):
+            try:
+                sampled_geom = 0
+                for ent in doc.modelspace():
+                    dtype = ent.dxftype()
+                    if dtype in ("TEXT", "MTEXT"):
+                        if not scene or len(heights) < 200:
                             h = float(getattr(ent.dxf, "height", getattr(ent.dxf, "char_height", 0.0)) or 0.0)
                             if h > 0:
                                 heights.append(h)
@@ -129,24 +135,69 @@ class UnitScaleResolver:
                             if ins is not None:
                                 xs.append(float(ins.x))
                                 ys.append(float(ins.y))
-                        elif dtype == "LINE":
-                            s_pt = getattr(ent.dxf, "start", None)
-                            e_pt = getattr(ent.dxf, "end", None)
-                            if s_pt is not None and e_pt is not None:
-                                xs.extend([float(s_pt.x), float(e_pt.x)])
-                                ys.extend([float(s_pt.y), float(e_pt.y)])
-                        elif dtype == "INSERT":
-                            ins = getattr(ent.dxf, "insert", None)
-                            if ins is not None:
-                                xs.append(float(ins.x))
-                                ys.append(float(ins.y))
-                        sampled += 1
-                        if sampled >= 400:
-                            break
-                except Exception:
-                    pass
+                    elif dtype == "ARC":
+                        r = float(getattr(ent.dxf, "radius", 0.0) or 0.0)
+                        sa = float(getattr(ent.dxf, "start_angle", 0.0) or 0.0)
+                        ea = float(getattr(ent.dxf, "end_angle", 0.0) or 0.0)
+                        sweep = (ea - sa) % 360.0
+                        if 75.0 <= sweep <= 105.0 and r > 0:
+                            door_arc_radii.append(r)
+                    elif dtype == "CIRCLE":
+                        r = float(getattr(ent.dxf, "radius", 0.0) or 0.0)
+                        lay = (getattr(ent.dxf, "layer", "") or "").upper()
+                        if r > 0 and any(k in lay for k in ("AYD", "PRZ", "ELK", "SYM", "SORT", "TEL", "TV", "TOPRAK", "E-")):
+                            elec_circle_radii.append(r)
+                    elif dtype == "LINE" and len(xs) < 40:
+                        s_pt = getattr(ent.dxf, "start", None)
+                        e_pt = getattr(ent.dxf, "end", None)
+                        if s_pt is not None and e_pt is not None:
+                            xs.extend([float(s_pt.x), float(e_pt.x)])
+                            ys.extend([float(s_pt.y), float(e_pt.y)])
+                    elif dtype == "INSERT" and len(xs) < 40:
+                        ins = getattr(ent.dxf, "insert", None)
+                        if ins is not None:
+                            xs.append(float(ins.x))
+                            ys.append(float(ins.y))
+                    sampled_geom += 1
+                    if sampled_geom >= 5000 and len(heights) >= 50:
+                        break
+            except Exception:
+                pass
 
         span = max(max(xs) - min(xs), max(ys) - min(ys)) if len(xs) >= 2 else 0.0
+        m_doors = sum(1 for r in door_arc_radii if 0.65 <= r <= 1.10)
+        cm_doors = sum(1 for r in door_arc_radii if 65.0 <= r <= 110.0)
+        mm_doors = sum(1 for r in door_arc_radii if 650.0 <= r <= 1100.0)
+        med_elec_r = statistics.median(elec_circle_radii) if elec_circle_radii else 0.0
+
+        # Eğer $INSUNITS == 4 (mm) ise fakat çizim içi referans nesneler (yazı yüksekliği, kapı yayları,
+        # elektrik sembol yarıçapları) açıkça cm veya m ölçeğini kanıtlıyorsa kalibre et:
+        if insunits == 4:
+            if heights:
+                med_h = statistics.median(heights)
+                if med_h <= 0.45 and (span < 600.0 or m_doors >= 2):
+                    return 1000.0, f"HEURISTIC_METER_REF_CALIBRATED(median_text_h={med_h:.4f},m_doors={m_doors})"
+                if 5.0 <= med_h < 45.0 and (cm_doors >= mm_doors or 5.0 <= med_elec_r <= 35.0 or med_h <= 30.0):
+                    return (
+                        10.0,
+                        f"HEURISTIC_CM_REF_CALIBRATED(median_text_h={med_h:.2f},sym_r={med_elec_r:.1f},cm_doors={cm_doors})",
+                    )
+            elif cm_doors >= 3 and cm_doors > mm_doors:
+                return 10.0, f"HEURISTIC_CM_REF_CALIBRATED(cm_doors={cm_doors})"
+            elif m_doors >= 3 and m_doors > cm_doors and span < 600.0:
+                return 1000.0, f"HEURISTIC_METER_REF_CALIBRATED(m_doors={m_doors})"
+            return 1.0, "INSUNITS_MM"
+
+        elif insunits == 6:
+            med_h = statistics.median(heights) if heights else 0.0
+            if not (
+                med_h >= 3.5
+                or cm_doors >= 2
+                or mm_doors >= 2
+                or med_elec_r >= 2.0
+                or (span >= 1500.0 and (not heights or med_h >= 2.0))
+            ):
+                return 1000.0, "INSUNITS_M"
 
         if heights:
             med_h = statistics.median(heights)
@@ -155,15 +206,12 @@ class UnitScaleResolver:
             if span > 1.0:
                 if span < 400.0 and med_h < 1.0:
                     return 1000.0, f"HEURISTIC_METER(median_text_h={med_h:.4f},span={span:.1f})"
-                if 400.0 <= span < 18000.0 and med_h < 50.0:
+                if 400.0 <= span < 18000.0 and med_h < 45.0:
                     return 10.0, f"HEURISTIC_CM(median_text_h={med_h:.3f},span={span:.1f})"
-                if span >= 18000.0 and med_h >= 20.0:
+                if span >= 18000.0 and med_h >= 45.0:
                     return 1.0, f"HEURISTIC_MM(median_text_h={med_h:.2f},span={span:.1f})"
 
-            # Span tekil veya dar ise yalnızca gerçekçi mühendislik yazı yüksekliği bantlarını kullan:
-            # - Metre çizimde 1/50..1/100 ölçekli veya kağıt ölçekli yazı: <= 0.45 m
-            # - Santimetre çizimde (1/50..1/100 ölçekte 10..30 cm; 1:1 ölçekte 0.25..5 cm): 0.45 < med_h < 45.0
-            # - Milimetre çizimde (1/50..1/100 ölçekte 75..300 mm): med_h >= 45.0 (veya 1:1 şemada 1.8..4.5 mm)
+            # Çoklu pafta yan yana dizildiğinde span >= 18000 olabilir; referans nesne boyutlarına bak:
             if med_h <= 0.45:
                 return 1000.0, f"HEURISTIC_METER(median_text_h={med_h:.4f})"
             if 5.0 <= med_h < 45.0:

@@ -13,12 +13,23 @@ grounding_architecture:
   running_rails: "Negatif Dönüş Hattı (Topraktan yalıtılmış raylar)"
   stray_current_mitigation:
     en_50122_2_compliant: true
+    floating_return_required: true            # Raylar bina/istasyon toprağına DOĞRUDAN bağlanamaz!
     rail_to_earth_resistance_min_ohm_km: 0.5  # Kaçak akımları önlemek için ray-toprak arası min 0.5 Ohm.km direnç
+    test_box_max_spacing_m: 200.0             # Tünel boyu kaçak akım test kutuları max 200m aralıklı
+    max_touch_voltage_dc_v: 120.0             # Normal işletme ray-toprak potansiyeli U_TE <= 120 V DC
+    max_fault_touch_voltage_dc_v: 300.0       # Kısa süreli arıza (t <= 300 ms) azami 300 V DC
 
 station_earthing:
+  system_type: "TN-S"                         # Nötr ve PE trafo çıkışından itibaren kesinlikle ayrık
   max_ground_resistance_ohm: 1.0              # Metro istasyonlarında cer + işletme birleşik topraklama <= 1.0 Ohm
-  ring_conductor: "95 mm² Çıplak Bakır İletken veya 30x3.5 mm Paslanmaz Çelik Şerit"
+  preferred_ground_resistance_ohm: 0.5
+  ring_conductor: "95-120 mm² Çıplak Bakır İletken veya 30x3.5 mm Paslanmaz Çelik Şerit"
+  meb_min_count: 2                            # İstasyon her iki başında en az 2 adet Ana Eşpotansiyel Bara (MEB)
+  meb_interconnect_min_mm2: 120.0             # MEB arası çift hat 120 mm² çıplak bakır
   deep_driven_rods:
     diameter_mm: 20.0
-    length_m: 6.0                             # Şaft ve istasyon tabanında derin kazıklar (min 6m)
-  voltage_limiting_device_vld: true           # Ray ile istasyon toprağı arasında Aşırı Gerilim Sınırlayıcı (VLD-F)
+    length_m: 3.5                             # Bakır kaplı çelik çubuk (min 20mm çap, >= 3.5m; şaftta 6m)
+  voltage_limiting_device_vld: true           # Ray ile istasyon toprağı arasında Aşırı Gerilim Sınırlayıcı (VLD-F/O)
+  lps_level: "I"                              # TS EN 62305 Seviye I (5m x 5m Faraday ağı, 10m iniş)
+  lps_mesh_max_m: 5.0
+  lps_down_conductor_spacing_m: 10.0

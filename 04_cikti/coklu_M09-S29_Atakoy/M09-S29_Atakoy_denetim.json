@@ -1,0 +1,4252 @@
+{
+  "project_root": "_arsiv\\incelenecek_projeler\\işsonları_duzenlenmis\\M09-S29_Atakoy",
+  "rule_pack": "ibb_metro",
+  "files_scanned": 99,
+  "files_skipped_duplicates": [
+    "AG-ELM-M09-S29-000-00-TL-09-A-T-2I-004.dwg",
+    "AG-ELM-M09-S29-CT0-01-TL-09-A-T-2I-001.dwg",
+    "AG-ELM-M09-S29-CT0-02-TL-09-A-T-2I-003.dwg",
+    "AG-ELM-M09-S29-CT0-03-TL-09-A-T-2I-002.dwg"
+  ],
+  "detected_station_names": {
+    "ATAKÖY İSTASYONU": 69
+  },
+  "sheet_metadata": [
+    {
+      "filename": "AG-PRT-M09-S29-000-10-GN-07-A-T-7E-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-000-10-GN-07-A-T-7E-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "ATAKÖY İSTASYON VE MAKAS BÖLGESİ ELEKTRİK HATLARI MONTAJ PLANI",
+      "scale": "1:1000",
+      "revision": "0",
+      "symbol_count": 305,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-000-10-GN-07-A-T-7E-002-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-000-10-GN-07-A-T-7E-002-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "ATAKÖY İSTASYON VE MAKAS BÖLGESİ ELEKTRİK HATLARI DEMONTAJ PLANI",
+      "scale": "1:1000",
+      "revision": "0",
+      "symbol_count": 305,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TAVA ASBUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 35,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-GN-14-A-T-2I-001-A.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-GN-14-A-T-2I-001-A.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON ALTI KATI -7.48 KOTU KABLO BORU AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-PS-08-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-PS-08-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "KABLOLARI GÜZERGAH AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 203,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-PS-08-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-PS-08-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "KUMANDA-KONTROL KABLO GÜZERGAH AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 199,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-PS-11-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-PS-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "GÜÇ DAĞITIM SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-PS-16-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-00-PS-16-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "AYDINLATMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 137,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TAVA AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 376,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-01-PS-11-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-01-PS-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "GÜÇ DAĞITIM SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 22,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-01-PS-16-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-01-PS-16-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "AYDINLATMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 314,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-01-PS-16-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-01-PS-16-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "PRİZ SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 61,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TAVA AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 612,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-08-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-PS-08-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "KABLOLARI GÜZERGAH AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 98,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-08-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-PS-08-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "KUMANDA-KONTROL KABLO GÜZERGAH AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 57,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-11-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-PS-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "GÜÇ DAĞITIM SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 105,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-16-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-PS-16-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "AYDINLATMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 574,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-16-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-02-PS-16-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "PRİZ SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 78,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TAVA AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 550,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-GN-14-A-T-2I-001-A.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-03-GN-14-A-T-2I-001-A.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI -0.84 KOTU KABLO BORU AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-PS-11-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-03-PS-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "GÜÇ DAĞITIM SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 27,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-PS-16-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-03-PS-16-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "AYDINLATMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 812,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-PS-16-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-03-PS-16-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "PRİZ SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 184,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TAVA AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 176,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-GN-14-A-T-2I-001-A.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-06-GN-14-A-T-2I-001-A.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +11.55 KOTU KABLO BORU AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-PS-11-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-06-PS-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "+11.55 KOTU GÜÇ DAĞITIM SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 12,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-PS-16-A-T-2I-001-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-06-PS-16-A-T-2I-001-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "+11.55 KOTU AYDINLATMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 211,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-PS-16-A-T-2I-051-0.dwg",
+      "relative_path": "01_Kuvvetli_Akim\\AG-PRT-M09-S29-CT0-06-PS-16-A-T-2I-051-0.dwg",
+      "discipline_folder": "01_Kuvvetli_Akim",
+      "classified_discipline": "KUVVETLI_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "+11.55 KOTU PRİZ SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 14,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S-29-000-99-PS-17-A-T-2I-001-A.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S-29-000-99-PS-17-A-T-2I-001-A.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "m",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "TOPRAKLAMA AĞI AS-BUİLT PLANI",
+      "scale": "1/100",
+      "revision": "A",
+      "symbol_count": 0,
+      "grounding_loop_count": 2,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-002_007-A.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-000-99-PS-17-A-T-2I-002_007-A.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "TEMEL TOPRAKLAMA AS-BUİLT PLANI",
+      "scale": "1/100",
+      "revision": "A",
+      "symbol_count": 64,
+      "grounding_loop_count": 2,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "cm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "BİNA İÇİ TOPRAKLAMA SİSTEMİ KOLON ŞEMASI AS-BUİLT PROJESİ",
+      "scale": "-",
+      "revision": "0",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 2127,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-00-PS-17-A-T-2I-001-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-CT0-00-PS-17-A-T-2I-001-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TOPRAKLAMA SİSTEMİ ASBUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-01-PS-17-A-T-2I-001-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-CT0-01-PS-17-A-T-2I-001-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TOPRAKLAMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 19,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-02-PS-17-A-T-2I-001-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-CT0-02-PS-17-A-T-2I-001-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TOPRAKLAMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 104,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-PS-17-A-T-2I-001-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-CT0-03-PS-17-A-T-2I-001-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "TOPRAKLAMA SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 53,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-06-PS-17-A-T-2I-001-0.dwg",
+      "relative_path": "02_Topraklama\\AG-PRT-M09-S29-CT0-06-PS-17-A-T-2I-001-0.dwg",
+      "discipline_folder": "02_Topraklama",
+      "classified_discipline": "TOPRAKLAMA",
+      "unit_name": "mm",
+      "station_or_project_name": "",
+      "sheet_title": "+11.55 KOTU BİNA İÇİ TOPR. SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 12,
+      "grounding_loop_count": 1,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S-29-000-00-TL-09-A-T-2I-004.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S-29-000-00-TL-09-A-T-2I-004.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - KOLON ŞEMASI VE KABLO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1490,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 2367,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S-29-CT0-01-TL-09-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S-29-CT0-01-TL-09-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "PCS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1492,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S-29-CT0-02-TL-09-A-T-2I-003.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S-29-CT0-02-TL-09-A-T-2I-003.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "PCS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1492,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S-29-CT0-03-TL-09-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S-29-CT0-03-TL-09-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "PCS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1492,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-000-00-TL-09-A-T-2I-015.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-000-00-TL-09-A-T-2I-015.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - KOLON ŞEMASI VE KABLO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1514,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 2505,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-000-01-TL-09-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-000-01-TL-09-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "PCS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1490,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 2367,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-000-01-TL-09-A-T-2I-011.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-000-01-TL-09-A-T-2I-011.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ECS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1514,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 2505,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-CT0-01-TL-09-A-T-2I-011.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-CT0-01-TL-09-A-T-2I-011.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ECS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1518,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-CT0-02-TL-09-A-T-2I-013.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-CT0-02-TL-09-A-T-2I-013.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ECS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1518,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-CT0-03-TL-09-A-T-2I-012.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-CT0-03-TL-09-A-T-2I-012.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ECS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1518,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-ELM-M09-S29-CT0-06-TL-09-A-T-2I-014.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-ELM-M09-S29-CT0-06-TL-09-A-T-2I-014.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "SINYAL",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ECS SCADA AS - BUİLT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1518,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-000-99-TL-11-A-T-2I-001-0.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-PRT-M09-S29-000-99-TL-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "(ÜCRET TOPLAMA) SİSTEMİ KOLON ŞEMASI AS-BUİLT PROJESİ",
+      "scale": "-",
+      "revision": "0",
+      "symbol_count": 106,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 79,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-PRT-M09-S29-CT0-03-TL-11-A-T-2I-001-0.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-PRT-M09-S29-CT0-03-TL-11-A-T-2I-001-0.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "YOLCU GEÇİŞ KONTROL (ÜCRET TOPLAMA) SİSTEMİ AS-BUİLT PROJESİ",
+      "scale": "-",
+      "revision": "0",
+      "symbol_count": 106,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "cm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - YANGIN İHBAR VE KONTROL SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-AX-02-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-AX-02-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - İLETİM SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 19,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-02-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-02-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU İLETİM SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-03-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-03-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TELEFON SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 104,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-03-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-03-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU TELEFON SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-04-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-04-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TELSİZ SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 64,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-04-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-04-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU TELSİZ SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-05-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-05-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - ANONS SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 211,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-05-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-05-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU ANONS SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-06-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-06-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "cm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - KDT SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-06-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-06-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU KDT SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-07-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-07-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "m",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MERKEZİ SAAT SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 12,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 25,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-07-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-07-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "m",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MERKEZİ SAAT SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-08-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-08-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - ERİŞİM KONTROL SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 88,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-08-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-08-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU ERİŞİM KONTROL SİSTEMİ AS BUILT PROJESİ EKİPMAN LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-10-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-10-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "m",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MERKEZİ YOLCU BİLGİLENDİRME SİSTEMİ KOLON ŞEMASI AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 11,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 27,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-000-99-TL-10-A-T-2I-002.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-000-99-TL-10-A-T-2I-002.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "m",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MERKEZİ YOLCU BİLGİLENDİRME SİSTEMİ UYGULAMA PROJESİ AS BUILT LİSTESİ/FROM TO LİSTESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 0,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-00-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-00-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERONALTI -1.10 (-18.30) KOTU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 278,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 447,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU İLETİM SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 345,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-03-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-03-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU TELEFON SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 372,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-04-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-04-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU TELSİZ SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 340,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-05-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-05-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU ANONS SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 425,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-06-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-06-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU KDT SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 376,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-07-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-07-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU MERKEZİ SAAT SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 12,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-08-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-08-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU ERİŞİM KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 374,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-01-TL-10-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-01-TL-10-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - PERON KATI +1.10 (-16.10) KOTU YOLCU BİLGİLENDİRME SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 344,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 707,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-TL-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-TL-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU İLETİM SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 11,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-TL-03-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-TL-03-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU TELEFON SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 586,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-TL-04-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-TL-04-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU TELSİZ SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 571,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-TL-05-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-TL-05-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU ANONS SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 586,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-02-TL-08-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-02-TL-08-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - TEKNİK KAT +12.32 (-4.88) KOTU ERİŞİM KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 595,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1497,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU İLETİM SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 677,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-03-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-03-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU TELEFON SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1387,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-04-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-04-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU TELSİZ SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 687,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-05-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-05-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU ANONS SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1408,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-06-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-06-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU KDT SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 714,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-07-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-07-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU MERKEZİ SAAT SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 15,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-08-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-08-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU ERİŞİM KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 1405,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-03-TL-10-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-03-TL-10-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - BİLET HOLÜ KATI +7.22 (-9.98) KOTU YOLCU BİLGİLENDİRME SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 649,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-AX-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-AX-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU YANGIN İHBAR VE KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 249,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-02-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-02-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU İLETİM SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 234,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-03-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-03-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU TELEFON SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 244,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-04-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-04-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU TELSİZ SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 230,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-05-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-05-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU ANONS SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 242,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-06-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-06-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU KDT SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 252,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    },
+    {
+      "filename": "AG-USK-M09-S29-CT0-06-TL-08-A-T-2I-001.dwg",
+      "relative_path": "03_Zayif_Akim\\AG-USK-M09-S29-CT0-06-TL-08-A-T-2I-001.dwg",
+      "discipline_folder": "03_Zayif_Akim",
+      "classified_discipline": "ZAYIF_AKIM",
+      "unit_name": "mm",
+      "station_or_project_name": "ATAKÖY İSTASYONU",
+      "sheet_title": "ATAKÖY İSTASYONU - MARMARAY BİLET HOLÜ KATI +17.93 (+0.73) KOTU ERİŞİM KONTROL SİSTEMİ AS BUILT PROJESİ",
+      "scale": "",
+      "revision": "",
+      "symbol_count": 238,
+      "grounding_loop_count": 0,
+      "enclosure_count": 0,
+      "schematic_node_count": 0,
+      "arch_output_dxf": "",
+      "elec_output_dxf": "",
+      "elec_output_dwg": ""
+    }
+  ],
+  "aggregated_symbols": {
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Horizontal Tee - Cable Tray ": 8683,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Horizontal Bend - Cable Tray": 6435,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Reducer - Cable Tray Reducer": 4917,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Vertical Outside Bend - Cabl": 3742,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Vertical Inside Bend - Cable": 3482,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Kablo Tava / Taşiyici (E-CABL-TRAY)": 1907,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Horizontal Cross - Cable Tra": 929,
+    "[KUVVETLI_AKIM] AYDINLATMA: Aydinlatma (0)": 851,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_LVS_EDB_Secondary -": 439,
+    "[KUVVETLI_AKIM] PRİZ: Pri̇z (EE-PRİZ YAZI1)": 439,
+    "[KUVVETLI_AKIM] KUVVET / TESİSAT: Blok 'D3050_50_Air Damper - Motorized Control": 418,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_DC Switchboard Module - 1400x8": 336,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD02FFLBİLETHOLÜKATI_dwg_B-V": 285,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 400x800x2200 _UPS": 276,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 400x800x2200 _GRI": 237,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_ESC_LFP - 450x900x2": 227,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: HOPARLÖR SPK": 191,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC_W_Cont_Feed - 4": 186,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: BAĞLANTI NOKTASI JBX": 180,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-Bolt-on Straight - A": 155,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (ATAKOY-HHAZIR$0$g21b03a4a$": 140,
+    "[KUVVETLI_AKIM] PRİZ: Pri̇z (0)": 138,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC_By_Others_W_Con": 135,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Waterproof Socket Outlet - Wat": 125,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD04FFLMARMARAYBİLETHOLÜ_dwg": 112,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg_B-36390": 103,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (ATAKOY-HHAZIR$0$g21b03a4b$": 100,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: MANYETİK KONTAK MDC": 97,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_20_Battery Unit - Battery Rack Gr": 93,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg_B-V125-": 88,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_ESC_LFP - 275x335x2": 87,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC_By_Others - 200": 85,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_20_Battery Unit - Battery Cabinet": 84,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_LVS_EDB - 800x1000x": 80,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 200x400x200 _GRID": 79,
+    "[KUVVETLI_AKIM] AYDINLATMA: Aydinlatma (ATAKOY-HHAZIR$0$SEMBOL_DAYDINLATM": 74,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'OPTİK DUMAN DEDEKTÖRÜ'": 73,
+    "[KUVVETLI_AKIM] ANAHTAR: YÖNETİLEBİLİR SWITCH MSW": 69,
+    "[KUVVETLI_AKIM] PANO / TABLO: FİBER OPTİK BAĞLANTI PANELİ FPP": 67,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (ATAKOY-HHAZIR$0$g21b03a4d$": 64,
+    "[ZAYIF_AKIM] ZAYIF AKIM: SERVİS TELEFON PRİZİ SPH": 64,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6020_10_Telephone Distribution Frame -": 63,
+    "[ZAYIF_AKIM] ZAYIF AKIM: ANALOG TELEFONU (SERVİS) APH": 62,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (ATAKOY-HHAZIR$0$g21b02b3b$": 60,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-Upwards Elbow - AL 2": 60,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_DC Switchboard Module - 1000x8": 56,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Waterproof Lighting Switch - W": 56,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: KONTROL MODÜLÜ CTM": 56,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD02FFLBİLETHOLÜKATI_dwg__U1": 53,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Yangin Algilama (Hcs Yerleşim, Yangın algıma ": 53,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Covered Socket Outlet - Covere": 51,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ02FFLBİLETHOLÜKATI_dwg_A$C": 51,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_DC Switchboard Module - 1000x6": 50,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 200x500x500 _UPS_": 48,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'D5040_50_Lighting Fixture Wall Mounted ": 48,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: ÜÇ KOLLU GİRİŞ/ÇIKIŞ TURNİKESİ (IP54) STT": 48,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'D5040_50_Lighting Fixture Linear Led_Al": 47,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'D5020_90_Cable Tray U Hanger - C Profil": 46,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg_B-V9-AY": 45,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b02b3b$0$S_R": 44,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_Dual_Feed - 400x800": 42,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: Geçi̇ş / Bi̇let Si̇stemi̇ (PRT_BİLET MAKİNE)": 40,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-Downwards Elbow - AL": 38,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'FİBER OPTİK BAĞLANTI PANELİ'": 38,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Outlet - Multiply Socke": 37,
+    "[ZAYIF_AKIM] AYDINLATMA: DOME KAMERA (TAVAN VE DUVAR TİPİ) CAM": 37,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC_By_Others Pump_": 36,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 297x803x1203 _GRI": 33,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (elmak-ana PLC)": 33,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_10_Rectifier Unit - 110V Rectifie": 32,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_10_UPS Unit - 60 kVA 3Ø_3Ø _2H_-2": 32,
+    "[KUVVETLI_AKIM] PRİZ: Pri̇z (E-ELEC-FIXT)": 32,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_LVS_EDB - 800x920x2": 29,
+    "[SINYAL] KONTROL / SİNYAL: Kontrol / Si̇nyal (ATAKOY-HHAZIR$0$g21b03a4c$": 28,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_LVS_EDB - 800x510x2": 28,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_10_UPS Unit - 20 kVA 3Ø_3Ø _4H_-2": 28,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: KOMBİNE (DUMAN-ISI) DEDEKTÖRÜ": 27,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Frame - Single Frame-V1": 26,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 250x600x600 _UPS_": 26,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'D5020_90_Cable Tray Anchor Hanger - I P": 26,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_10_Dry Type Transformers - ATR 20": 26,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6030_10_Announce Control Cabinet - 47U": 26,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (E-ELEC-EQPM)": 26,
+    "[ZAYIF_AKIM] ZAYIF AKIM: TELEFON ANA DAĞITIM ÇATISI MDF": 26,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: OMNi ANTEN RAT": 26,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6010_10_Data Cabinet - 47U _800x800mm_": 25,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D7030_10_CCTV Control Cabinet - 47U _80": 25,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_10_UPS Unit - 20 kVA 3Ø_3Ø _3H_-2": 25,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_10_Dry Type Transformers - TRT-11": 24,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Module_Sayma - Grid Soc": 23,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: Blok 'E1010_70_Fare C_ Control Cabinet - 47U ": 23,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6010_10_EMS Cabinet - 47U _800x800mm_-": 23,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6020_10_Telephone Exchange Cabinet - 4": 23,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_MV Switchboard Module - 2710x1": 22,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_10_Dry Type Transformers - Isolat": 22,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 297x803x1003 _UPS": 22,
+    "[SINYAL] KONTROL / SİNYAL: Blok 'D6010_10_RTU Cabinet - 47U _800x800mm_-": 22,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6020_10_Radio Cabinet - 47U _800x800mm": 22,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6060_10_Central Clock Cabinet - 47U _8": 22,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6020_10_Telephone Distribution Frame1 ": 21,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 250x603x1003 _UPS": 20,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ01FFLPERONKAT_dwg_A$C508B7": 20,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-Transformer Connecti": 20,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Zayif Akim (E-ELEC-EQPM)": 20,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: SPLITTER RSP": 20,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_10_Dry Type Transformers - ATR 25": 20,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 300x400x1000-2281": 19,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 400x700x1000-2283": 19,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ03FFLTEKNİKKAT_dwg_A$C508B": 18,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: MANYETİK KONTAK MDC": 18,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_10_UPS Unit - 40 kVA 3Ø_3Ø _3H_40": 17,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Lighting Switch - One Way One ": 17,
+    "[KUVVETLI_AKIM] PANO / TABLO: ENERJİ DAĞITIM PANOSU CDB": 17,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 250x603x803 _UPS_": 16,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard1 - 297x803x1203 _UP": 16,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'E-TAVA_INIS_EKLI'": 16,
+    "[ZAYIF_AKIM] ZAYIF AKIM: DATA PRİZİ TDS": 16,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: KART OKUYUCU ICR": 16,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: GİRİŞ-ÇIKIŞ MODÜLÜ": 16,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_DC Switchboard Module - VLD-23": 15,
+    "[KUVVETLI_AKIM] ANAHTAR: Blok 'YÖNETİLEBİLİR SWITCH'": 15,
+    "[TOPRAKLAMA] TOPRAKLAMA: Topraklama (PRT-EL-TOPRAK_EKİPMAN)": 14,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_20_Battery Unit - Ni-Cd Battery R": 13,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_LVS_EDB - 600x510x2": 13,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC_By_Others - 300": 13,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: MPLS İSTASYON ÜNİTESİ BSW": 13,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b02b3a$0$S_R": 12,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b02b4b$0$S_R": 12,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b03a4a$0$S_R": 12,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b03a4c$0$S_R": 12,
+    "[TOPRAKLAMA] TOPRAKLAMA: Topraklama (KADASTRAL SINIR$0$HATA_1_ESKİ_KAD": 12,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'D5040_50_Lighting Fixture Mirror Sconce": 12,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-Right Elbow - AL 250": 12,
+    "[ZAYIF_AKIM] ZAYIF AKIM: ACİL DURUM TELEFONU (IP66) EPH": 12,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: YANGIN ALARM KONTROL PANELİ": 12,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Combined Socket Outlet - Combi": 11,
+    "[KUVVETLI_AKIM] AYDINLATMA: Aydinlatma (Mevcut 4x16mm2 AYD NYFGbY Kablo)": 10,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Module - Grid Socket-V2": 10,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Module - Grid Socket-V1": 10,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard1 - 700x850x1357 _UP": 10,
+    "[KUVVETLI_AKIM] SEMA / DETAY: Sema / Detay (0)": 10,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard1 - 800x600x2100 _UP": 10,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD02FFLBİLETHOLÜKATI_dwg_B-3": 10,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: PA AMPLİFİKATÖR": 10,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: MANYETİK KİLİT MDL": 10,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: PARALEL İHBAR LAMBASI": 10,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Precense Detector-Wall Mount -": 9,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5010_20_Battery Unit1 - Battery Rack G": 9,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6010_10_Data Cabinet - 16U _600x600mm_": 9,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: GÜVENLİK SİSTEMİ ÜNİTESİ SIO": 9,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b02b3c$0$S_R": 8,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Frame - Single Frame-V2": 8,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'Cable Tray Vertical Tee_Middle - Cable ": 8,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 297x803x1003 _GRI": 8,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: ENGELLİ GEÇİŞ TURNİKESİ (IP54) SGT": 8,
+    "[ZAYIF_AKIM] ZAYIF AKIM: ANALOG TELEFONU (YOLCU YARDIM PERON SONU) (IP": 8,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: GÜRÜLTÜ MİKROFONU": 8,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: YANGIN ALARM BUTONU": 8,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: DİJİTAL ÇIKIŞ MODÜLÜ DİJİTAL ÇIKIŞ MODÜLÜ": 8,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-TR41 - AL 2500A 4C-V": 7,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ02FFLBİLETHOLÜKATIDÖŞEMEAL": 7,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'KONVANSİYONEL FLAŞÖRLÜ SİREN'": 7,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Yangin Algilama (Yangın algıma kablolama)": 7,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Module - Grid Socket-49": 6,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6010_10_EMS Cabinet - 32U _600x600mm_-": 6,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 410x810x2105 _GRI": 6,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Busbar-KX-TR41 - AL 2500A 4C-1": 6,
+    "[KUVVETLI_AKIM] KUVVET / TESİSAT: DİAFON DIA": 6,
+    "[ZAYIF_AKIM] ZAYIF AKIM: TELEFON SORTİSİ (ANKESÖR) ANK": 6,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Zayif Akim (PRT_TEL TD)": 6,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: KONNEKTÖR RCT": 6,
+    "[TOPRAKLAMA] TOPRAKLAMA: KLEMENS": 6,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: 24V DC GÜÇ KAYNAGI PSU": 6,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: DUMAN DEDEKTÖRÜ (YÜKSELTİLMİŞ DÖŞEMEYE MONTEL": 6,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: MANYETİK KİLİT MDL": 6,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg_B-V126-": 5,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 250x603x1003 _GRI": 5,
+    "[ZAYIF_AKIM] ZAYIF AKIM: UYDU (LOCAL) SANTRAL TLE": 5,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: UIM MODÜL": 5,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: TEK YÜZLÜ TALİ DİJİTAL SAAT DCD": 5,
+    "[ZAYIF_AKIM] ZAYIF AKIM: PTZ DOME KAMERA PTZ": 5,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: KABİN CBN": 5,
+    "[KUVVETLI_AKIM] PANO / TABLO: Pano / Tablo (ATAKOY-HHAZIR$0$g21b03a4d$0$S_R": 4,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Zayif Akim (ATAKOY-HHAZIR$0$g21b02b3d$0$S_Tel": 4,
+    "[KUVVETLI_AKIM] AYDINLATMA: Aydinlatma (Yeni Aydınlatma Direği)": 4,
+    "[TOPRAKLAMA] TOPRAKLAMA: Topraklama (Topraklama)": 4,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard - 800x100x2200 _GRI": 4,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Frame - Single Frame-49": 4,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg_B-37905": 4,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'D5040_50_Lighting Fixture Square - Rece": 4,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'D5020_30_Panelboard_MCC - 400x800x2200 ": 4,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ04FFLMARMARAYBİLETHOLÜ_dwg": 4,
+    "[ZAYIF_AKIM] ZAYIF AKIM: DİJİTAL TELEFON DPH": 4,
+    "[ZAYIF_AKIM] ZAYIF AKIM: TELEFON PRİZİ TPS": 4,
+    "[KUVVETLI_AKIM] AYDINLATMA: ASMA TAVAN TİPİ HOPARLÖR SPK": 4,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: PERSONEL ANONS ÜNİTESİ PAU": 4,
+    "[ZAYIF_AKIM] ZAYIF AKIM: SES KONTROL ÜNİTESİ VCU": 4,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: LHD KONTROL KUTUSU": 4,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: GİRİŞ-ÇIKIŞ MODÜLÜ": 4,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'D4010_50_Gaseous Fire Suppression Panel": 3,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U78-37": 3,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U79-37": 3,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U80-37": 3,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U81-37": 3,
+    "[ZAYIF_AKIM] GEÇİŞ / BİLET SİSTEMİ: Blok 'E1010_70_Fare C_ Control Cabinet - 42U ": 3,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'CCTV_NVR'": 3,
+    "[KUVVETLI_AKIM] AYDINLATMA: Aydinlatma (Mevcut Aydınlatma Direği)": 2,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'aydinlatma'": 2,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'mevcut ayd direk'": 2,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Frame - Single Frame-24": 2,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Socket Module - UPS Socket-503": 2,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'D7050_10_Fire Alarm Control Module - Al": 2,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'D7050_10_Fire Alarm Control Panel - Fir": 2,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Blok 'D6060_50_Industrial PC - Industrial PC-": 2,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLDRENAJÇUKURU_dwg_B-36": 2,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Combined Socket Outlet - Reces": 2,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'D5030_50_Lighting Switch_Emergency - On": 2,
+    "[KUVVETLI_AKIM] KABLO TAVA / TAŞIYICI: Blok 'E-TAVA_INIS_CIKIS'": 2,
+    "[KUVVETLI_AKIM] ANAHTAR: AĞ ANAHTARI / NETWORK SWITCH CFC/DSW": 2,
+    "[KUVVETLI_AKIM] ANAHTAR: ANA OMURGA SWITCH MSW": 2,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: CFC-FCS ÜCRET TOPLAMA SİSTEMİ SUNUCUSU (ENDÜS": 2,
+    "[KUVVETLI_AKIM] PANO / TABLO: ÜCRET TOPLAMA SİSTEMİ DAĞITIM PANOSU (230V AC": 2,
+    "[ZAYIF_AKIM] ZAYIF AKIM: CFC-FCS ÜCRET TOPLAMA SİSTEMİ SUNUCUSU (ENDÜS": 2,
+    "[ZAYIF_AKIM] ZAYIF AKIM: Zayif Akim (PRT_E-CCTV-LINE)": 2,
+    "[ZAYIF_AKIM] ZAYIF AKIM: TÜRK TELEKOM TELEFON PRİZİ TTL": 2,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: TELSİZ UZAK ÜNİTESİ RRS": 2,
+    "[KUVVETLI_AKIM] PANO / TABLO: ERİŞİM KONTROL PANELİ/SERVİS SAĞLAYICI ACP": 2,
+    "[KUVVETLI_AKIM] PRİZ: İŞ İSTASYONU EWS": 2,
+    "[ZAYIF_AKIM] ZAYIF AKIM: CCTV İŞ İSTASYONU CWS": 2,
+    "[ZAYIF_AKIM] AYDINLATMA: DUMAN DEDEKTÖRÜ (ASMA TAVANA MONTELİ)": 2,
+    "[KUVVETLI_AKIM] PANO / TABLO: GSP GAZLI SÖNDÜRME PANELİ": 2,
+    "[KUVVETLI_AKIM] PANO / TABLO: Blok 'İnfopano - İnfopano-5715889-OG-KUM ŞAFT": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U74-37": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U75-37": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U76-37": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U77-37": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD00SSLPERONALTI_dwg__U83-37": 1,
+    "[KUVVETLI_AKIM] PRİZ: Blok 'FloorPlan-PRZ01FFLPERONKAT_dwg__U219-39": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'FIRE MOTOR PEDESTAL5 - FIRE MOTOR PEDES": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'FIRE MOTOR PEDESTAL6 - FIRE MOTOR PEDES": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'FIRE MOTOR PEDESTAL7 - FIRE MOTOR PEDES": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'FIRE MOTOR PEDESTAL8 - FIRE MOTOR PEDES": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: Blok 'Yangın Pompa Odası Platform - Yangın Po": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg_B-V127-": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U427-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U428-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U429-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U430-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U431-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U432-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U433-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U434-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U435-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U436-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U437-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U438-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U439-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U440-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U441-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U442-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U443-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U444-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U445-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U446-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U447-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U448-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U449-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U450-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U451-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U452-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U453-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U454-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U455-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U456-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U457-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U458-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U459-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U460-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U461-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U462-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U463-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U464-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U465-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U466-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U467-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U468-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U469-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U470-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U471-3": 1,
+    "[KUVVETLI_AKIM] AYDINLATMA: Blok 'FloorPlan-AYD03FFLTEKNİKKAT_dwg__U472-3": 1,
+    "[KUVVETLI_AKIM] PANO / TABLO: TEKRARLAYICI PANEL": 1,
+    "[KUVVETLI_AKIM] DİĞER ELEKTRİK: YAZICI": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: 24V DC GÜÇ KAYNAGI PSU": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: İŞ İSTASYONU FWS": 1,
+    "[ZAYIF_AKIM] YANGIN ALGILAMA: GÜVENLİK SİSTEMİ ÜNİTESİ SIO": 1
+  },
+  "aggregated_by_discipline": {
+    "KUVVETLI_AKIM": 38007,
+    "ZAYIF_AKIM": 1003,
+    "SINYAL": 447,
+    "TOPRAKLAMA": 36
+  },
+  "discipline_breakdown": {
+    "KUVVETLI_AKIM": 28,
+    "TOPRAKLAMA": 8,
+    "SINYAL": 11,
+    "ZAYIF_AKIM": 52
+  },
+  "grounding_loops": [
+    {
+      "loop_id": "GND_01",
+      "sheet_id": "M_01",
+      "outer_perimeter_m": 40.37,
+      "area_m2": 100.04,
+      "equivalent_diameter_m": 11.29,
+      "inner_conductors_m": 60.93,
+      "ring_plus_inner_m": 101.3,
+      "ring_conductor_spec": "1x120mm2 Cu KORUMA TOPRAKLAMA",
+      "spur_count": 16,
+      "spur_total_m": 13.62,
+      "spur_conductor_spec": "",
+      "rod_block_count": 0,
+      "total_conductor_m": 114.92,
+      "layer_names": [
+        "YP-EL-topraklama"
+      ],
+      "source_handles": [
+        "2259",
+        "225A",
+        "225B",
+        "225C",
+        "225D",
+        "225E",
+        "225F",
+        "2260",
+        "2261",
+        "2262",
+        "2263",
+        "2264",
+        "2265",
+        "2266",
+        "2267",
+        "23A5",
+        "23A6"
+      ]
+    },
+    {
+      "loop_id": "GND_02",
+      "sheet_id": "M_03",
+      "outer_perimeter_m": 22.84,
+      "area_m2": 10.95,
+      "equivalent_diameter_m": 3.73,
+      "inner_conductors_m": 20.7,
+      "ring_plus_inner_m": 43.54,
+      "ring_conductor_spec": "1x120mm2 Cu KORUMA TOPRAKLAMA",
+      "spur_count": 12,
+      "spur_total_m": 77.45,
+      "spur_conductor_spec": "",
+      "rod_block_count": 0,
+      "total_conductor_m": 120.99,
+      "layer_names": [
+        "PRT-EL-EL1",
+        "YP-EL-EL1",
+        "YP-EL-topraklama"
+      ],
+      "source_handles": [
+        "3314",
+        "3316",
+        "3318",
+        "3320",
+        "333E",
+        "3342",
+        "3343",
+        "794A",
+        "7A56",
+        "7A59",
+        "7A5A",
+        "7A5F",
+        "7A60",
+        "8BB7",
+        "8BB8"
+      ]
+    },
+    {
+      "loop_id": "GND_01",
+      "sheet_id": "M_02",
+      "outer_perimeter_m": 118.88,
+      "area_m2": 696.38,
+      "equivalent_diameter_m": 29.78,
+      "inner_conductors_m": 22.85,
+      "ring_plus_inner_m": 141.73,
+      "ring_conductor_spec": "",
+      "spur_count": 0,
+      "spur_total_m": 0.0,
+      "spur_conductor_spec": "",
+      "rod_block_count": 0,
+      "total_conductor_m": 141.73,
+      "layer_names": [
+        "PRT-EL-TOPRAK-DASHDOT"
+      ],
+      "source_handles": [
+        "A8BC2",
+        "A8BD9"
+      ]
+    },
+    {
+      "loop_id": "GND_02",
+      "sheet_id": "M_13",
+      "outer_perimeter_m": 259.48,
+      "area_m2": 2157.24,
+      "equivalent_diameter_m": 52.41,
+      "inner_conductors_m": 120.1,
+      "ring_plus_inner_m": 379.58,
+      "ring_conductor_spec": "",
+      "spur_count": 0,
+      "spur_total_m": 0.0,
+      "spur_conductor_spec": "",
+      "rod_block_count": 0,
+      "total_conductor_m": 379.58,
+      "layer_names": [
+        "PRT-EL-TOPRAK-DASHDOT",
+        "PRT-EL-TOPRAK_EKİPMAN"
+      ],
+      "source_handles": [
+        "A4C89",
+        "A4CA7",
+        "A4CAE",
+        "A4CB5",
+        "A4CBC",
+        "A4D68",
+        "A8201",
+        "A8202",
+        "CDED5",
+        "CDED6",
+        "CE532"
+      ]
+    },
+    {
+      "loop_id": "GND_01",
+      "sheet_id": "M_02",
+      "outer_perimeter_m": 13.72,
+      "area_m2": 7.06,
+      "equivalent_diameter_m": 3.0,
+      "inner_conductors_m": 21.28,
+      "ring_plus_inner_m": 35.0,
+      "ring_conductor_spec": "",
+      "spur_count": 7,
+      "spur_total_m": 31.32,
+      "spur_conductor_spec": "",
+      "rod_block_count": 0,
+      "total_conductor_m": 66.32,
+      "layer_names": [
+        "0"
+      ],
+      "source_handles": [
+        "4A72",
+        "4A76",
+        "4A77",
+        "4A78",
+        "4A79",
+        "4A7B",
+        "4A7C",
+        "4A7D",
+        "4A7E",
+        "4A83",
+        "4A84",
+        "4A85"
+      ]
+    }
+  ],
+  "tray_inventory": [
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3135,
+      "occurrences": 42,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 2880,
+      "occurrences": 23,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3100,
+      "occurrences": 14,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3249,
+      "occurrences": 13,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3350,
+      "occurrences": 13,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3135,
+      "occurrences": 13,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3100,
+      "occurrences": 12,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3135,
+      "occurrences": 12,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3580,
+      "occurrences": 11,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3135,
+      "occurrences": 10,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 2880,
+      "occurrences": 10,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 1710,
+      "occurrences": 9,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2880,
+      "occurrences": 9,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3335,
+      "occurrences": 9,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3250,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3520,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 3249,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3430,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 4150,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 4000,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3350,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3180,
+      "occurrences": 8,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3720,
+      "occurrences": 7,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 2680,
+      "occurrences": 7,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3850,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3850,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3600,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": null,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3180,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3135,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3580,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3580,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3335,
+      "occurrences": 6,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 790,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3149,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3250,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3185,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3600,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 40,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 290,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 405,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 205,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 280,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": null,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 3135,
+      "occurrences": 5,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3770,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3770,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3250,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3250,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3485,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3840,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3275,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 2730,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3375,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3180,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 3135,
+      "occurrences": 4,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3250,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 3485,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3735,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3600,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3180,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3105,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 50,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": null,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 240,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 250,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3335,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3350,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3135,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 110,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 2880,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 2880,
+      "occurrences": 3,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 1410,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 200,
+      "height_mm": 790,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3430,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 2230,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 1730,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 1980,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3160,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3680,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3770,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 2999,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3159,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3430,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3490,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3290,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3720,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3485,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2480,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3600,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3100,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3350,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3550,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3590,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3275,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 4290,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 2630,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3600,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3105,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 4200,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 704,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 195,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 605,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 440,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": null,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg",
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3050,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 400,
+      "height_mm": 3335,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 400,
+      "height_mm": 3135,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3580,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3335,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3335,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3765,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 4030,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3300,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 4040,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 3730,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3100,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 270,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 2880,
+      "occurrences": 2,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-06-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 990,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 785,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 200,
+      "height_mm": 785,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-00-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3520,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3250,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 2999,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 2999,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2999,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3149,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3249,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3520,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3520,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3170,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 2480,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 2430,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2130,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 3485,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-01-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3300,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 3300,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3300,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3600,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 2780,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 2297,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2297,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 1980,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 4150,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3590,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 1824,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3950,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 4050,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3850,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 3350,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3590,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3350,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 200,
+      "height_mm": 4290,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3390,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 2730,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 2780,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2630,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 2960,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 2660,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": 2410,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 4000,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3750,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3500,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3210,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 3105,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 50,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 450,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 640,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 205,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 750,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-02-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3180,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3335,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3385,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3335,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 400,
+      "height_mm": 3335,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3399,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 300,
+      "height_mm": 3335,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3880,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3880,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3880,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 300,
+      "height_mm": 3423,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 3870,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 500,
+      "height_mm": 3390,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 3390,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 200,
+      "height_mm": 3780,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": 3780,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 100,
+      "height_mm": 250,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 100,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 200,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3860,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 500,
+      "height_mm": 3630,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 1250,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "MV",
+      "width_mm": 500,
+      "height_mm": 1045,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "LV",
+      "width_mm": 600,
+      "height_mm": 3825,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-CT0-03-GN-13-A-T-2I-001-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 451,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 452,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 453,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 455,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 456,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 457,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    },
+    {
+      "system_code": "WC",
+      "width_mm": 454,
+      "height_mm": null,
+      "occurrences": 1,
+      "sheets": [
+        "AG-PRT-M09-S29-000-99-PS-17-A-T-2I-011-0.dwg"
+      ]
+    }
+  ],
+  "cable_types_detected": {
+    "UTP CAT6 LSZH": 306,
+    "16mm² Cu": 187,
+    "3x4 N2XH": 162,
+    "3x2,5 N2XH": 66,
+    "SF/UTP CAT 6 LS0H (HFFR)": 56,
+    "3x2,5 N2XH FE180": 52,
+    "120mm² Cu": 37,
+    "3x1,5 NHXMH FE 180": 37,
+    "3x2,5mm² N2XH FE180": 28,
+    "3x1.5 N2XH": 24,
+    "3x2,5mm² N2XH": 22,
+    "5x2,5 N2XH": 16,
+    "1x120mm2 Cu": 12,
+    "5x2,5 N2XH FE180": 10,
+    "2xSF/UTP CAT 6 LS0H (HFFR)": 10,
+    "3x(1x400/35ş)": 9,
+    "1x240 mm² XLPE": 9,
+    "3x(1x185/25ş mm2 XLPE)": 9,
+    "3x95/16mm² XLPE": 9,
+    "120mm² H07Z-R": 9,
+    "2x1.5 NHXMH": 8,
+    "1x120mm² H07Z-R": 7,
+    "1x120mm2 N2XH-O": 6,
+    "1x120mm2 H07V-K": 6,
+    "CAT 6": 6,
+    "1x50mm2 N2XH-O": 4,
+    "CAT 6 SF/UTP LSOH": 4,
+    "3x2,5mm² N2XH FE182": 4,
+    "50 MM² CU": 2,
+    "1x240mm² H07Z-R": 2,
+    "1x16mm² H07Z-R": 2,
+    "3x2,5mm² N2XH FE181": 2,
+    "3x2,5mm² N2XH FE183": 2,
+    "3x2,5mm² N2XH FE184": 2,
+    "3x2,5mm² N2XH FE185": 2,
+    "3x2,5mm² N2XH FE186": 2,
+    "3x2,5mm² N2XH FE187": 2,
+    "3x2,5mm² N2XH FE188": 2,
+    "3x2,5mm² N2XH FE189": 2,
+    "3x2,5 mm² N2XH": 2,
+    "1x185 mm² N2XSY": 1,
+    "1x95/16 mm² N2XSY": 1,
+    "24x1,5mm² N2XRH FE180": 1,
+    "1x35mm² H07Z-R": 1,
+    "240mm² H07Z-R": 1,
+    "1x120mm² Cu": 1,
+    "50mm² H07Z-R": 1,
+    "1x50mm² H07Z-R": 1,
+    "3x2,5mm² N2XH FE190": 1,
+    "3x2,5mm² N2XH FE191": 1,
+    "2x1,5 NHXMH FE 180": 1,
+    "3x4 mm2 N2XH": 1,
+    "3x2.5 mm2 N2XH": 1,
+    "3x4 mm² N2XH": 1,
+    "3x1.5 mm² N2XH": 1
+  },
+  "transformer_ratings_kva": [
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0
+  ],
+  "ups_ratings_kva": [
+    60.0,
+    60.0,
+    60.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    20.0,
+    20.0
+  ],
+  "transformer_redundancy": {
+    "transformer_count": 6,
+    "ratings_kva": [
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0
+    ],
+    "total_installed_kva": 12000.0,
+    "n1_remaining_kva": 10000.0,
+    "demand_kw": null,
+    "demand_kva": null,
+    "n1_utilization_pct": null,
+    "status": "BELIRSIZ",
+    "note": "6 adet trafo (2000 + 2000 + 2000 + 2000 + 2000 + 2000 kVA, N-1 kalan=10000 kVA) tespit edildi; toplam talep gücü (P_talep) paftada okunamadığı için N-1 yüklenme oranı BELİRSİZ."
+  },
+  "network_analysis": null,
+  "findings": [
+    {
+      "finding_id": "M-01",
+      "severity": "UYGUN",
+      "category": "VLD (Gerilim Sınırlama Cihazı) Varlığı",
+      "location": "Topraklama Paftaları",
+      "project_value": "49 VLD referansı",
+      "engine_value": "VLD mevcut",
+      "standard_ref": "EN 50122-1 Md. 6",
+      "description": "Ray-toprak arası aşırı gerilim sınırlama (VLD) referansı çizimlerde tespit edildi.",
+      "recommendation": "",
+      "sheet_id": null,
+      "anchor_xy": null,
+      "bbox_du": null,
+      "extra_anchors": []
+    },
+    {
+      "finding_id": "M-02",
+      "severity": "UYGUN",
+      "category": "Ana Eşpotansiyel Bara (MEB)",
+      "location": "Topraklama Sistemi",
+      "project_value": "4 MEB referansı",
+      "engine_value": "MEB >= 2 adet",
+      "standard_ref": "EN 50122-1 / Metro Şartnamesi",
+      "description": "İstasyon genelinde yeterli sayıda Ana Eşpotansiyel Bara (MEB) referansı görüldü.",
+      "recommendation": "",
+      "sheet_id": null,
+      "anchor_xy": null,
+      "bbox_du": null,
+      "extra_anchors": []
+    },
+    {
+      "finding_id": "M-03",
+      "severity": "BILGI",
+      "category": "N-1 Trafo Yedekliliği",
+      "location": "Güç Dağıtım / Trafo",
+      "project_value": "6×2000 kVA",
+      "engine_value": "N-1 Kalan=10000 kVA",
+      "standard_ref": "Metro / Tesis Şartnamesi",
+      "description": "6 adet trafo (2000 + 2000 + 2000 + 2000 + 2000 + 2000 kVA, N-1 kalan=10000 kVA) tespit edildi; toplam talep gücü (P_talep) paftada okunamadığı için N-1 yüklenme oranı BELİRSİZ.",
+      "recommendation": "",
+      "sheet_id": null,
+      "anchor_xy": null,
+      "bbox_du": null,
+      "extra_anchors": []
+    }
+  ],
+  "summary_counts": {
+    "KRITIK": 0,
+    "UYARI": 0,
+    "BILGI": 1,
+    "UYGUN": 2,
+    "toplam_bulgu": 3
+  }
+}

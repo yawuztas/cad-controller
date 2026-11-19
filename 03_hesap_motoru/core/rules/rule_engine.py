@@ -38,11 +38,22 @@ class RuleEngine:
             cls._instance = cls(default_pack=default_pack)
         return cls._instance
 
+    @staticmethod
+    def _deep_merge(base: Dict[str, Any], override: Dict[str, Any]) -> Dict[str, Any]:
+        result = dict(base)
+        for k, v in (override or {}).items():
+            if k in result and isinstance(result[k], dict) and isinstance(v, dict):
+                result[k] = RuleEngine._deep_merge(result[k], v)
+            else:
+                result[k] = v
+        return result
+
     @classmethod
     def load_pack(cls, pack_name_or_path: str) -> Dict[str, Any]:
         """YAML veya JSON kural paketini yükler ve önbelleğe alır.
         Klasör verilirse (örn: 'bina' veya 'metro') içindeki tüm alt disiplinleri
-        (topraklama, kuvvetli_akim, zayif_akim) birleşik paket olarak yükler."""
+        (topraklama, kuvvetli_akim, zayif_akim) birleşik paket olarak yükler;
+        'turkey_bina' istendiğinde ana paket ile 'bina/' alt mevzuatını derin birleştirir."""
         p = Path(pack_name_or_path)
 
         def _merge_dir(d: Path) -> Dict[str, Any]:
@@ -51,10 +62,38 @@ class RuleEngine:
                 if yaml is not None:
                     with open(yf, "r", encoding="utf-8") as f:
                         part = yaml.safe_load(f) or {}
-                        merged.update(part)
+                        merged = cls._deep_merge(merged, part)
             return merged
 
-        # 1. Önce tam dosya adı kontrolü (örn: turkey_bina.yaml veya ibb_metro.yaml)
+        # Bina paketi hem ana dosya (turkey_bina.yaml) hem ayrıntılı bina/ alt dosyalarını içerir
+        if pack_name_or_path in ("turkey_bina", "bina") and (_RULES_DIR / "bina").is_dir():
+            cache_key = f"MERGED_BINA::{(_RULES_DIR / 'bina').resolve()}"
+            if cache_key in cls._cached_packs:
+                return cls._cached_packs[cache_key]
+            data = _merge_dir(_RULES_DIR / "bina")
+            tb_yaml = _RULES_DIR / "turkey_bina.yaml"
+            if tb_yaml.is_file() and yaml is not None:
+                with open(tb_yaml, "r", encoding="utf-8") as f:
+                    tb_part = yaml.safe_load(f) or {}
+                data = cls._deep_merge(data, tb_part)
+            cls._cached_packs[cache_key] = data
+            return data
+
+        # Metro paketi hem ana dosya (ibb_metro.yaml) hem metro/ alt dosyalarını içerir
+        if pack_name_or_path in ("ibb_metro", "metro") and (_RULES_DIR / "metro").is_dir():
+            cache_key = f"MERGED_METRO::{(_RULES_DIR / 'metro').resolve()}"
+            if cache_key in cls._cached_packs:
+                return cls._cached_packs[cache_key]
+            data = _merge_dir(_RULES_DIR / "metro")
+            im_yaml = _RULES_DIR / "ibb_metro.yaml"
+            if im_yaml.is_file() and yaml is not None:
+                with open(im_yaml, "r", encoding="utf-8") as f:
+                    im_part = yaml.safe_load(f) or {}
+                data = cls._deep_merge(data, im_part)
+            cls._cached_packs[cache_key] = data
+            return data
+
+        # 1. Önce tam dosya adı kontrolü (örn: ibb_metro.yaml)
         cand_yaml = _RULES_DIR / f"{pack_name_or_path}.yaml"
         cand_json = _RULES_DIR / f"{pack_name_or_path}.json"
         if cand_yaml.is_file():
@@ -64,7 +103,7 @@ class RuleEngine:
         elif p.is_file():
             pass
         else:
-            # 2. Klasör kontrolü (örn: 'bina' veya 'metro') -> altındaki yaml'ları birleştir
+            # 2. Klasör kontrolü (örn: 'metro') -> altındaki yaml'ları birleştir
             target_dir = None
             if p.is_dir():
                 target_dir = p
@@ -83,6 +122,8 @@ class RuleEngine:
             found = list(_RULES_DIR.rglob(f"*{pack_name_or_path}*.yaml"))
             if found:
                 p = found[0]
+            elif (_RULES_DIR / "bina").is_dir():
+                return cls.load_pack("turkey_bina")
             elif (_RULES_DIR / "turkey_bina.yaml").exists():
                 p = _RULES_DIR / "turkey_bina.yaml"
             elif (_RULES_DIR / "bina" / "02_kuvvetli_akim.yaml").exists():
