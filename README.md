@@ -1,85 +1,93 @@
-# CloudeCAD (CAD Controller) — v3.0
+# 🏗️ CloudeCAD v4.0 — Universal CAD Audit & Repair Engine for Buildings & Metro
 
-> **End-to-End Electrical CAD / BIM Audit, Auto-Healer, Review Station & Delivery Pipeline**
+An engineering-grade pipeline that ingests **any** building or metro AutoCAD
+project (`.dwg` / `.dxf`), separates architecture from electrical design
+without relying on layer names, repairs broken wire topology, cross-checks the
+drawn quantities against a rule-driven calculation engine, and delivers clean
+2-layer redline drawings plus audit reports.
 
-CloudeCAD is an automated CAD auditing and healing engine designed for complex electrical engineering projects (including metro stations, commercial facilities, and residential buildings). It parses mixed CAD/BIM exports, identifies architectural vs. electrical infrastructure, heals broken wire topologies, verifies standards against Turkish BYKHY & IEC/İBB Metro rules, and provides an engineer review station before compiling signed DWG delivery packages.
+> **Türkçe özet için aşağı kaydırın** — detaylı Türkçe dokümantasyon için
+> [README_TR.md](README_TR.md) dosyasına bakın.
 
----
+## ✨ What It Does
 
-## ⚡ Key Capabilities
+1. **Universal CAD Reading** — lossless DXF/DWG scanning with automatic
+   `ACAD` conversion caching, and dynamic unit calibration (`mm/cm/m`) derived
+   from door arcs, symbol radii and text heights — even when `$INSUNITS` is wrong
+2. **Shape & Topology First Separation** — a 3-layer hierarchy (pure geometry
+   & morphology → AIA/ISO/BIM prefixes → strict word boundaries) splits
+   architectural underlay from electrical design regardless of layer naming
+   (`KATMAN_1`, `Pen87`, `CIZPEN`, ... all work)
+3. **Wire Healing & Redlines** — broken/duplicate electrical cables are
+   topologically repaired; audit findings are clouded into a dedicated
+   `_DENETIM_BULGULARI` redline layer
+4. **Embedded Table Extraction** — `OLE2FRAME` Excel tables, `ACAD_TABLE`
+   objects and open-fraction formula blocks are lifted straight from vectors
+5. **Quantity Audit vs Calculation Engine** — written/drawn quantities are
+   compared against the internal mevzuat (regulation) & formula engine
+   ([pandapower](https://www.pandapower.org), morphological analysis, `turkey_bina`
+   / `ibb_metro` rule sets)
+6. **4-Discipline Metro Scanning** — `TOPRAKLAMA` (earthing), `SINYAL`
+   (signalling), `ZAYIF_AKIM` (low current), `KUVVETLI_AKIM` (power)
+7. **Clean 2-Layer Delivery** — `1_MIMARI.dxf` (single `MIMARI` layer) and
+   `2_ELEKTRIK.dwg/.dxf` (max `ELEKTRIK` + `HESAPLAR_TABLOLAR`), plus
+   Excel/Word/Markdown/HTML reports and `_DENETIM_BULGULARI` findings
+8. **Stray Island Elimination** — forgotten copy-pasted fragments and dead
+   clones are detected (`DBSCAN` + `cKDTree`) and removed from deliverables
 
-1. **CAD Safety Shield (`cad_safety.py`):**
-   - Read-only XREF protection and container isolation.
-   - `BLOCK` definition vs. `INSERT` reference separation (never mutates block definitions directly).
-   - Dynamic `$INSUNITS` and drawing extents scale resolution (mm / cm / m).
-   - Surgical `MTEXT` formatting tag preservation.
+## 🚀 Usage
 
-2. **Layer & Block Doctor (`layer_doctor.py`):**
-   - Automatically triages proven architectural entities to locked, background layers (`A-MIMARI-ALTYAPI`, Color 8).
-   - Re-organizes electrical routes and symbols into standard `E-*` layer specs with lineweight & plotstyle preservation.
-
-3. **Topological Wire Healer (`wire_healer.py`):**
-   - `STRtree`-accelerated spatial query index.
-   - 4-condition collinear stitcher with bridge-angle checking (strictly prevents merging parallel side-by-side circuits).
-   - Duplicate route cleaner with circuit context protection.
-   - Graduated symbol snapper (`<= 5 cm` auto, `> 5 cm` requires approval).
-
-4. **Electrical Auto-Optimizer (`electrical_optimizer.py`):**
-   - Pano (Panel) phase balancing via greedy LPT optimization (e.g., reduces imbalance from %141 to <%5).
-   - AS-BUILT vs. DESIGN governance mode: generates field instruction recipes (`SAHA_RECETELERI.md`) for as-built projects without mutating physical drawings unexpectedly.
-   - BYKHY fire pump safety rules (FE180 cable verification, RCD/KAK exclusion guard).
-
-5. **Review Station & Composer (`review_station.py` & `compose_delivery.py`):**
-   - FastAPI-powered web UI (`http://127.0.0.1:8765`) for instant engineer triage (<20 ms response, batch approval, one-click undo).
-   - Two-tier delivery compilation: `accoreconsole.exe` native compiler with automatic fallback to AutoCAD COM Automation (`ComDwgApplier`) to survive Revit-exported spline debris crashes.
-   - Cryptographically signed audit trail (`RESPONSIBILITE_DEFTERI.json`, SHA-256 signatures).
-
----
-
-## 🚀 Quick Start
-
-### 1. Installation
-```powershell
-# Create & activate virtual environment
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-
-# Install dependencies
+```bash
 pip install -r requirements.txt
+
+# process a project folder (01_girdi/ → 04_cikti/)
+python calistir.py <girdi-dizin-yolu>
+
+# or double-click calistir.bat (Windows + AutoCAD core console for DWG)
 ```
 
-### 2. Run Test Suite
-```powershell
-pytest tests/test_reference_projects.py -v
+**Pipeline stages** (lossless by design):
+
+```
+01_girdi/            original DWG/DXF projects
+02_mevzuat_ve_formuller/   YAML rule sets (bina + metro: topraklama,
+                     kuvvetli_akim, zayif_akim)
+03_hesap_motoru/     calculation engine (cad_okuma, core, rules)
+04_cikti/            deliverables: separated drawings, redlines, reports
 ```
 
-### 3. Launch Review Station
-```powershell
-python tools/review_station.py --port 8765
-# Or double click onay_istasyonu.bat
-```
+## 🛠 Tech Stack
+
+Python 3 · pandapower · Shapely/SciPy (`cKDTree`, `STRtree`, DBSCAN) ·
+ezdxf-style DXF parsing · AutoCAD core console (DWG) · YAML rule engine ·
+openpyxl / python-docx reporting
+
+## 📚 Documentation
+
+Detailed Turkish documentation (architecture, separation rules, healing
+algorithms, output spec): **[README_TR.md](README_TR.md)**
+
+## 📄 License
+
+All rights reserved. Professional engineering tool — see repository settings.
 
 ---
 
-## 📂 Architecture
+## 🇹🇷 Türkçe Özet
 
-```
-├── cloudecadprogramı/        # Core Engineering Engines
-│   ├── core/cad/             # Readers, Triage, Safety Shield
-│   ├── core/healer/          # LayerDoctor, WireHealer, ElectricalOptimizer, TableGenerator
-│   ├── core/rules/           # RuleEngine (ibb_metro, turkey_bina)
-│   └── common/               # DXF converters & COM automation (com_dwgs.py)
-├── tools/                    # Operational Pipeline
-│   ├── field_run_healer.py   # Full pipeline batch runner
-│   ├── review_station.py     # FastAPI engineer review web UI
-│   ├── compose_delivery.py   # DXF -> DWG 2018 + package composer
-│   └── generate_system_guide.py # Documentation & SSOT builder
-├── tests/                    # Reference verification test suite (13/13 passing)
-└── lispkodlar/               # Auxiliary AutoCAD LISP utilities
-```
+**CloudeCAD v4.0**, bina ve metro AutoCAD projelerini katman adlarına
+bağlı kalmadan okuyan, **şekil & topoloji öncelikli 3 katmanlı mimari-elektrik
+ayrıştırması** yapan, kopuk/mükerrer hatları onaran, yazılı/çizili hesapları
+kendi mevzuat motoruyla denetleyen ve **maksimum 2 katmanlı temiz teslimat**
+üreten mühendislik sistemidir.
 
----
+- **Dinamik birim kalibrasyonu:** `$INSUNITS` hatalı olsa bile mm/cm/m tespiti
+- **Katman bağımsız ayrıştırma:** geometri + uluslararası önekler + katı kelime
+  sınırları (`BAG_HATILI`/`A_HATCH` karışması engellenir)
+- **Kablo onarımı:** kopuk hatlar düzeltilir, bulgular redline katmanında bulutlanır
+- **Gömülü tablolar:** OLE Excel ve ACAD_TABLE içerikleri vektörlerden çıkarılır
+- **Denetim:** metraj ve hesaplar pandapower destekli formül motoruyla karşılaştırılır
+- **Ölü kopya eleme:** DBSCAN + cKDTree ile unutulmuş parçalar temizlenir
 
-## 📜 Documentation
-- Complete System Guide: [`CLOUDECAD_SISTEM_REHBERI.md`](CLOUDECAD_SISTEM_REHBERI.md) / `CLOUDECAD_SISTEM_REHBERI.docx`
-- Status Report & Changelog: [`DURUM_RAPORU_2026-11-02.md`](DURUM_RAPORU_2026-11-02.md)
+**Kullanım:** `python calistir.py <girdi-dizini>` — ayrıntılı dokümantasyon:
+[README_TR.md](README_TR.md)
